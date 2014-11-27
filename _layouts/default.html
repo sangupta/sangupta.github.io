@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- title of the page -->
+    <title>{% if page.title %}{{ page.title }} | {% endif %}Sandeep Gupta</title>
+
+    <meta charset="utf-8">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+	
+	<!-- IE compatibility mode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	    <!-- Luster.io: hide chrome when app is added to home screen -->
+    <!-- android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="translucent-black">
+    <meta name="apple-mobile-web-app-title" content="Sandeep Gupta">
+
+    <!-- Prevent user scaling -->
+    <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+
+    <!-- Turn on IE cleartype -->
+    <meta http-equiv="cleartype" content="on">
+	
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/sangupta.css"/>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	{{ content }}
+
+	<!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap-3.3.0.min.js" type="text/javascript"></script></body>
+</html>
