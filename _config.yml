@@ -3,3 +3,5 @@ title: Sandeep Gupta
 production_url : http://sangupta.github.io
 source: /git/sangupta.github.io
 safe: true
+gems:
+  - jekyll-sitemap
