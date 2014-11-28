@@ -1,6 +1,7 @@
 ---
 layout: default
-permalink: /2010/03/tid-bits.html
+permalink: /poetry/tid-bits.html
+redirect_from: "/2010/03/tid-bits.html"
 ---
 
 Tid Bits

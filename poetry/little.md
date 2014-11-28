@@ -1,7 +1,8 @@
 ---
 layout: default
 title: A Little
-permalink: /2010/03/little.html
+permalink: /poetry/little.html
+redirect_from: "/2010/03/little.html"
 ---
 
 A Little

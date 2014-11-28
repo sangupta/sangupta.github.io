@@ -1,7 +1,8 @@
 ---
 layout: default
 title: To Live
-permalink: /2010/10/to-live.html
+permalink: /poetry.to-live.html
+redirect_from: "/2010/10/to-live.html"
 ---
 
 To Live!

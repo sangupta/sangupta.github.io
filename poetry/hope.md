@@ -1,7 +1,8 @@
 ---
 layout: default
 title: The Hope
-permalink: /2009/09/hope.html
+permalink: /poetry/hope.html
+redirect_from: "/2009/09/hope.html"
 ---
 
 The Hope

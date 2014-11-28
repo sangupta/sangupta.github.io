@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Love Score
-permalink: /2009/09/love-score.html
+permalink: /poetry/love-score.html
+redirect_from: "/2009/09/love-score.html"
 ---
 
 Love Score

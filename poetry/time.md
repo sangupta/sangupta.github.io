@@ -1,6 +1,7 @@
 ---
 layout: default
-permalink: /2010/08/time.html
+permalink: /poetry/time.html
+redirect_from: "/2010/08/time.html"
 title: Time
 ---
 

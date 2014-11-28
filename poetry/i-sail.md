@@ -1,7 +1,8 @@
 ---
 layout: default
-permalink: /2010/05/i-sail.html
+permalink: /poetry/i-sail.html
 title: I Sail!
+redirect_from: "/2010/05/i-sail.html"
 ---
 
 I Sail!

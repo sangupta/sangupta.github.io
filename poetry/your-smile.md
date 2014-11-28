@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Your Smile
-permalink: /2011/04/your-smile.html
+permalink: /poetry/your-smile.html
+redirect_from: "/2011/04/your-smile.html"
 ---
 
 Your Smile

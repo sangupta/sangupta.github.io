@@ -1,7 +1,8 @@
 ---
 layout: default
 title: One Fine Day
-permalink: /2011/04/one-fine-day.html
+permalink: /poetry/one-fine-day.html
+redirect_from: "/2011/04/one-fine-day.html"
 ---
 
 One Fine Day

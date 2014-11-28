@@ -1,7 +1,8 @@
 ---
 layout: default
 title:
-permalink: /2009/10/my-un-innovative-friend.html
+permalink: /poetry/my-un-innovative-friend.html
+redirect_from: "/2009/10/my-un-innovative-friend.html"
 ---
 
 My Un-Innovative Friend ;)

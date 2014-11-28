@@ -1,7 +1,8 @@
 ---
 layout: default
 title: A Promise
-permalink: /2009/09/promise.html
+permalink: /poetry/promise.html
+redirect_from: "/2009/09/promise.html"
 ---
 
 A Promise

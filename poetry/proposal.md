@@ -1,7 +1,8 @@
 ---
 layout: default
 title: The Proposal
-permalink: /2009/08/proposal.html
+permalink: /poetry/proposal.html
+redirect_from: "/2009/08/proposal.html"
 ---
 
 The Proposal

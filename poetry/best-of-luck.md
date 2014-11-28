@@ -1,6 +1,7 @@
 ---
 layout: default
-permalink: /2009/10/best-of-luck.html
+permalink: /poetry/best-of-luck.html
+redirect_from: "/2009/10/best-of-luck.html"
 title: Best of Luck!!!
 ---
 

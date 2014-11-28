@@ -1,7 +1,8 @@
 ---
 layout: default
 title: The Longing
-permalink: /2009/08/longing.html
+permalink: /poetry/longing.html
+redirect_from: "/2009/08/longing.html"
 ---
 
 The Longing

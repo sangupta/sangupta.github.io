@@ -1,6 +1,7 @@
 ---
 layout: default
-permalink: /2010/01/seven.html
+permalink: /poetry/seven.html
+redirect_from: "/2010/01/seven.html"
 ---
 
 Seven!

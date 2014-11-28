@@ -1,7 +1,8 @@
 ---
 layout: default
-permalink: /2010/01/princess-of-egypt.html
+permalink: /poetry/princess-of-egypt.html
 title: Princess of Egypt
+redirect_from: "/2010/01/princess-of-egypt.html"
 ----
 
 Princess of Egypt!

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Happy Birthday!
-permalink: /2010/10/happy-birthday.html
+permalink: /poetry/happy-birthday-2.html
+redirect_from: "/2010/10/happy-birthday.html"
 ---
 
 Happy Birthday!

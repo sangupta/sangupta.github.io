@@ -1,7 +1,8 @@
 ---
 layout: default
 title: The Last Nail
-permalink: /2009/05/last-nail.html
+permalink: /poetry/last-nail.html
+redirect_from: "/2009/05/last-nail.html"
 ---
 
 The Last Nail
