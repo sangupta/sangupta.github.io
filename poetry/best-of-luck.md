@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /2009/10/best-of-luck.html
+title: Best of Luck!!!
+---
+
+Best of Luck!!!
+---------------
+
+With these verses I send 
+thousand white roses hand plucked
+to brighten up your day
+wishing you immense luck
+
+O beautiful, listen to my words
+time has come to prove yourself up
+for you to spread your magical shine
+and win the world with your captivating smile
+
+rediscover the parental genetic gift
+laugh off your aches and silly ways
+you have worked hard for it
+and today is your special day
+
+live your heart, speak your mind
+hold your confidence right
+and am sure, you will twinkle
+brighter than the stars bright!
