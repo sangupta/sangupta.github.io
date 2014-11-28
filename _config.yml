@@ -5,3 +5,4 @@ source: /git/sangupta.github.io
 safe: true
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
