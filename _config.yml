@@ -1,8 +1,30 @@
-encoding: utf-8
+# the site details
 title: Sandeep Gupta
+tagLine: Keep Walking!
+
+# something about me
+author:
+  name: Sandeep Gupta
+  github: sangupta
+  email: sandy.pec@gmail.com
+  url: http://sangupta.com
+
+# code syntax highlighter to use
+highlighter: pygments
+
+# file format encodings
+encoding: utf-8
+
+# used in sitemap to produce absolute urls
 production_url : http://sangupta.github.io
+
+# where all code is kept
 source: /git/sangupta.github.io
+
+# disable custom plugins
 safe: true
+
+# plugins approved to be used
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
