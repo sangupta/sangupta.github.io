@@ -19,7 +19,7 @@ encoding: utf-8
 production_url : http://sangupta.github.io
 
 # where all code is kept
-source: /git/sangupta.github.io
+# source: /git/sangupta.github.io
 
 # disable custom plugins
 safe: true
