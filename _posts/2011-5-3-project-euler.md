@@ -1,0 +1,28 @@
+---
+layout: default
+title: Project Euler
+permalink: /2011/05/project-euler.html
+redirect_from: "/2011/05/project-euler.html"
+date: Tue May 03 16:08:00 IST 2011
+sharingURL: http://blog.sangupta.com/2011/05/project-euler.html
+tags: maer my-projects project-euler
+---
+<a href="http://projecteuler.net/">Project Euler</a>, is a wonderful site dedicated to fun around mathematical puzzles and problems. In their own words,
+<br>
+<blockquote>
+    Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
+</blockquote>A problem is posted every week and many of them require one to write code to solve them. More than the code, it wants the user to go over the internet, read more on the problem and then build an optimal solution. Per their claim, most of the problems can be solved under a few seconds. If not, then a better solution exists.
+<br>
+<br>I came across the project in the first week of this year (2011) and has been working to solve these problems as and when I find time. Today, I solved the 50th problem (they have over 317 as of today) which promotes me to Level 2.
+<br>
+<br>In line with my theory of open-code, I have shared the Java code for all the puzzles under the name of 
+<b>Project Maer</b>, for anyone to look at. 
+<b>Maer</b>, pronounced [mˈɑɛr], is an adjective to represent 
+<i>useful, good or fit</i> in 
+<i>Sindarin</i>, the elvish language. Expect more posts under the labels for now I start to blog on the problem I solve.
+<br>
+<br>Code is freely available at 
+<a href="http://jerry.svn.sourceforge.net/viewvc/jerry/maer/">http://jerry.svn.sourceforge.net/viewvc/jerry/maer/</a> as a downloadable 
+<a href="http://www.eclipse.org">Eclipse</a> project.
+<br>
+<br>Note: A sincere request not to work up the code to just complete the problems. The code can be looked at, and optimized if a better solutions exists.
