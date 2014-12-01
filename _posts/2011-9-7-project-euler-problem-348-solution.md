@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Project Euler Problem 348 Solution
-permalink: /2011/09/project-euler-problem-348-solution.html
+permalink: /tech/project-euler-problem-348-solution.html
 redirect_from: "/2011/09/project-euler-problem-348-solution.html"
 date: Wed Sep 07 13:21:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/09/project-euler-problem-348-solution.html
 tags: project-euler
 ---
+
 <b><u>Problem</u></b>
 <br>Many numbers can be expressed as the sum of a square and a cube. Some of them in more than one way.
 <br>

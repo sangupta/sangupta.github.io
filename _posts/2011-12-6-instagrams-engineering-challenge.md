@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Instagram's Engineering Challenge: The Unshredder
-permalink: /2011/12/instagrams-engineering-challenge.html
+permalink: /tech/instagrams-engineering-challenge.html
 redirect_from: "/2011/12/instagrams-engineering-challenge.html"
 date: Tue Dec 06 09:00:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/12/instagrams-engineering-challenge.html
 tags: code-challenge coding-techniques my-projects
 ---
+
 Three weeks ago, Instagram posted an engineering challenge: 
 <a href="http://instagram-engineering.tumblr.com/post/12651721845/instagram-engineering-challenge-the-unshredder">The Unshredder</a>. The challenge presented an image that had been vertically shredded/spliced and then rejoined randomly, thus resulting in an image that looks like a puzzle. What one had to do was to write a script to take that image and unshred it - yes, reconstruct the original image. 
 <br>

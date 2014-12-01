@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: ISBN Book Renaming | Updated
-permalink: /2011/06/isbn-book-renaming-updated.html
+permalink: /tech/isbn-book-renaming-updated.html
 redirect_from: "/2011/06/isbn-book-renaming-updated.html"
 date: Fri Jun 24 14:21:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/06/isbn-book-renaming-updated.html

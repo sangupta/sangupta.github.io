@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Intermittent error establishing connection with Spring, Hibernate and C3P0
-permalink: /2011/07/intermittent-error-establishing.html
+permalink: /tech/intermittent-error-establishing.html
 redirect_from: "/2011/07/intermittent-error-establishing.html"
 date: Mon Jul 11 12:14:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/07/intermittent-error-establishing.html
 tags: java spring-framework workarounds
 ---
+
 Most of the Java web projects (and desktop projects as well) use the well known 
 <a href="http://www.springsource.org/about">Spring</a> and 
 <a href="http://hibernate.org/">Hibernate</a> frameworks. I myself have been using them for over 6 years now, and must say, the benefits they have provided have been immense, both in terms of rapid application development, testing and of course, maintenance. With good amount of experience in using the both I rarely find it difficult debugging a bug, but sometimes, I have come across issues that have been both time-consuming and have thrown open unleashed areas of the frameworks. Recently, I happened to land debugging one such issue.

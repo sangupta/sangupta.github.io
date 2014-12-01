@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Recursion v/s Iteration
-permalink: /2011/02/recursion-vs-iteration.html
+permalink: /tech/recursion-vs-iteration.html
 redirect_from: "/2011/02/recursion-vs-iteration.html"
 date: Sun Feb 06 19:17:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/02/recursion-vs-iteration.html

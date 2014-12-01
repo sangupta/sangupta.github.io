@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Java 7: Enhanced Syntax for Numeric Literals
-permalink: /2011/07/java-7-enhanced-syntax-for-numeric.html
+permalink: /tech/java-7-enhanced-syntax-for-numeric.html
 redirect_from: "/2011/07/java-7-enhanced-syntax-for-numeric.html"
 date: Tue Jul 12 16:06:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/07/java-7-enhanced-syntax-for-numeric.html

@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Installing XML editing capabilities in Flash Builder
-permalink: /2011/01/installing-xml-editing-capabilities-in.html
+permalink: /tech/installing-xml-editing-capabilities-in.html
 redirect_from: "/2011/01/installing-xml-editing-capabilities-in.html"
 date: Fri Jan 21 09:54:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/01/installing-xml-editing-capabilities-in.html

@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: FRAG for Free Rice
-permalink: /2011/09/frag-for-free-rice.html
+permalink: /tech/frag-for-free-rice.html
 redirect_from: "/2011/09/frag-for-free-rice.html"
 date: Mon Sep 19 14:06:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/09/frag-for-free-rice.html
 tags: adobe-air my-projects
 ---
+
 <a href="http://www.freerice.com">Free Rice</a> is a site that helps one improve their English vocabulary (the first feature/section they rolled). Quite Simple, huh? No - for every word one gets right they donate 10 grains of rice to the World Food Programme to help end hunger. The cause itself along with the methodology they employ makes it a huge attraction. I am addicted to the game myself, but the professional commitments do not let me make the most of it.
 <br>
 <br>Thus, I decided to use some of my skills to better use... and developed 

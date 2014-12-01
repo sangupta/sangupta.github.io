@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: MTP error while connecting device to PC
-permalink: /2011/01/mtp-error-while-connecting-device-to-pc.html
+permalink: /tech/mtp-error-while-connecting-device-to-pc.html
 redirect_from: "/2011/01/mtp-error-while-connecting-device-to-pc.html"
 date: Mon Jan 17 08:57:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/01/mtp-error-while-connecting-device-to-pc.html
 tags: workarounds
 ---
+
 At times when connecting devices to PC one may face an MTP error. To give a little background, 
 <b>MTP</b> stands for 
 <tt><a href="http://en.wikipedia.org/wiki/Media_Transfer_Protocol">Media Transfer Protocol</a></tt>, which essentially has been designed to transfer media (other than photographs) from various devices on to the desktop computer. Windows Vista (onwards) directly supports MTP, whereas Windows XP needs some custom drivers.

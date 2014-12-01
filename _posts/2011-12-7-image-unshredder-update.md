@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Image Unshredder - Update
-permalink: /2011/12/image-unshredder-update.html
+permalink: /tech/image-unshredder-update.html
 redirect_from: "/2011/12/image-unshredder-update.html"
 date: Wed Dec 07 09:48:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/12/image-unshredder-update.html
 tags: code-challenge coding-techniques my-projects
 ---
+
 In continuation of my 
 <a href="http://blog.sangupta.com/2011/12/instagrams-engineering-challenge.html">earlier post</a> about 
 <b>Instagram's Engineering Challenge on an Image Unshredder</b>, I took some time out yesterday and completed the automatic strip width detection piece. The approach was easy, the euclidean distance on the strip edge will be too high than the normal values. For example the values may look like,

@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: AIR 3.0 Native Extensions and Samples
-permalink: /2011/10/air-30-native-extensions-and-samples.html
+permalink: /tech/air-30-native-extensions-and-samples.html
 redirect_from: "/2011/10/air-30-native-extensions-and-samples.html"
 date: Tue Oct 04 13:50:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/10/air-30-native-extensions-and-samples.html
 tags: actionscript adobe-air
 ---
+
 Today at 
 <a href="http://max.adobe.com">MAX 2011</a>, Adobe 
 <a href="http://blogs.adobe.com/flashplayer/2011/10/adobe-flash-player-11-air-11-available-later-today.html">released</a> the latest version of their Flash platform SDKs - Flash Player 11 and AIR 3.0. The most noticeable and exciting amongst 

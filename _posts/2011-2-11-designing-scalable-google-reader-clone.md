@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Designing a Scalable Google Reader Clone
-permalink: /2011/02/designing-scalable-google-reader-clone.html
+permalink: /tech/designing-scalable-google-reader-clone.html
 redirect_from: "/2011/02/designing-scalable-google-reader-clone.html"
 date: Fri Feb 11 09:31:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/02/designing-scalable-google-reader-clone.html

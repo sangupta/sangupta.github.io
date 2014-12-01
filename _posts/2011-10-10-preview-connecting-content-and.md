@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Preview: Connecting Content and Community in the Cloud
-permalink: /2011/10/preview-connecting-content-and.html
+permalink: /tech/preview-connecting-content-and.html
 redirect_from: "/2011/10/preview-connecting-content-and.html"
 date: Mon Oct 10 12:10:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/10/preview-connecting-content-and.html
 tags: adobe-air creativity-concepts
 ---
+
 <b>Jay Dutta</b>, Experience Design Manager and 
 <b>Luanne Seymour</b>, Sr. Instructional Designer at 
 <a href="http://www.adobe.com">Adobe</a> presented a Social Study on how to connect content and community in the cloud at 

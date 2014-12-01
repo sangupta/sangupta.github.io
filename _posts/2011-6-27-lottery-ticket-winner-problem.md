@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Lottery Ticket Winner Problem
-permalink: /2011/06/lottery-ticket-winner-problem.html
+permalink: /tech/lottery-ticket-winner-problem.html
 redirect_from: "/2011/06/lottery-ticket-winner-problem.html"
 date: Mon Jun 27 15:33:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/06/lottery-ticket-winner-problem.html

@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Introducing Pepmint!
-permalink: /2012/04/introducing-pepmint.html
+permalink: /tech/introducing-pepmint.html
 redirect_from: "/2012/04/introducing-pepmint.html"
 date: Mon Apr 23 15:27:00 IST 2012
 sharingURL: http://blog.sangupta.com/2012/04/introducing-pepmint.html

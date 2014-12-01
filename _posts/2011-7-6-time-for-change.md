@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Time For Change
-permalink: /2011/07/time-for-change.html
+permalink: /tech/time-for-change.html
 redirect_from: "/2011/07/time-for-change.html"
 date: Wed Jul 06 20:14:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/07/time-for-change.html
 tags: my-projects myjerry
 ---
+
 They say,
 <br>
 <blockquote>

@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: EGit GitHub Commit API and Commit Stats
-permalink: /2011/11/egit-github-commit-api-and-commit-stats.html
+permalink: /tech/egit-github-commit-api-and-commit-stats.html
 redirect_from: "/2011/11/egit-github-commit-api-and-commit-stats.html"
 date: Thu Nov 10 21:48:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/11/egit-github-commit-api-and-commit-stats.html
 tags: java workarounds
 ---
+
 While working today with 
 <a href="http://www.eclipse.org/egit">EGit</a> for the 
 <a href="https://github.com">GitHub</a> API, I found out that there is no way to get the Commit statistics and the various file details. If you ponder over the API details at 

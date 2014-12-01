@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Rate-Limited Java Client Dribbble API
-permalink: /2012/04/rate-limited-java-client-dribbble-api.html
+permalink: /tech/rate-limited-java-client-dribbble-api.html
 redirect_from: "/2012/04/rate-limited-java-client-dribbble-api.html"
 date: Wed Apr 18 14:35:00 IST 2012
 sharingURL: http://blog.sangupta.com/2012/04/rate-limited-java-client-dribbble-api.html

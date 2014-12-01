@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: post
 title: Magic of flash.trace.Trace
-permalink: /2011/08/magic-of-flashtracetrace.html
+permalink: /tech/magic-of-flash-trace-trace.html
 redirect_from: "/2011/08/magic-of-flashtracetrace.html"
 date: Wed Aug 03 14:47:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/08/magic-of-flashtracetrace.html
 ---
+
 One of the hidden treasures in the Flash Player is the 
 <tt>flash.trace.Trace</tt> class. It was meant to be hidden, but in open-source nothing can be treasured without the world knowing it. The actual class implementation is available in the 
 <a href="http://hg.mozilla.org/tamarin-central/file/e774dfe22b39/extensions/Trace.as">tamarin-central</a> codebase. An excerpt of the class implementation is as under (copyright notices etc removed),

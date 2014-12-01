@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: ISBN Book Renaming
-permalink: /2011/06/isbn-book-renaming.html
+permalink: /tech/isbn-book-renaming.html
 redirect_from: "/2011/06/isbn-book-renaming.html"
 date: Sat Jun 18 20:56:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/06/isbn-book-renaming.html
 tags: java my-projects tools
 ---
+
 Being a lazy Saturday morning, on breakfast table my father told me that how he was spending his time. He downloaded some books from the internet where in the file was named using the ISBN number of the book, say as, 
 <b>1590595262.pdf</b> for the 
 <i>The Robosapien Companion</i>, and that he was spending time renaming these books by searching Google and giving the file a proper name. I felt bad that me being a developer, still my dad was wasting time on something futile.

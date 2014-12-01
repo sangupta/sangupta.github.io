@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Majority Element in an Array
-permalink: /2011/05/majority-element-in-array.html
+permalink: /tech/majority-element-in-array.html
 redirect_from: "/2011/05/majority-element-in-array.html"
 date: Mon May 02 13:25:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/05/majority-element-in-array.html

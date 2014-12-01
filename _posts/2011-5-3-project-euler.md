@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Project Euler
-permalink: /2011/05/project-euler.html
+permalink: /tech/project-euler.html
 redirect_from: "/2011/05/project-euler.html"
 date: Tue May 03 16:08:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/05/project-euler.html
 tags: maer my-projects project-euler
 ---
+
 <a href="http://projecteuler.net/">Project Euler</a>, is a wonderful site dedicated to fun around mathematical puzzles and problems. In their own words,
 <br>
 <blockquote>

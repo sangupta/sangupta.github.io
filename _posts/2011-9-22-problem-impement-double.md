@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: parseDouble() in Java
-permalink: /2011/09/problem-impement-double.html
+permalink: /tech/problem-impement-double.html
 redirect_from: "/2011/09/problem-impement-double.html"
 date: Thu Sep 22 12:21:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/09/problem-impement-double.html
 tags: coding-techniques interview-questions
 ---
+
 <tt>Problem:</tt> Impement the 
 <b>Double.parseDouble()</b> method of Java.
 <br>

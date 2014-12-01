@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: iChat 5 and Google Talk Account
-permalink: /2011/04/ichat-5-and-google-talk-account.html
+permalink: /tech/ichat-5-and-google-talk-account.html
 redirect_from: "/2011/04/ichat-5-and-google-talk-account.html"
 date: Wed Apr 27 17:24:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/04/ichat-5-and-google-talk-account.html

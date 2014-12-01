@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Agam | Adobe Flash Platform Summit
-permalink: /2011/08/agam-adobe-flash-platform-summit.html
+permalink: /tech/agam-adobe-flash-platform-summit.html
 redirect_from: "/2011/08/agam-adobe-flash-platform-summit.html"
 date: Tue Aug 02 18:10:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/08/agam-adobe-flash-platform-summit.html
 tags: just-like-that
 ---
+
 <div dir="ltr" style="text-align: left;" trbidi="on">
     I recently had the chance of attending my first 
     <a href="http://www.adobesummit.com/">Adobe Flash Platform Summit</a>. The whole experience was just awesome, and this I say not because I am currently with 

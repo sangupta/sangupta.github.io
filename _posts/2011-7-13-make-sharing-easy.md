@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Make Sharing Easy
-permalink: /2011/07/make-sharing-easy.html
+permalink: /tech/make-sharing-easy.html
 redirect_from: "/2011/07/make-sharing-easy.html"
 date: Wed Jul 13 15:34:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/07/make-sharing-easy.html

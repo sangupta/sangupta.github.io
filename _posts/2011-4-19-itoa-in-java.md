@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: itoa() in Java
-permalink: /2011/04/itoa-in-java.html
+permalink: /tech/itoa-in-java.html
 redirect_from: "/2011/04/itoa-in-java.html"
 date: Tue Apr 19 14:00:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/04/itoa-in-java.html

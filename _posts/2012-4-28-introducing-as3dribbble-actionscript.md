@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Introducing as3dribbble - ActionScript Client Library for Dribbble.com
-permalink: /2012/04/introducing-as3dribbble-actionscript.html
+permalink: /tech/introducing-as3dribbble-actionscript.html
 redirect_from: "/2012/04/introducing-as3dribbble-actionscript.html"
 date: Sat Apr 28 13:12:00 IST 2012
 sharingURL: http://blog.sangupta.com/2012/04/introducing-as3dribbble-actionscript.html

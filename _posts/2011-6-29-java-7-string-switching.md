@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Java 7: String switching
-permalink: /2011/06/java-7-string-switching.html
+permalink: /tech/java-7-string-switching.html
 redirect_from: "/2011/06/java-7-string-switching.html"
 date: Wed Jun 29 21:33:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/06/java-7-string-switching.html
 tags: java java7
 ---
+
 Today, I started my journey into the world of Java 7. Quite late I know, but as they 
 <i>better late than never</i>. So I now have a build of Java 7 SDK on my desktop, and spent some time fiddling with the new features in. One of the most striking features of Java 7, specially after working in ActionScript 3, is the ability to 
 <b>switch on strings</b>.

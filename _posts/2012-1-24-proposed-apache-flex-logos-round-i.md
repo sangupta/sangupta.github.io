@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Proposed Apache Flex Logos | Round I - Results
-permalink: /2012/01/proposed-apache-flex-logos-round-i.html
+permalink: /tech/proposed-apache-flex-logos-round-i.html
 redirect_from: "/2012/01/proposed-apache-flex-logos-round-i.html"
 date: Tue Jan 24 18:00:00 IST 2012
 sharingURL: http://blog.sangupta.com/2012/01/proposed-apache-flex-logos-round-i.html

@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Row consisting max continuous chain of 1’s in an n * n grid
-permalink: /2011/01/row-consisting-max-continuous-chain-of.html
+permalink: /tech/row-consisting-max-continuous-chain-of.html
 redirect_from: "/2011/01/row-consisting-max-continuous-chain-of.html"
 date: Sun Jan 23 13:36:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/01/row-consisting-max-continuous-chain-of.html

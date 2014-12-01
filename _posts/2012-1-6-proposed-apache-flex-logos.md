@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Proposed Apache Flex Logos
-permalink: /2012/01/proposed-apache-flex-logos.html
+permalink: /tech/proposed-apache-flex-logos.html
 redirect_from: "/2012/01/proposed-apache-flex-logos.html"
 date: Fri Jan 06 09:26:00 IST 2012
 sharingURL: http://blog.sangupta.com/2012/01/proposed-apache-flex-logos.html

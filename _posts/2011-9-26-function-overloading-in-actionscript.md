@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: post
 title: Function Overloading in ActionScript
-permalink: /2011/09/function-overloading-in-actionscript.html
+permalink: /tech/function-overloading-in-actionscript.html
 redirect_from: "/2011/09/function-overloading-in-actionscript.html"
 date: Mon Sep 26 10:37:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/09/function-overloading-in-actionscript.html
 ---
+
 We all know that function overloading, or for that matter Constructor overloading, is not supported in ActionScript. This is not a big deterrent till what you are writing your own code, but becomes a major blocker when you plan to port some code from a code piece written in another language. Recently, I have started migrating one of the de-facto open-source Java software to ActionScript. And the piece is huge. Giving different names to each overloaded method and then making sure that you call the right one tends to get complicated.
 <br>
 <br>Assigning a variable 

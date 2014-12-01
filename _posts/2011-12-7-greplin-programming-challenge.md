@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Greplin Programming Challenge
-permalink: /2011/12/greplin-programming-challenge.html
+permalink: /tech/greplin-programming-challenge.html
 redirect_from: "/2011/12/greplin-programming-challenge.html"
 date: Wed Dec 07 10:08:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/12/greplin-programming-challenge.html
 tags: code-challenge coding-techniques my-projects
 ---
+
 Yesterday evening I came across another programming challenge called 
 <a href="http://challenge.greplin.com/">Greplin Programming Challenge</a>. The challenge presents three problems which requires one to write small pieces of code to solve, and provide the solution as the password to the next level. Something similar to 
 <a href="http://projecteuler.net/">Project Euler</a> problems.

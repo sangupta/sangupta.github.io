@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Addition of Huge Astronomical Numbers
-permalink: /2011/06/addition-of-huge-astronomical-numbers.html
+permalink: /tech/addition-of-huge-astronomical-numbers.html
 redirect_from: "/2011/06/addition-of-huge-astronomical-numbers.html"
 date: Tue Jun 28 08:00:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/06/addition-of-huge-astronomical-numbers.html
