@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Dropdown list from ranges on different sheets - Excel
-permalink: /2008/01/dropdown-list-from-ranges-on-different.html
+permalink: /tech/dropdown-list-from-ranges-on-different.html
 redirect_from: "/2008/01/dropdown-list-from-ranges-on-different.html"
 date: Thu Jan 31 14:30:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/01/dropdown-list-from-ranges-on-different.html
 tags: coding-techniques
 ---
+
 As the title indicates, the post is all about creating a drop down list in Excel from ranges on different sheets. How is this tricky? Well, first excel allows you to use a single list as a dropdown for cell validation. Second, UNION is not permitted between ranges. Third, a collection can not be used for data validation. Fourth, no custom function/method from VBA can be invoked in the cell validation formula. So this complicates the matter a bit.
 <br>
 <br>I recently had to achieve this, so as to self-audit the entries. This particularly comes in handy when one is trying to link entries across multiple sheets to a single ID. 

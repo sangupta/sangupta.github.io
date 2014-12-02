@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Server-side Password Storage
-permalink: /2007/05/in-memory-password-storage.html
+permalink: /tech/in-memory-password-storage.html
 redirect_from: "/2007/05/in-memory-password-storage.html"
 date: Wed May 23 15:40:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/05/in-memory-password-storage.html
 tags: coding-techniques
 ---
+
 Today, almost all websites and products use some sort of Authentication mechanism to validate the users. Every application verifies the users credentials and allows him access to secured content. Keeping secured content, secure from prying eyes has always been a challenge. Lots of methodologies to encrypt sensitive information, and their subsequent storage and retrieval have been developed. These have rendered unauthorized access attacks to a minimum.
 <br>
 <br>But, the serious challenge that we still face is the 

@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Immutable Classes
-permalink: /2007/10/immutable-classes.html
+permalink: /tech/immutable-classes.html
 redirect_from: "/2007/10/immutable-classes.html"
 date: Fri Oct 26 10:15:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/10/immutable-classes.html
 tags: coding-techniques java
 ---
+
 In the past couple of months, I had a lot of discussion with people over immutable classes. From novice to experts, from beginners to leads, they were all. You utter the term 
 <span style="font-weight: bold;">Immutable Classes</span> in front of any Java/.NET professional and the immediate response would be 
 <span style="font-weight: bold;">String class</span> showing his command over the subject. But is that the only thing that relates to 

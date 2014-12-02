@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: New Theme Soon! - Really Soon :)
-permalink: /2007/09/new-theme-soon-really-soon.html
+permalink: /tech/new-theme-soon-really-soon.html
 redirect_from: "/2007/09/new-theme-soon-really-soon.html"
 date: Mon Sep 24 10:00:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/09/new-theme-soon-really-soon.html
 tags: blogger
 ---
+
 <div style="text-align: justify;">
     I was one day pondering over the features provided by Wordpress,. I came across this theme called Foliage. The theme was too cool to catch my attention. I was immediately left searching for a blogger version. If any like-minded person would have done the honors of copy-cat, and to my cheers, YES. I found the copy at 
     <a href="http://www.bloggertemplates.org/review/foliage">http://www.bloggertemplates.org/review/foliage</a>. I downloaded it immediately, but to my disappointment the theme was in the old blogger format.

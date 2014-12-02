@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Sucker-fish CSS Menus
-permalink: /2007/01/sucker-fish-css-menus.html
+permalink: /tech/sucker-fish-css-menus.html
 redirect_from: "/2007/01/sucker-fish-css-menus.html"
 date: Tue Jan 16 12:19:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/01/sucker-fish-css-menus.html
 tags: web
 ---
+
 <p>Any Internet user searching for some information would definitely know the importance of navigation menus. Mostly, across the <em>world wide web</em> we would find the top navigational bar and the left navigational menu.</p> 
 <p>In the early days of Internet, the websites used to have some important links as their menu. But, as the Internet technology grew, and with the advent of JavaScript, hierarchal menus were born. This was one way of accommodating more links in less space.</p> 
 <p>Every website developer tends to create such navigational menus using JavaScript. But it has an inherent disadvantage. Browsers without JavaScript (or disabled) will not render the menu.&nbsp;In recent times, the security perspective has also threatened the use of JavaScript menus. Also, JavaScript menus tend to be heavier.</p> 

@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Blogger and My Blog List widget
-permalink: /2008/07/blogger-and-my-blog-list-widget.html
+permalink: /tech/blogger-and-my-blog-list-widget.html
 redirect_from: "/2008/07/blogger-and-my-blog-list-widget.html"
 date: Mon Jul 14 00:44:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/07/blogger-and-my-blog-list-widget.html
 tags: blogger workarounds
 ---
+
 A friend of mine was trying to add my blog using the recently released, 
 <b>My Blog List</b> widget, in Blogger. But, an error was being thrown saying no feeds could be detected for the blog. When I gotta know of this I was surprised and a bit upset. One, for my blog could not be added to a blog roll and second, I would not be getting more visitors, doh!
 <br>

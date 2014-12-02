@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Search for a Blogger 3.0 theme
-permalink: /2007/03/search-for-blogger-30-theme.html
+permalink: /tech/search-for-blogger-30-theme.html
 redirect_from: "/2007/03/search-for-blogger-30-theme.html"
 date: Tue Mar 27 14:36:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/03/search-for-blogger-30-theme.html

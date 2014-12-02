@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Animator v/s Animated
-permalink: /2010/01/animator-vs-animated.html
+permalink: /tech/animator-vs-animated.html
 redirect_from: "/2010/01/animator-vs-animated.html"
 date: Mon Jan 11 09:13:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/01/animator-vs-animated.html
 tags: just-like-that web
 ---
+
 <div align="justify">
     Just click on the picture below, click on play, then leave the mouse alone , sit back and enjoy a piece of creative brilliance. 
     <br>

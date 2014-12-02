@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: post
 title: History of Orkut & chain-Emails!
-permalink: /2008/04/history-of-orkut-chain-emails.html
+permalink: /tech/history-of-orkut-chain-emails.html
 redirect_from: "/2008/04/history-of-orkut-chain-emails.html"
 date: Wed Apr 09 10:00:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/04/history-of-orkut-chain-emails.html
 ---
+
 Chain Emails - Ones that you keep receiving all through the day and wonder why don't they just land up in the SPAM folder. This morning I received one another: About the Birth of Orkut! I am sure most of you must have read this email for the number of times it has been forwarded is quite large. For those of you, who haven't, lets ponder over the contents first,
 <br>
 <br>

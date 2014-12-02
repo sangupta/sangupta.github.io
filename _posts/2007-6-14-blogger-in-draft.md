@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Blogger in Draft
-permalink: /2007/06/blogger-in-draft.html
+permalink: /tech/blogger-in-draft.html
 redirect_from: "/2007/06/blogger-in-draft.html"
 date: Thu Jun 14 09:12:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/06/blogger-in-draft.html
 tags: just-like-that
 ---
+
 Google has just invieled the draft version of some new features to come up in the blogger including uploading of videos. Check it out at 
 <a href="http://draft.blogger.com">http://draft.blogger.com</a>
 <br>

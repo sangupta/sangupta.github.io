@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Magical Behavior of Microsft Products
-permalink: /2009/07/magical-behavior-of-microsft-products.html
+permalink: /tech/magical-behavior-of-microsft-products.html
 redirect_from: "/2009/07/magical-behavior-of-microsft-products.html"
 date: Thu Jul 23 09:55:00 IST 2009
 sharingURL: http://blog.sangupta.com/2009/07/magical-behavior-of-microsft-products.html
 tags: just-like-that
 ---
+
 <div align="justify">
     Today morning I received one of those another forwarded mails telling me of all those crazy magical things that Microsoft products do, and which no one from Microsoft including Bill Gates (as claimed in the email) is able to explain. 
     <br>

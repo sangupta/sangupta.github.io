@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Evenstar | Update 3
-permalink: /2009/12/evenstar-update-3.html
+permalink: /tech/evenstar-update-3.html
 redirect_from: "/2009/12/evenstar-update-3.html"
 date: Thu Dec 31 18:24:00 IST 2009
 sharingURL: http://blog.sangupta.com/2009/12/evenstar-update-3.html

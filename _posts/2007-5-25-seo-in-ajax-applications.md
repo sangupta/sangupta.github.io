@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: SEO in AJAX applications
-permalink: /2007/05/seo-in-ajax-applications.html
+permalink: /tech/seo-in-ajax-applications.html
 redirect_from: "/2007/05/seo-in-ajax-applications.html"
 date: Fri May 25 10:23:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/05/seo-in-ajax-applications.html
 tags: coding-techniques
 ---
+
 I recently attended a training on AJAX and was fiddling with it over the past weekend. In a few hours I was able to move some functionality of my website to AJAX. A thought then cropped up to completely convert my website to AJAX so that for any link or information the user doesn't need to make a round trip ala GMail. But then, how about the integration of my website with Search Engines? How would I be able to make my site Search-Engine friendly? Would SEO (Search Engine Optimization) be the price I need to pay up for having a nice UI.
 <br>
 <br>Then began my search on Google and just typing "SEO AJAX" fetched me some 33 million links. Wow! I am not the only one interested in such information. Browsing a few links threw me to a plethora of information that has been gathered, written, re-written and published on Internet.

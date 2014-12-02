@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Power of ExtJS
-permalink: /2007/10/power-of-extjs.html
+permalink: /tech/power-of-extjs.html
 redirect_from: "/2007/10/power-of-extjs.html"
 date: Tue Oct 30 12:00:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/10/power-of-extjs.html
 tags: coding-techniques java web
 ---
+
 Recently, I had a requirement wherein the client wanted to edit data from a table using a grid that would be editable, sortable, paginated, with column resizing and column locking. Anyone with a .NET background would say, quite easy. But, what if you had to implement all these features in Java? This was a real challenge, for I had never in my life came across such a thing in Java. I had heard of a few libraries out there in OS (Open-source) but nothing could come even close to it. So what was the solution?
 <br>
 <br>Google - was the starting point. A quick search revealed 

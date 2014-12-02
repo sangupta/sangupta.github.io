@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Webpage Language Identification
-permalink: /2007/03/webpage-language-identification.html
+permalink: /tech/webpage-language-identification.html
 redirect_from: "/2007/03/webpage-language-identification.html"
 date: Thu Mar 15 11:07:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/03/webpage-language-identification.html

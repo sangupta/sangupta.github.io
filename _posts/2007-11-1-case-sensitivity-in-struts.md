@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Case-sensitivity in Struts
-permalink: /2007/11/case-sensitivity-in-struts.html
+permalink: /tech/case-sensitivity-in-struts.html
 redirect_from: "/2007/11/case-sensitivity-in-struts.html"
 date: Thu Nov 01 10:00:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/11/case-sensitivity-in-struts.html
 tags: coding-techniques java
 ---
+
 While cleaning up my Thunderbird today, I came across this issue which kept me (and my team) on toes for a few days. It is an old issue (almost an year now) which I pen down due to some fond memories. The problem is related to J2EE Web Application project. The project background is not needed to relate to the problem.
 <br>
 <br>The application was using Struts 1.1 and was deployed in Weblogic 8.1 SP1. The problem occurred while I was deploying my WAR (in the exploded form) after modification of struts-config.xml, and not when I was deploying the complete WAR as a whole. I had used many struts validators and parsers, but none reported the error. The exception received was,

@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Url based Tile name Controller
-permalink: /2008/10/url-based-tile-name-controller.html
+permalink: /tech/url-based-tile-name-controller.html
 redirect_from: "/2008/10/url-based-tile-name-controller.html"
 date: Sat Oct 18 22:27:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/10/url-based-tile-name-controller.html
 tags: coding-techniques java spring-framework web
 ---
+
 <p align="justify">Tiles, a framework that is used extensively for templating in Java based web applications. Spring Framework, a dependency injection container that makes configuration easier. There are several controllers available in the Spring framework which makes mapping static JSP/JSF pages directly to the URI's without writing boiler plate code. But in most of the cases, we use Tiles for a templating. What to do in such a case? There is no single controller that would help us map URI's to a tilename. Here is what I came up... A simple controller that would directly map a URI to a tilename and forward the request out.<br><br>A typical usage example is as under,</p>
 <pre class="brush: xml">&lt;bean name="urlTilenameController" class="org.springframework.web.servlet.mvc.UrlTilenameViewController" &gt;  <br>&lt;property name="indexTile" value=".homePage" /&gt;  <br>&lt;property name="toLowercase" value="true" /&gt;  <br>&lt;property name="stripAfterLastDot" value="true" /&gt;  <br>&lt;property name="insertStartingDot" value="true" /&gt;<br>&lt;/bean&gt;<br></pre>The parameters should be self explanatory. In case you would like to know more on this, feel free to contact me. 
 <br>

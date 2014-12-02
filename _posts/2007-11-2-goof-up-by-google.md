@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Goof-up by Google!
-permalink: /2007/11/goof-up-by-google.html
+permalink: /tech/goof-up-by-google.html
 redirect_from: "/2007/11/goof-up-by-google.html"
 date: Fri Nov 02 14:15:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/11/goof-up-by-google.html
 tags: just-like-that
 ---
+
 <div align="justify">
     <br>We all have been expecting 
     <a href="http://code.google.com/apis/opensocial" title="OpenSocial">OpenSocial API</a> release by 

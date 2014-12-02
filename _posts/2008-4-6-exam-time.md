@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Exam Time!
-permalink: /2008/04/exam-time.html
+permalink: /tech/exam-time.html
 redirect_from: "/2008/04/exam-time.html"
 date: Sun Apr 06 08:00:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/04/exam-time.html

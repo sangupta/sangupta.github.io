@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Synergy - One keyboard/mouse for multiple computers
-permalink: /2009/05/synergy-one-keyboardmouse-for-multiple.html
+permalink: /tech/synergy-one-keyboardmouse-for-multiple.html
 redirect_from: "/2009/05/synergy-one-keyboardmouse-for-multiple.html"
 date: Thu May 21 15:56:00 IST 2009
 sharingURL: http://blog.sangupta.com/2009/05/synergy-one-keyboardmouse-for-multiple.html

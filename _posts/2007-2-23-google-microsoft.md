@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: post
 title: Google & Microsoft
-permalink: /2007/02/google-microsoft.html
+permalink: /tech/google-microsoft.html
 redirect_from: "/2007/02/google-microsoft.html"
 date: Fri Feb 23 09:30:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/02/google-microsoft.html
 ---
+
 <p>Come on, I am not gonna write about their everyday battles and the long time war. This post is about how Google has transformed out lives and kicked out Microsoft.</p> 
 <p>It has been only a few years since Google has launched. But the way it has impacted users like me is phenomenal. In just over 3 years when I first subscribed for GMail, I have become highly dependant on Google services for my daily activity. On date I use more than 15 (precisely 17) Google services. And all of them for FREE.</p> 
 <p>Google came like a ray of light in utter darkness for users, when every other free service was getting paid, or had started neglecting its free users. Google changed the whole scenario. The focus is now more on Quality services rather than those flashy interfaces. </p> 

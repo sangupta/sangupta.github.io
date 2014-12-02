@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Google Chrome!
-permalink: /2008/09/google-chrome.html
+permalink: /tech/google-chrome.html
 redirect_from: "/2008/09/google-chrome.html"
 date: Thu Sep 04 11:30:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/09/google-chrome.html
 tags: just-like-that
 ---
+
 As with any other computer geek, I was amongst the downloader's of the new Google Open Source Browser, 
 <a href="http://google.com/chrome">Chrome</a>! Downloading and installing it was a breeze, just a couple of minutes. Upon the first start, as with Mozilla Firefox, it asked whether to import data from the current Internet Explorer. Hehe, I don't know why all browsers target IE as their arch-rival.
 <br>

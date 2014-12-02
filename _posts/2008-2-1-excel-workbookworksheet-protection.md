@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Excel Workbook/Worksheet protection
-permalink: /2008/02/excel-workbookworksheet-protection.html
+permalink: /tech/excel-workbookworksheet-protection.html
 redirect_from: "/2008/02/excel-workbookworksheet-protection.html"
 date: Fri Feb 01 11:15:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/02/excel-workbookworksheet-protection.html
 tags: coding-techniques
 ---
+
 Another find of the day. Security and Microsoft seem to be antonyms. And that too so easy. I had been using Excel for many-many years now, but I discovered these holes only day-before. What a fool I have been :(
 <br>
 <br>In no particular order I would travel through various holes/tricks that can be exploited/used to have your way. :D Infact, I had to resort to dirty methods to gain some insight into understanding something.

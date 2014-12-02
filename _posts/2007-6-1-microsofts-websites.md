@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: psot
 title: Microsoft's Official Websites &#58; Update
-permalink: /2007/03/microsofts-websites.html
+permalink: /tech/microsofts-websites.html
 redirect_from: "/2007/03/microsofts-websites.html"
 date: Fri Jun 01 15:05:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/03/microsofts-websites.html
 ---
+
 <p style="text-align: justify;">It had been long since I have blogged, busy with the role and responsibility change I went through in the past few weeks. Now, I am back to work and here I go...<br><br>The stuff Microsoft creates had always impressed me. This fascination comes from ease of use of its products and, the drag and drop behaviour of most of the functionalities. Browsing through their websites brings me to something wonderful.<br><br>I had been collecting links to Microsoft websites, and the list kept growing longer. While checking Google Account Services website, the idea sharing it with all popped up, so here is the list of links I have compiled over time,<br></p>
 <ol style="text-align: justify;">
     <li><a href="http://www.microsoft.com/">Microsoft</a>: The official website of Microsoft.<br><br></li>

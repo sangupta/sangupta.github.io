@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Orkut & my friends
-permalink: /2007/03/orkut-my-friends.html
+permalink: /tech/orkut-my-friends.html
 redirect_from: "/2007/03/orkut-my-friends.html"
 date: Fri Mar 30 22:34:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/03/orkut-my-friends.html

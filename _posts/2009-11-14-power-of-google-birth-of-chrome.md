@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Power of Google | Birth of Chrome
-permalink: /2009/11/power-of-google-birth-of-chrome.html
+permalink: /tech/power-of-google-birth-of-chrome.html
 redirect_from: "/2009/11/power-of-google-birth-of-chrome.html"
 date: Sat Nov 14 08:00:00 IST 2009
 sharingURL: http://blog.sangupta.com/2009/11/power-of-google-birth-of-chrome.html

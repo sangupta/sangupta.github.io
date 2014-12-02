@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: New York Times launches Times Reader 2.0
-permalink: /2009/05/new-york-times-launches-times-reader-20.html
+permalink: /tech/new-york-times-launches-times-reader-20.html
 redirect_from: "/2009/05/new-york-times-launches-times-reader-20.html"
 date: Fri May 15 09:45:00 IST 2009
 sharingURL: http://blog.sangupta.com/2009/05/new-york-times-launches-times-reader-20.html
 tags: adobe-air web
 ---
+
 <div align="justify">
     New York Times released a Times Reader which makes reading online newspaper fun and exciting. Times Reader enables a user to read New York Times without a web browser. This might not look like a big change considering the fact that NYT is already available on web via a browser, but, the sparkling difference is the compelling and commanding interface. And yes, for those who might not have picked it up, Times Reader is a desktop application. Yes, it is !!!
     <br>

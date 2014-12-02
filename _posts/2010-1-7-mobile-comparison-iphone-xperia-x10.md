@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Mobile Comparison&#58; iPhone, Xperia X10, Storm 2, Droid, Nexus One
-permalink: /2010/01/mobile-comparison-iphone-xperia-x10.html
+permalink: /tech/mobile-comparison-iphone-xperia-x10.html
 redirect_from: "/2010/01/mobile-comparison-iphone-xperia-x10.html"
 date: Thu Jan 07 22:27:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/01/mobile-comparison-iphone-xperia-x10.html

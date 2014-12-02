@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: post
 title: Azcarya?
 permalink: /tech/azcarya.html
 redirect_from: "/2007/01/kratumant.html"
 date: Sun Jan 14 14:52:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/01/kratumant.html
 ---
+
 `Azcarya` is a sanskrit word that as per <em>Capeller's Sanskrit-English Dictionary</em> means 
 strange, miraculous; wonder, prodigy.
 

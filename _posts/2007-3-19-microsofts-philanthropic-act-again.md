@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Microsoft's philanthropic act, again!
-permalink: /2007/03/microsofts-philanthropic-act-again.html
+permalink: /tech/microsofts-philanthropic-act-again.html
 redirect_from: "/2007/03/microsofts-philanthropic-act-again.html"
 date: Mon Mar 19 00:07:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/03/microsofts-philanthropic-act-again.html
 tags: just-like-that
 ---
+
 <a href="http://www.microsoft.com">Microsoft</a> has agreed to donate funds to two charity organizations when people use Windows Live Search to search for data. This is something they should have started well before. But its not too late ever.
 <br>
 <br>They are funding 

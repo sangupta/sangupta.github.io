@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: (In)Significance of a DOT/Plus
-permalink: /2008/03/insignificance-of-dotplus.html
+permalink: /tech/insignificance-of-dotplus.html
 redirect_from: "/2008/03/insignificance-of-dotplus.html"
 date: Thu Mar 06 20:22:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/03/insignificance-of-dotplus.html

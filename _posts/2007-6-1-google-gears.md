@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Google Gears
-permalink: /2007/06/google-gears.html
+permalink: /tech/google-gears.html
 redirect_from: "/2007/06/google-gears.html"
 date: Fri Jun 01 09:32:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/06/google-gears.html
 tags: just-like-that
 ---
+
 Google yesterday unvieled a new technology that would help shape Web 3.0. In the times when 
 <a href="http://www.adobe.com/">Adobe </a>and 
 <a href="http://www.microsoft.com/">Microsoft </a>are fighting to build the latest web delievery platform in the form of 

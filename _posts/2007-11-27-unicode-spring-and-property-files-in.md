@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Unicode, Spring and Property files in Java
-permalink: /2007/11/unicode-spring-and-property-files-in.html
+permalink: /tech/unicode-spring-and-property-files-in.html
 redirect_from: "/2007/11/unicode-spring-and-property-files-in.html"
 date: Tue Nov 27 12:15:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/11/unicode-spring-and-property-files-in.html
 tags: coding-techniques java
 ---
+
 <b>Problem:</b>
 <br>While executing a bean module using Spring, it throws up an Unicode 0xc invalid character exception.
 <pre class="brush: xml">org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException:<br>Line ** in XML document from ServletContext resource [/WEB-INF/spring/mymodule.xml] is invalid; <br>nested exception is org.xml.sax.SAXParseException: An invalid XML character (Unicode: 0xc) was found in the value of attribute "value".<br>Caused by: <br>org.xml.sax.SAXParseException: An invalid XML character (Unicode: 0xc) was found in the value of attribute "value".<br></pre>

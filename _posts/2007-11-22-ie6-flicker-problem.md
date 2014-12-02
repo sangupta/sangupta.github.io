@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: IE6 Flicker Problem
-permalink: /2007/11/ie6-flicker-problem.html
+permalink: /tech/ie6-flicker-problem.html
 redirect_from: "/2007/11/ie6-flicker-problem.html"
 date: Thu Nov 22 14:45:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/11/ie6-flicker-problem.html
 tags: coding-techniques web
 ---
+
 Yesterday, I was upgrading the 
 <a href="http://foliage-in-xml.blogspot.com" title="Modified Foliage Theme for Blogger.">Modified Foliage Theme for Blogger</a>. I had been testing it out in Firefox 2.0 and IE 7.0 for long. This time it was IE 6.0 that I was testing the theme on. The theme almost behaved in the manner expected, except a few DIV issues. After fixing them, my attention diverted to a flicker that was caused in the pull button.
 <br>

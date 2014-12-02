@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Email Address Validation
-permalink: /2007/10/email-address-validation.html
+permalink: /tech/email-address-validation.html
 redirect_from: "/2007/10/email-address-validation.html"
 date: Thu Oct 11 23:45:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/10/email-address-validation.html
 tags: coding-techniques
 ---
+
 Last night, while developing code for 
 <a href="http://www.matrika-india.org" title="MATRIKA India">MATRIKA</a>, I came across a situation where-in I had to validate an email-address. I wanted a way to stop people putting "abc@abc.com" like I had been doing so, throughout my interactions with the Web. 
 <br>

@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: post
 title: Restructuring Blog...
-permalink: /2007/08/restructuring-blog.html
+permalink: /tech/restructuring-blog.html
 redirect_from: "/2007/08/restructuring-blog.html"
 date: Fri Aug 24 14:30:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/08/restructuring-blog.html
 ---
+
 Its been long since I have posted on this blog of mine. It really sounds a lot disgusting to readers. I am in the process of restructuring all my stuff, my blogs, websites and stuff alike.
 <br>
 <br>It's Azcarya's turn for now. I am categorizing my blogs so, Azcarya shall be the technical blog, 

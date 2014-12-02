@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: GMail, Outlook 2007 and IMAP
-permalink: /2008/02/gmail-outlook-2007-and-imap.html
+permalink: /tech/gmail-outlook-2007-and-imap.html
 redirect_from: "/2008/02/gmail-outlook-2007-and-imap.html"
 date: Sat Feb 23 12:15:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/02/gmail-outlook-2007-and-imap.html
 tags: web
 ---
+
 <p>Since I had bought my laptop, I had not been able to find time to configure my emails on to my email client. Every time I had to use the web mail client and it was a pain for it gets slow, specially when you just need to review your old mails. Finally today I took the plunge and started to configure my GMail account in Outlook 2007. It was a breeze setting up specially with the help of tutorial available on Google <a title="Tutorial to configure GMaill with Outlook 2007" href="http://mail.google.com/support/bin/answer.py?answer=77689" target="_blank">here</a>. </p> 
 <p>&nbsp;</p> 
 <p>The tricky part was to move the Outlook .pst file to a different drive from the default location. Anyone who has had worked with Windows with long would know how pain is to backup data from C drive in case of failures. Using the default procedure listed in Outlook help, I moved the PST to a new location. As I started the client again, it created a new PST in a default location, leaving me wondering as to where did I go wrong while working through the procedure. Well, may be, I tried again with the same problem. </p> 

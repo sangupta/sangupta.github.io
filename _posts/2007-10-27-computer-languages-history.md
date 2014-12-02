@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Computer Languages - History
-permalink: /2007/10/computer-languages-history.html
+permalink: /tech/computer-languages-history.html
 redirect_from: "/2007/10/computer-languages-history.html"
 date: Sat Oct 27 13:00:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/10/computer-languages-history.html
 tags: just-like-that
 ---
+
 <div align="justify">
     In my role as a programmer, I had the opportunity to code in many computer languages. Many... ok.... would be a wrong word. When you compare a dozen to a few thousand, you can't call it MANY. A few thousand... yes, its true. A quick search on Google on list of computer languages would reveal the magic number of 2500+ which can then be extrapolated to approx 3000. But is that it. There is more to computer languages than the above magical number. Before, we go ahead at checking out the number, here is a brief classification of computer languages.
     <br>

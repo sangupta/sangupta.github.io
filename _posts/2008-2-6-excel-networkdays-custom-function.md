@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Excel - NetWorkDays custom function
-permalink: /2008/02/excel-networkdays-custom-function.html
+permalink: /tech/excel-networkdays-custom-function.html
 redirect_from: "/2008/02/excel-networkdays-custom-function.html"
 date: Wed Feb 06 13:30:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/02/excel-networkdays-custom-function.html
 tags: coding-techniques
 ---
+
 Business computations always involve the computation of Net-Work days, and if you are using Excel, you immediately find a solution in 
 <i>NetworkDays</i> function. I have myself used it extensively in my computational work. But, for reasons best known to Microsoft, they have kept this function as part of Analysis Toolpack add-in. Well, to makes obviously no difference as the addin is a part of standard Office shipment. But, when you are developing a spreadsheet to be used by many, you are not very sure whether they have the addin installed/active.
 <br>

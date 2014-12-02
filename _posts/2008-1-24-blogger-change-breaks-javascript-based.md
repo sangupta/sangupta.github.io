@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Blogger change breaks Javascript based themes
-permalink: /2008/01/blogger-change-breaks-javascript-based.html
+permalink: /tech/blogger-change-breaks-javascript-based.html
 redirect_from: "/2008/01/blogger-change-breaks-javascript-based.html"
 date: Thu Jan 24 23:45:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/01/blogger-change-breaks-javascript-based.html
 tags: blogger my-projects
 ---
+
 A recent Blogger update has broken many Javascript Blogger themes. The issue cropped up because of the way we code our Javascripts. Some of us are finicky enough to make them browser-safe for those old muggy browsers which don't recognize the &lt;script&gt; tag.
 <p></p>
 <pre class="brush: js">&lt;script type='text/javascript'&gt;<br>&lt;!-- prevent old browsers from rendering this<br>alert("Hello World!);<br>// prevent javascript interpreter from parsing end tag --&gt;<br>&lt;/script&gt;<br></pre>

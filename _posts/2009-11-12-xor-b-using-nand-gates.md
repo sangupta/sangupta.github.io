@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: (a XOR b) using NAND gates
-permalink: /2009/11/xor-b-using-nand-gates.html
+permalink: /tech/xor-b-using-nand-gates.html
 redirect_from: "/2009/11/xor-b-using-nand-gates.html"
 date: Thu Nov 12 22:11:00 IST 2009
 sharingURL: http://blog.sangupta.com/2009/11/xor-b-using-nand-gates.html

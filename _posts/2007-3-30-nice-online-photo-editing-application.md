@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: post
 title: Nice online photo editing application
-permalink: /2007/03/nice-online-photo-editing-application.html
+permalink: /tech/nice-online-photo-editing-application.html
 redirect_from: "/2007/03/nice-online-photo-editing-application.html"
 date: Fri Mar 30 22:56:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/03/nice-online-photo-editing-application.html
 ---
+
 I am fond of reading ... reading just about anything.. and something that interests me finds a unique importance. I usually devote an hour browsing websites that come of great help to me... and one of such sites in definitely 
 <a href="http://code.google.com/">Google Code</a>. It contains a plethora of information and many a times exposes me to web applications that come in very handy at times.
 <br>

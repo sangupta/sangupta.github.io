@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Power of Civil Engineering
-permalink: /2009/02/power-of-civil-engineering.html
+permalink: /tech/power-of-civil-engineering.html
 redirect_from: "/2009/02/power-of-civil-engineering.html"
 date: Sun Feb 01 10:32:00 IST 2009
 sharingURL: http://blog.sangupta.com/2009/02/power-of-civil-engineering.html

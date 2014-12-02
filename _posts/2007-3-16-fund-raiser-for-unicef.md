@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Fund raiser for UNICEF
-permalink: /2007/03/fund-raiser-for-unicef.html
+permalink: /tech/fund-raiser-for-unicef.html
 redirect_from: "/2007/03/fund-raiser-for-unicef.html"
 date: Fri Mar 16 17:33:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/03/fund-raiser-for-unicef.html
 tags: just-like-that
 ---
+
 This is a fund raising campaign for the poor by UNICEF. For everyone who signs up with this network, US $5 will be donated to the UNICEF to help poor across the world.
 <br>
 <br>My sincere request with you all to kindly check this out and help raise funds to eliminate poverty.

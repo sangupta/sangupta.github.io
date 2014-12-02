@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: post
 title: 101 Reasons - My Take - Part 3
-permalink: /2007/03/101-reasons-my-take-part-3.html
+permalink: /tech/101-reasons-my-take-part-3.html
 redirect_from: "/2007/03/101-reasons-my-take-part-3.html"
 date: Tue Mar 13 09:03:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/03/101-reasons-my-take-part-3.html
 tags: java just-like-that
 ---
-<p></p> 
+
 <p>After a nice weekend, I am back to work today. It's a lovely day out here, with drizzle going on. The weather is too pleasant that I can't escape being romantic. But, work needs to be done. With nothing much in the office today, I continue with my take on the Java and .NET debate,</p> 
 <p><span style="color: #ff8000">REASON 21:</span> <a href="http://www.manageability.org/manageabilityWiki/NoEvilTypeCoercion">NoEvilTypeCoercion</a> - Some C++ constructs are meant to be entombed forever, .NET resurrects them with disastrous consequences.</p> 
 <p><span style="color: #ff8000">MY TAKE:</span> With VC++ supporting the .NET platform, it could have been a much more disadvantage not to support the specific constructs. And to what disastrous constructs, the reference is, lies with the original author.</p> 

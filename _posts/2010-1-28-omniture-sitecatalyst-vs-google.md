@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Omniture SiteCatalyst v/s Google Analytics
-permalink: /2010/01/omniture-sitecatalyst-vs-google.html
+permalink: /tech/omniture-sitecatalyst-vs-google.html
 redirect_from: "/2010/01/omniture-sitecatalyst-vs-google.html"
 date: Thu Jan 28 15:40:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/01/omniture-sitecatalyst-vs-google.html

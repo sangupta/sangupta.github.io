@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Lots of work ahead...
-permalink: /2007/09/lots-of-work-ahead.html
+permalink: /tech/lots-of-work-ahead.html
 redirect_from: "/2007/09/lots-of-work-ahead.html"
 date: Tue Sep 18 16:00:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/09/lots-of-work-ahead.html
 tags: just-like-that
 ---
+
 <p align="justify">Google has finally released the much-awaited <span style="font-weight: bold;">Presentations </span>under the Google Documents umbrella. Since April, when Google first announced Presentations I was more than happy, now I could share more content with all my friends. Here is what Google has to say,<br><br></p>
 <blockquote>
     Earlier this year, we 

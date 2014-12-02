@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Java v/s ASP.NET
-permalink: /2007/02/java-vs-aspnet.html
+permalink: /tech/java-vs-aspnet.html
 redirect_from: "/2007/02/java-vs-aspnet.html"
 date: Wed Feb 21 00:05:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/02/java-vs-aspnet.html
 tags: java just-like-that
 ---
+
 <p>Last week one of my office friends sent me a mail titled <em>"100 reasons why Java is better than .NET"</em>. Since birth I have been a person who tries to defy every theorem and logic. I debate on any topic from the side that is in minority ;) Gosh minority how minor they are. Anyway's, I always try and find out why is something as it is? Why not the other way?</p> 
 <p>Coming back to the agenda, the past weekend I spent my time exploring through the features of ASP.NET. This was one territory I had never explored before. I had worked on a couple of .NET applications before, but never worked on a .NET web application. So here was the chance. I got ready to write a small application.</p> 
 <p>The application was to have a login functionality, a search functionality for the website, an access logging mechanism, a contact us page, and some other static pages. Another goal was to make use of templates. I had heard a lot about skinning and templating in .NET and thought of exploring.</p> 

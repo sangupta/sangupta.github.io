@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: post
 title: A different Captcha for Java developers
-permalink: /2008/02/different-captcha-for-java-developers.html
+permalink: /tech/different-captcha-for-java-developers.html
 redirect_from: "/2008/02/different-captcha-for-java-developers.html"
 date: Thu Feb 07 17:45:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/02/different-captcha-for-java-developers.html
 ---
+
 A while ago I was just cruising from one website to another, when I came across 
 <a href="http://myjavaserver.com">MJS - MyJavaServer.com</a>. A website that provides free Java hosting to developers so that they can go ahead and hone their web application skills.
 <br>
