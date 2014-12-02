@@ -64,3 +64,9 @@ body {
 .monoDate {
   font-family: Monaco, "Courier New", monospace;
 }
+
+/** Fix PRE background **/
+pre {
+  background-color: #000;
+  color: #777;
+}
