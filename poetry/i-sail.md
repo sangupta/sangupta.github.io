@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 permalink: /poetry/i-sail.html
 title: I Sail!
 redirect_from: "/2010/05/i-sail.html"
+category: poetry
 ---
 
 I Sail!

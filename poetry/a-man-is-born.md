@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: A Man is Born
 permalink: /poetry/a-man-is-born.html
 redirect_from: "/2007/06/man-is-born.html"
+category: poetry
 ---
 
 A Man is Born

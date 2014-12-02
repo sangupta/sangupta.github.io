@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: A Promise
 permalink: /poetry/promise.html
 redirect_from: "/2009/09/promise.html"
+category: poetry
 ---
 
 A Promise

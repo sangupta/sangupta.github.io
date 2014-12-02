@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 permalink: /poetry/seven.html
 redirect_from: "/2010/01/seven.html"
+category: poetry
 ---
 
 Seven!

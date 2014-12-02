@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Festival of Lights
 permalink: /poetry/festival-of-lights.html
 redirect_from: "/2007/11/festival-of-lights.html"
+category: poetry
 ---
 
 <img src="http://3.bp.blogspot.com/_Igofzvi0TDM/RzSJDYg3GYI/AAAAAAAACJY/xd8ZumeIUl4/s400/shreeom.jpg" >

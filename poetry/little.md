@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: A Little
 permalink: /poetry/little.html
 redirect_from: "/2010/03/little.html"
+category: poetry
 ---
 
 A Little

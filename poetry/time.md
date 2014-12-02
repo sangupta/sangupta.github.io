@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 permalink: /poetry/time.html
 redirect_from: "/2010/08/time.html"
+category: poetry
 title: Time
 ---
 

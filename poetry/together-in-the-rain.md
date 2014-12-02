@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Together in the Rain
 permalink: /poetry/together-in-the-rain.html
 redirect_from: "/2007/07/together-in-rain.html"
+category: poetry
 ---
 
 Together in the Rain

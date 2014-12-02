@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Search for Salvation
 permalink: /poetry/search-for-salvation.html
 redirect_from: "/2008/03/search-for-salvation.html"
+category: poetry
 ---
 
 Search For Salvation

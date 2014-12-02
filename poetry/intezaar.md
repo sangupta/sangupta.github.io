@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Intezaar - Wait!
 permalink: /poetry/intezaar.html
 redirect_from: "/2007/09/blog-post.html"

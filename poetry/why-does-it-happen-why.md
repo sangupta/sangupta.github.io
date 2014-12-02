@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Why does it happen, Why?
 permalink: /poetry/why-does-it-happen-why.html
 redirect_from: "/2008/04/why-does-it-happen-why.html"
+category: poetry
 ---
 
 Why does it happen, Why?

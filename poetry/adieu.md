@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Adieu!
 permalink: /poetry/adieu.html
 redirect_from: "/2009/03/adieu.html"
+category: poetry
 ---
 
 Adieu !!!

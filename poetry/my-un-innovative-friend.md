@@ -1,8 +1,9 @@
 ---
-layout: default
-title:
+layout: post
+title: My Un-Innovative Friend
 permalink: /poetry/my-un-innovative-friend.html
 redirect_from: "/2009/10/my-un-innovative-friend.html"
+category: poetry
 ---
 
 My Un-Innovative Friend ;)

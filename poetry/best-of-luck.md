@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 permalink: /poetry/best-of-luck.html
 redirect_from: "/2009/10/best-of-luck.html"
+category: poetry
 title: Best of Luck!!!
 ---
 

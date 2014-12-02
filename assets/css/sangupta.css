@@ -60,3 +60,7 @@ body {
 .main .page-header {
   margin-top: 0;
 }
+
+.monoDate {
+  font-family: Monaco, "Courier New", monospace;
+}

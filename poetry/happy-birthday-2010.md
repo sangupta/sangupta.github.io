@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Happy Birthday!
 permalink: /poetry/happy-birthday-2.html
 redirect_from: "/2010/10/happy-birthday.html"
+category: poetry
 ---
 
 Happy Birthday!

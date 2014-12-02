@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 permalink: /poetry/tid-bits.html
 redirect_from: "/2010/03/tid-bits.html"
+category: poetry
 ---
 
 Tid Bits

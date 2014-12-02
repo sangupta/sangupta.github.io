@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 permalink: /poetry/evenstar.html
 redirect_from: "/2010/04/evenstar.html"
+category: poetry
 title: Evenstar!
 ---
 

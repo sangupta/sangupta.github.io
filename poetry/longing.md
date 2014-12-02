@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: The Longing
 permalink: /poetry/longing.html
 redirect_from: "/2009/08/longing.html"
+category: poetry
 ---
 
 The Longing

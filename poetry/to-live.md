@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: To Live
 permalink: /poetry.to-live.html
 redirect_from: "/2010/10/to-live.html"
+category: poetry
 ---
 
 To Live!

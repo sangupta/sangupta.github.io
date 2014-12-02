@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: One Fine Day
 permalink: /poetry/one-fine-day.html
 redirect_from: "/2011/04/one-fine-day.html"
+category: poetry
 ---
 
 One Fine Day

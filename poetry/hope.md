@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: The Hope
 permalink: /poetry/hope.html
 redirect_from: "/2009/09/hope.html"
+category: poetry
 ---
 
 The Hope

@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Elegant Stranger
 permalink: /poetry/elegant-stranger.html
 redirect_from: "/2008/02/elegant-stranger.html"
+category: poetry
 ---
 
 Elegant Stranger!

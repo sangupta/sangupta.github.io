@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Once Again
 permalink: /poetry/once-again.html
 redirect_from: "/2008/04/once-again.html"
+category: poetry
 ---
 
 Once Again

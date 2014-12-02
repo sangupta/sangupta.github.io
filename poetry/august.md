@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: August
 permalink: /poetry/august.html
 redirect_from: "/2007/06/august.html"
+category: poetry
 ---
 
 August

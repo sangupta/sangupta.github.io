@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 permalink: /poetry/princess-of-egypt.html
 title: Princess of Egypt
 redirect_from: "/2010/01/princess-of-egypt.html"
+category: poetry
 ----
 
 Princess of Egypt!

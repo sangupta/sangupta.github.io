@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: The Proposal
 permalink: /poetry/proposal.html
 redirect_from: "/2009/08/proposal.html"
+category: poetry
 ---
 
 The Proposal

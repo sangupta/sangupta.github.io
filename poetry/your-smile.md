@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Your Smile
 permalink: /poetry/your-smile.html
 redirect_from: "/2011/04/your-smile.html"
+category: poetry
 ---
 
 Your Smile

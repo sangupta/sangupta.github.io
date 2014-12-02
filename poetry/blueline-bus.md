@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Blueline Bus
 permalink: /poetry/blueline-bus.html
 redirect_from: "/2007/10/blueline-bus.html"
+category: poetry
 ---
 
 Blueline Bus

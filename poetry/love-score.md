@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Love Score
 permalink: /poetry/love-score.html
 redirect_from: "/2009/09/love-score.html"
+category: poetry
 ---
 
 Love Score

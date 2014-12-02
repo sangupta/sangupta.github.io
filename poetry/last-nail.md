@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: The Last Nail
 permalink: /poetry/last-nail.html
 redirect_from: "/2009/05/last-nail.html"
+category: poetry
 ---
 
 The Last Nail
