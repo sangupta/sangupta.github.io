@@ -5,7 +5,7 @@ title: Poetry Blog Archive
 
 <h2>Blog Archive - Poetry</h2>
 
-{% for post in site.posts offset: 0 limit: 50 %}
+{% for post in site.posts offset: 0 %}
 	{% if post.category == 'poetry' %}
 		<div class="row">
 			<span class="text-muted monoDate">   

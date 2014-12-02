@@ -5,13 +5,17 @@ title: Blogs Archive
 
 <h2>Blogs Archive - All Blogs</h2>
 
-{% for post in site.posts offset: 0 limit: 50 %}
+{% for post in site.posts offset: 0 %}
 	<div class="row">
 		<span class="text-muted monoDate">   
 			{{ post.date | date_to_string }} :
 		</span> 
 		<a href="{{ post.url }}">{{ post.title }}</a>
-		&nbsp;=&nbsp;
-		<i>post.category</i>
+		&nbsp;-&nbsp;
+		{% if post.category %}
+			<i><a href="/blog/{{ post.category }}.html">{{ post.category }}</a></i>
+		{% else %}
+			<i><a href="/blog/tech.html">tech</a></i>
+		{% endif %}
 	</div>
 {% endfor %}
