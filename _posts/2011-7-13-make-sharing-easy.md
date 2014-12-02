@@ -6,6 +6,7 @@ redirect_from: "/2011/07/make-sharing-easy.html"
 date: Wed Jul 13 15:34:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/07/make-sharing-easy.html
 ---
+
 Yesterday a very dear friend of mine, 
 <a href="http://rajat.ahuja.name/blog/about-rajat">Rajat Ahuja</a> suggested me to add a 
 <b>Facebook Like</b> or a 

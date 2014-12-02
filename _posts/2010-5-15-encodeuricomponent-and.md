@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: encodeURIComponent and decodeURIComponent in Java
-permalink: /2010/05/encodeuricomponent-and.html
+permalink: /tech/encodeuricomponent-and.html
 redirect_from: "/2010/05/encodeuricomponent-and.html"
 date: Sat May 15 22:00:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/05/encodeuricomponent-and.html
 tags: coding-techniques java web
 ---
+
 A very common task when working with Webservices, is to encode/decode specific URI components, and for there is no direct API in Java for the same, it gets a difficult. Below is the code piece that I have been using for quite some time now. 
 <br>
 <br>Hope this helps.

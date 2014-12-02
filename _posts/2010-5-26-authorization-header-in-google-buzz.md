@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: post
 title: Authorization header in Google Buzz OAuth
-permalink: /2010/05/authorization-header-in-google-buzz.html
+permalink: /tech/authorization-header-in-google-buzz.html
 redirect_from: "/2010/05/authorization-header-in-google-buzz.html"
 date: Wed May 26 20:27:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/05/authorization-header-in-google-buzz.html
 ---
+
 While working on an Actionscript wrapper for 
 <a href="http://code.google.com/apis/buzz">Google Buzz APIs</a>, I hit a road block while authenticating via OAuth. It seems the OAuth header used when making authenticating requests to other Google APIs does not work when sending to Google Buzz API. Here is a sample of the Authorization header that I used to make it work.
 <br>

@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Find first occurrence of a string in another
-permalink: /2010/08/find-first-occurrence-of-string-in.html
+permalink: /tech/find-first-occurrence-of-string-in.html
 redirect_from: "/2010/08/find-first-occurrence-of-string-in.html"
 date: Tue Aug 24 13:45:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/08/find-first-occurrence-of-string-in.html
 tags: interview-questions
 ---
+
 <tt>Problem: </tt>Typical question for 
 <b>indexOf</b> operation. Given two strings s1 and s2, find the first index of s2 in s1 in an efficient manner.
 <br>

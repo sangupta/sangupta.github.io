@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Convert a Number (unknown base) to a Base 10 Number
-permalink: /2010/08/convert-number-unknown-base-to-base-10.html
+permalink: /tech/convert-number-unknown-base-to-base-10.html
 redirect_from: "/2010/08/convert-number-unknown-base-to-base-10.html"
 date: Mon Aug 23 13:48:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/08/convert-number-unknown-base-to-base-10.html
 tags: interview-questions
 ---
+
 <tt>Problem: </tt>Given an integer, write a program that converts the given number to a number (in base 10). The base of the given number is unknown.
 <br>
 <br>

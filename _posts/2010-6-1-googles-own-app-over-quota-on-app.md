@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Google's own App over Quota on App Engine
-permalink: /2010/06/googles-own-app-over-quota-on-app.html
+permalink: /tech/googles-own-app-over-quota-on-app.html
 redirect_from: "/2010/06/googles-own-app-over-quota-on-app.html"
 date: Tue Jun 01 22:13:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/06/googles-own-app-over-quota-on-app.html
 tags: just-like-that
 ---
+
 Found this interesting piece on scalability: Google's own application 
 <a href="http://www.gonegoogle.com/">Gone Google</a> launched to answer some of the questions on the benefits of moving to cloud, including the main reason, scalability, is itself running over quota.
 <br>

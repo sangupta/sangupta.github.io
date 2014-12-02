@@ -1,5 +1,5 @@
 ---
-layout: psot
+layout: post
 title: Microsoft's Official Websites &#58; Update
 permalink: /tech/microsofts-websites.html
 redirect_from: "/2007/03/microsofts-websites.html"

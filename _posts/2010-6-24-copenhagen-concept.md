@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Copenhagen Concept
-permalink: /2010/06/copenhagen-concept.html
+permalink: /tech/copenhagen-concept.html
 redirect_from: "/2010/06/copenhagen-concept.html"
 date: Thu Jun 24 19:49:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/06/copenhagen-concept.html

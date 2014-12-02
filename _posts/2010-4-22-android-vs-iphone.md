@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Android v/s iPhone
-permalink: /2010/04/android-vs-iphone.html
+permalink: /tech/android-vs-iphone.html
 redirect_from: "/2010/04/android-vs-iphone.html"
 date: Thu Apr 22 16:45:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/04/android-vs-iphone.html

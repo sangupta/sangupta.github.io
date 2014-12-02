@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Queue using Stacks!
-permalink: /2010/03/queue-using-stacks.html
+permalink: /tech/queue-using-stacks.html
 redirect_from: "/2010/03/queue-using-stacks.html"
 date: Fri Mar 12 11:22:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/03/queue-using-stacks.html

@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Google App Engine Spin Time
-permalink: /2010/03/google-app-engine-spin-time.html
+permalink: /tech/google-app-engine-spin-time.html
 redirect_from: "/2010/03/google-app-engine-spin-time.html"
 date: Wed Mar 31 22:34:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/03/google-app-engine-spin-time.html
 tags: coding-techniques java my-projects
 ---
+
 Google App Engine, the cloud offering from Google, has this nice feature of spinning down an instance when there are no more instances to be served for a given application. Thus, say an app X does not receive a request in some time (haven't found anything on how this time is arrived at), the JVM instance for the application is spinned down (brought down). The term 'spin down' seems to have been borrowed from the computer hard-disks that do the same to save energy. With comments all over it seems JVM instances have been brought down with even one minute of inactivity :(
 <br>
 <br>Essentially spinning down is a boon for the environment and to the concept of elasticity. First, it reduces CO2 emission by reducing the power consumption. Second, the less the number of warm instances available, less the number of machines required. Third, applications that need to serve more load can scale up easily on the same nodes, that were earlier serving some now-dormant application.

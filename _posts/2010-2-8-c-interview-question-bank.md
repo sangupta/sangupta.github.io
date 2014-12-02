@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: C++ Interview Question Bank
-permalink: /2010/02/c-interview-question-bank.html
+permalink: /tech/c-interview-question-bank.html
 redirect_from: "/2010/02/c-interview-question-bank.html"
 date: Mon Feb 08 19:33:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/02/c-interview-question-bank.html

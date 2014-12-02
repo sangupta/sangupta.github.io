@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Astrology&#58; Myth or Science?
-permalink: /2010/05/astrology-myth-or-science.html
+permalink: /tech/astrology-myth-or-science.html
 redirect_from: "/2010/05/astrology-myth-or-science.html"
 date: Sat May 15 00:41:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/05/astrology-myth-or-science.html
 tags: just-like-that
 ---
+
 <i>Please Note: The post is not meant to offend anyone or to hurt anyone's belief or sentiments. I put here the various theories/thoughts that I have found on this topic in a single plate, and leave it on to you to make your own choice.</i>
 <br>
 <br>
