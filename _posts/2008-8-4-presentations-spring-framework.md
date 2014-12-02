@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Presentations: Spring Framework
+title: Presentations&#58; Spring Framework
 permalink: /2008/08/presentations-spring-framework.html
 redirect_from: "/2008/08/presentations-spring-framework.html"
 date: Mon Aug 04 13:26:00 IST 2008

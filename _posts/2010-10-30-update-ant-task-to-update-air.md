@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Update: Ant task to update the AIR application version number
+title: Update&#58; Ant task to update the AIR application version number
 permalink: /tech/update-ant-task-to-update-air.html
 redirect_from: "/2010/10/update-ant-task-to-update-air.html"
 date: Sat Oct 30 20:48:00 IST 2010

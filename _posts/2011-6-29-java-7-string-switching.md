@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java 7: String switching
+title: Java 7&#58; String switching
 permalink: /tech/java-7-string-switching.html
 redirect_from: "/2011/06/java-7-string-switching.html"
 date: Wed Jun 29 21:33:00 IST 2011

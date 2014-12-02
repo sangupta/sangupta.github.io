@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Automation for the people: Improving code with Eclipse plugins
+title: Automation for the people&#58; Improving code with Eclipse plugins
 permalink: /2007/02/automation-for-people-improving-code.html
 redirect_from: "/2007/02/automation-for-people-improving-code.html"
 date: Tue Feb 20 11:23:00 IST 2007

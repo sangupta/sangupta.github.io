@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Analyze this: 101 Reasons Why Java is Better than .NET
+title: Analyze this&#58; 101 Reasons Why Java is Better than .NET
 permalink: /2007/02/analyze-this-101-reasons-why-java-is.html
 redirect_from: "/2007/02/analyze-this-101-reasons-why-java-is.html"
 date: Tue Feb 27 19:56:00 IST 2007

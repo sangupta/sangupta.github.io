@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Astrology: Myth or Science?
+title: Astrology&#58; Myth or Science?
 permalink: /2010/05/astrology-myth-or-science.html
 redirect_from: "/2010/05/astrology-myth-or-science.html"
 date: Sat May 15 00:41:00 IST 2010

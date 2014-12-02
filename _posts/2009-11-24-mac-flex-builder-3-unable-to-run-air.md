@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [Mac] Flex Builder 3 unable to run AIR applications
+title: (Mac) Flex Builder 3 unable to run AIR applications
 permalink: /2009/11/mac-flex-builder-3-unable-to-run-air.html
 redirect_from: "/2009/11/mac-flex-builder-3-unable-to-run-air.html"
 date: Tue Nov 24 19:48:00 IST 2009

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ActionScript: Read text file line by line, introducing readLine()
+title: ActionScript&#58; Read text file line by line, introducing readLine()
 permalink: /tech/actionscript-read-text-file-line-by.html
 redirect_from: "/2010/12/actionscript-read-text-file-line-by.html"
 date: Mon Dec 20 14:12:00 IST 2010

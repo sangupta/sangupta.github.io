@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Microsoft's Official Websites : Update
+title: Microsoft's Official Websites &#58; Update
 permalink: /2007/03/microsofts-websites.html
 redirect_from: "/2007/03/microsofts-websites.html"
 date: Fri Jun 01 15:05:00 IST 2007

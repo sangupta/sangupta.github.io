@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Instagram's Engineering Challenge: The Unshredder
+title: Instagram's Engineering Challenge&#58; The Unshredder
 permalink: /tech/instagrams-engineering-challenge.html
 redirect_from: "/2011/12/instagrams-engineering-challenge.html"
 date: Tue Dec 06 09:00:00 IST 2011

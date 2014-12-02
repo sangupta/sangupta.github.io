@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Coming soon: New features on Orkut
+title: Coming soon&#58; New features on Orkut
 permalink: /2007/03/coming-soon-new-features-on-orkut.html
 redirect_from: "/2007/03/coming-soon-new-features-on-orkut.html"
 date: Tue Mar 27 23:22:00 IST 2007
