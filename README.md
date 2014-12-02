@@ -7,7 +7,7 @@ All pages, blog posts, code etc hosted in this repository is copyright by me, un
 in the file itself.
 
 ```
-Copyright &copy; 2008-2014, Sandeep Gupta
+Copyright (C) 2006-2014, Sandeep Gupta
 ```
 
 
