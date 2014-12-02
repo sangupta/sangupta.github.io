@@ -8,9 +8,12 @@ sharingURL: http://blog.sangupta.com/2012/07/trim-down-html-content-to-desired-t
 tags: coding-techniques java
 ---
 
-`Problem:` Given some HTML code, trim it down into valid HTML code that contains text of desired length.
+Problem
+-------
+Given some HTML code, trim it down into valid HTML code that contains text of desired length.
 
 For example:
+
 ```java
 String s1 = "Text with <b>bold</b>, <i>italic</i> phrases.";
 String s2 = trimHTML(s1, 12);
@@ -19,11 +22,13 @@ System.out.println(s2);
 
 should return
 
-```java
+```html
 Text with <b>bo</b><br>
 ```
 
-`Solution:` For a project of mine, I had to use such a functionality. A quick google did not result 
+Solution
+--------
+For a project of mine, I had to use such a functionality. A quick google did not result 
 in any existing function, and thus I ended up coding the following:
 
 ```java
