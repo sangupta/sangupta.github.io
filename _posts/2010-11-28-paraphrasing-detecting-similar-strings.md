@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Paraphrasing | Detecting Similar Strings
-permalink: /2010/11/paraphrasing-detecting-similar-strings.html
+permalink: /tech/paraphrasing-detecting-similar-strings.html
 redirect_from: "/2010/11/paraphrasing-detecting-similar-strings.html"
 date: Sun Nov 28 18:49:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/11/paraphrasing-detecting-similar-strings.html
 tags: coding-techniques
 ---
+
 In the past couple of months I have developed interest in understanding how search algorithms work. This has led me to experimenting with 
 <a href="http://lucene.apache.org">Apache Lucene</a> project a lot. For those who do not know, Lucene is an open source implementation of a high-performing full-text search engine. As of today I understand (some bits and pieces of) how the content is crawled, text extracted, how are indexes stored and how can results be obtained from an index. The last being something which I have delved in deep in the past couple of months. This has been quite a learning experience and as I dwell more, the deeper the mystery it becomes.
 <br>

@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Convert between Java Servlet and Apache HttpClient Cookie's
-permalink: /2010/10/convert-between-java-servlet-and-apache.html
+permalink: /tech/convert-between-java-servlet-and-apache.html
 redirect_from: "/2010/10/convert-between-java-servlet-and-apache.html"
 date: Sun Oct 31 08:50:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/10/convert-between-java-servlet-and-apache.html
 tags: coding-techniques java
 ---
+
 When using 
 <a href="http://hc.apache.org/httpclient-3.x/index.html">Apache HttpClient</a> (now legacy), one needs to convert between Java Servlet cookies and the Apache HttpClient cookies. This basic operation is neither directly supported by the Apache HttpClient library, nor by any other open-source library. Hence, I wrote this class below to perform this utility conversions.
 <br>

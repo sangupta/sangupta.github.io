@@ -1,25 +1,369 @@
 ---
-layout: default
+layout: post
 title: ActionScript: Read text file line by line, introducing readLine()
-permalink: /2010/12/actionscript-read-text-file-line-by.html
+permalink: /tech/actionscript-read-text-file-line-by.html
 redirect_from: "/2010/12/actionscript-read-text-file-line-by.html"
 date: Mon Dec 20 14:12:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/12/actionscript-read-text-file-line-by.html
 tags: adobe-air coding-techniques
 ---
+
 Working with Adobe AIR one often needs to read text files from the user's file system. The available methods of the 
-<tt>FileStream</tt> object do not provide a convenient way to achieve the functionality of reading the file line bye line. Thus, I came up with an extended implementation of the 
-<tt>FileStream</tt> class that supports reading line by line, aptly called, 
-<tt>FileStreamWithLineReader</tt>. 
-<br>
-<br>To read a line from a text file,
-<br>
-<pre class="brush: as3">var file:File = new File("fileToBeRead.txt");<br>var stream:FileStreamWithLineReader = new FileStreamWithLineReader();<br>stream.open(file, FileMode.READ);<br><br>while(stream.bytesAvailable) {<br>    var line:String = stream.readLine();<br>    trace(line);<br>}<br></pre>
-<br>The class does not have big detrimental effect on the performance of read operations, but still I would recommend using it only for files when one needs to read the entire file line by line.
-<br>
-<br>Hope this helps.
-<br>~ Keep Walking.
-<br>
-<br>
-<br>
-<pre class="brush: as3">/**<br> *<br> * as3extensions - ActionScript Utility Classes<br> * Copyright (C) 2010-2011, myJerry Developers<br> * http://www.myjerry.org/as3extensions<br> *<br> * The file is licensed under the the Apache License, Version 2.0<br> * (the "License"); you may not use this file except in compliance with<br> * the License.  You may obtain a copy of the License at<br> *<br> *      http://www.apache.org/licenses/LICENSE-2.0<br> *<br> * Unless required by applicable law or agreed to in writing, software<br> * distributed under the License is distributed on an "AS IS" BASIS,<br> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br> *<br> * See the License for the specific language governing permissions and<br> * limitations under the License.<br> *<br> */<br><br>package org.myjerry.as3extensions.io<br>{<br> import flash.filesystem.FileStream;<br> import flash.geom.PerspectiveProjection;<br> import flash.utils.ByteArray;<br> <br> /**<br>  * An extension of the <code>flash.filesystem.FileStream</code> object that supports<br>  * reading lines from the inherent file stream. The objects uses an internal buffer so<br>  * as not to hit the performance. The default buffer size is 512 bytes.<br>  * <br>  * The object supports only standard methods of the underlying <code>FileStream</code><br>  * object.<br>  * <br>  * Usage of the class is only recommended when one tends to read the data line by line<br>  * from a file stream. If the <code>readUTFLine()</code> or <code>readMultiByteLine()</code><br>  * methods are not intended to be called, it will be preferable to use the <code>FileStream</code><br>  * object, for performance reasons only.<br>  * <br>  * @author Sandeep Gupta<br>  * @version 1.0<br>  * @since 17 Dec 2010<br>  */<br> public class FileStreamWithLineReader extends FileStream {<br>  <br>  /**<br>   * The internal buffer we maintain to be used when working with the<br>   * readLine() method.<br>   */<br>  private var buffer:ByteArray = new ByteArray();<br>  <br>  /**<br>   * The default buffer size.<br>   */<br>  private var bufferSize:uint = 512;<br>  <br>  /**<br>   * Constructor<br>   */<br>  public function FileStreamWithLineReader() {<br>   super();<br>  }<br>  <br>  /**<br>   * Set the buffer size to the given value. A value of <code>ZERO</code> will reset the buffer size<br>   * to a default value of 512 bytes.<br>   */<br>  public function setBufferSize(value:uint):void {<br>   if(value == 0) {<br>    // the trace line here is intentional to let developer's know<br>    // of the default value in debug mode.<br>    trace('FileStreamWithLineReader: Buffer set to default size of 512 bytes.');<br>    this.bufferSize = 512;<br>    return;<br>   }<br>   <br>   this.bufferSize = value;<br>  } <br>  <br>  /**<br>   * Utility method to see if check if we have data in our internal buffer.<br>   */<br>  protected function get hasBuffer():Boolean {<br>   if(buffer.length == 0) {<br>    return false;<br>   }<br>   <br>   return true;<br>  }<br>  <br>  /**<br>   * Method that returns the number of bytes that can be read in the next read<br>   * over the actual file stream. The value is the lesser amongst the buffer size<br>   * and the actual number of bytes available in the file stream.<br>   */<br>  protected function get bytesToRead():uint {<br>   return Math.min(this.bufferSize, super.bytesAvailable);<br>  }<br>  <br>  /**<br>   * Method to refill the buffer again with data from the file stream. The buffer is<br>   * either filled with the number of bytes as returned by the <code>bytesToRead()</code><br>   * method.<br>   */<br>  protected function refillBuffer():void {<br>   if(!this.hasBuffer) {<br>    super.readBytes(buffer, 0, this.bytesToRead);<br>   }<br>  }<br>  <br>  /**<br>   * Method to clean up the current buffer and move back in the original stream by the<br>   * extra bytes that were buffered in.<br>   */<br>  protected function undoBuffer():void {<br>   if(this.hasBuffer) {<br>    super.position = (super.position - this.buffer.length);<br>    this.buffer = new ByteArray();<br>   }<br>  }<br>  <br>  /**<br>   * Reads a <code>UTF-8</code> encoded line from the inherent file stream. The presence of<br>   * a line termination character '<code>\n</code>' indicates the end-of-line.<br>   */<br>  public function readUTFLine():String {<br>   return readMultiByteLine("utf-8");<br>  }<br>  <br>  /**<br>   * Reads a line in the specified encoding from the inherent file stream. The presence of<br>   * a line termination character '<code>\n</code>' indicates the end-of-line.<br>   */<br>  public function readMultiByteLine(charSet:String):String {<br>   var toReturn:String = readLine(charSet);<br>   <br>   // the following check is a fix when on windows the buffer reads between the values of<br>   // 13 and 10, which are used to indicate the end of line<br>   if(toReturn != null &amp;&amp; toReturn.charCodeAt(toReturn.length - 1) == 13) {<br>    return toReturn.substr(0, toReturn.length - 1);<br>   }<br>    <br>   return toReturn;<br>  }<br>  <br>  /**<br>   * Method that actually attempts to read a line from the inherent file stream using internal buffers<br>   * in the given encoding. If no line termination character is found, the entire stream from the current<br>   * position to the end-of-file is returned back.<br>   */<br>  protected function readLine(charSet:String):String {<br>   var joinedString:String = '';<br>   var toReturn:String = '';<br>   var extraReadString:String = ''; <br>   do {<br>    refillBuffer();<br><br>    var currentReadString:String = this.buffer.readMultiByte(this.buffer.length, charSet);<br>    <br>    // try and see if current buffer has enough data to return a line<br>    var index:int = currentReadString.indexOf('\n');<br>    if(index != -1) {<br>     if(index == 0) {<br>      // indicates that the first character of the current read string is a new line<br>      // return joined string<br>      toReturn = joinedString;<br>     } else {<br>      toReturn = joinedString + currentReadString.substr(0, index - 1);<br>     }<br><br>     extraReadString = currentReadString.substr(index + 1); <br>     this.buffer = new ByteArray();<br>     this.buffer.writeMultiByte(extraReadString, charSet);<br>     this.buffer.position = 0;<br>     <br>     return toReturn;<br>    }<br>    <br>    // check if we have more data to read from the file<br>    // if not, we can return from this point<br>    if(this.bytesToRead == 0) {<br>     this.buffer = new ByteArray();<br>     return joinedString + currentReadString;<br>    } <br>    <br>    // no the current buffer does not has enough data<br>    // move the current read string to joined string<br>    joinedString += currentReadString;<br>    this.buffer = new ByteArray();<br>   } while(true);<br>   <br>   return joinedString;<br>  }<br>  <br>  /**<br>   * Returns the number of bytes of data available for reading in the input buffer.<br>   */<br>  override public function get bytesAvailable():uint {<br>   if(this.hasBuffer) {<br>    return buffer.length + super.bytesAvailable;<br>   }<br>   <br>   return super.bytesAvailable;<br>  }<br>  <br>  /**<br>   * The current position in the buffer/file where the next read will happen.<br>   */<br>  override public function get position():Number {<br>   if(this.hasBuffer) {<br>    return this.position - buffer.length;<br>   }<br>   <br>   return super.position;<br>  }<br>  <br>  /**<br>   * Resets the next reading position in the inherent stream and adjusts the internal buffers<br>   * accordingly.<br>   */<br>  override public function set position(value:Number):void {<br>   if(this.hasBuffer) {<br>    if(value &gt; this.buffer.length) {<br>     // empty the buffer<br>     // and skip in original stream<br>     buffer = new ByteArray();<br>     value = value - buffer.length;<br>     super.position = value;<br>     return;<br>    } <br>    <br>    if(value == buffer.length) {<br>     // empty the buffer<br>     // no need to skip<br>     buffer = new ByteArray();<br>     return;<br>    }<br>    <br>    // we just need to skip inside the buffer<br>    // get how many positions do we need to skip<br>    value = this.buffer.length - value;<br>    var tempBuffer:ByteArray = new ByteArray();<br>    this.buffer.readBytes(tempBuffer, value);<br>    this.buffer = tempBuffer;<br>    return;<br>   }<br>   <br>   super.position = value;<br>  }<br>  <br>  /**<br>   * Overriden parent class functions to support buffering<br>   */<br>  <br>  <br>  override public function readBoolean():Boolean {<br>   refillBuffer();<br>   <br>   return this.buffer.readBoolean();<br>  }<br>  <br>  override public function readByte():int {<br>   refillBuffer();<br>   <br>   return this.buffer.readByte();<br>  }<br>  <br>  override public function readBytes(bytes:ByteArray, offset:uint=0, length:uint=0):void {<br>   undoBuffer();<br>   <br>   super.readBytes(bytes, offset, length);<br>  }<br>  <br>  override public function readDouble():Number {<br>   refillBuffer();<br>   <br>   return this.buffer.readDouble();<br>  }<br>  <br>  override public function readFloat():Number {<br>   refillBuffer();<br>   <br>   return this.buffer.readFloat();<br>  }<br>  <br>  override public function readInt():int {<br>   refillBuffer();<br>   <br>   return this.buffer.readInt();<br>  }<br>  <br>  override public function readObject():* {<br>   undoBuffer();<br>   <br>   return super.readObject();<br>  }<br>  <br>  override public function readShort():int {<br>   refillBuffer();<br>   <br>   return this.buffer.readShort();<br>  }<br>  <br>  override public function readUnsignedByte():uint {<br>   refillBuffer();<br>   <br>   return this.buffer.readUnsignedByte();<br>  }<br>  <br>  override public function readUnsignedInt():uint {<br>   refillBuffer();<br>   <br>   return this.buffer.readUnsignedInt();<br>  }<br>  <br>  override public function readUnsignedShort():uint {<br>   refillBuffer();<br>   <br>   return this.buffer.readUnsignedShort();<br>  }<br>  <br>  override public function readUTF():String {<br>   undoBuffer();<br>   <br>   return super.readUTF();<br>  }<br>  <br>  override public function readUTFBytes(length:uint):String {<br>   undoBuffer();<br>   <br>   return super.readUTFBytes(length);<br>  }<br> }<br>}<br></pre>
+`FileStream` object do not provide a convenient way to achieve the functionality of reading the file line-by-line. 
+Thus, I came up with an extended implementation of the `FileStream` class that supports reading line by line, aptly 
+called, `FileStreamWithLineReader`.
+
+To read a line from a text file,
+
+```
+var file:File = new File("fileToBeRead.txt");
+var stream:FileStreamWithLineReader = new FileStreamWithLineReader();
+stream.open(file, FileMode.READ);
+while(stream.bytesAvailable) {
+    var line:String = stream.readLine();
+    trace(line);
+}
+```
+
+The class does not have big detrimental effect on the performance of read operations, but still I would 
+recommend using it only for files when one needs to read the entire file line by line.
+
+```
+/**
+ *
+ * as3extensions - ActionScript Utility Classes
+ * Copyright (C) 2010-2011, myJerry Developers
+ * http://www.myjerry.org/as3extensions
+ *
+ * The file is licensed under the the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+ 
+package org.myjerry.as3extensions.io
+{
+ import flash.filesystem.FileStream;
+ import flash.geom.PerspectiveProjection;
+ import flash.utils.ByteArray;
+  
+ /**
+  * An extension of the <code>flash.filesystem.FileStream</code> object that supports
+  * reading lines from the inherent file stream. The objects uses an internal buffer so
+  * as not to hit the performance. The default buffer size is 512 bytes.
+  * 
+  * The object supports only standard methods of the underlying <code>FileStream</code>
+  * object.
+  * 
+  * Usage of the class is only recommended when one tends to read the data line by line
+  * from a file stream. If the <code>readUTFLine()</code> or <code>readMultiByteLine()</code>
+  * methods are not intended to be called, it will be preferable to use the <code>FileStream</code>
+  * object, for performance reasons only.
+  * 
+  * @author Sandeep Gupta
+  * @version 1.0
+  * @since 17 Dec 2010
+  */
+ public class FileStreamWithLineReader extends FileStream {
+   
+  /**
+   * The internal buffer we maintain to be used when working with the
+   * readLine() method.
+   */
+  private var buffer:ByteArray = new ByteArray();
+   
+  /**
+   * The default buffer size.
+   */
+  private var bufferSize:uint = 512;
+   
+  /**
+   * Constructor
+   */
+  public function FileStreamWithLineReader() {
+   super();
+  }
+   
+  /**
+   * Set the buffer size to the given value. A value of <code>ZERO</code> will reset the buffer size
+   * to a default value of 512 bytes.
+   */
+  public function setBufferSize(value:uint):void {
+   if(value == 0) {
+    // the trace line here is intentional to let developer's know
+    // of the default value in debug mode.
+    trace('FileStreamWithLineReader: Buffer set to default size of 512 bytes.');
+    this.bufferSize = 512;
+    return;
+   }
+    
+   this.bufferSize = value;
+  } 
+   
+  /**
+   * Utility method to see if check if we have data in our internal buffer.
+   */
+  protected function get hasBuffer():Boolean {
+   if(buffer.length == 0) {
+    return false;
+   }
+    
+   return true;
+  }
+   
+  /**
+   * Method that returns the number of bytes that can be read in the next read
+   * over the actual file stream. The value is the lesser amongst the buffer size
+   * and the actual number of bytes available in the file stream.
+   */
+  protected function get bytesToRead():uint {
+   return Math.min(this.bufferSize, super.bytesAvailable);
+  }
+   
+  /**
+   * Method to refill the buffer again with data from the file stream. The buffer is
+   * either filled with the number of bytes as returned by the <code>bytesToRead()</code>
+   * method.
+   */
+  protected function refillBuffer():void {
+   if(!this.hasBuffer) {
+    super.readBytes(buffer, 0, this.bytesToRead);
+   }
+  }
+   
+  /**
+   * Method to clean up the current buffer and move back in the original stream by the
+   * extra bytes that were buffered in.
+   */
+  protected function undoBuffer():void {
+   if(this.hasBuffer) {
+    super.position = (super.position - this.buffer.length);
+    this.buffer = new ByteArray();
+   }
+  }
+   
+  /**
+   * Reads a <code>UTF-8</code> encoded line from the inherent file stream. The presence of
+   * a line termination character '<code>\n</code>' indicates the end-of-line.
+   */
+  public function readUTFLine():String {
+   return readMultiByteLine("utf-8");
+  }
+   
+  /**
+   * Reads a line in the specified encoding from the inherent file stream. The presence of
+   * a line termination character '<code>\n</code>' indicates the end-of-line.
+   */
+  public function readMultiByteLine(charSet:String):String {
+   var toReturn:String = readLine(charSet);
+    
+   // the following check is a fix when on windows the buffer reads between the values of
+   // 13 and 10, which are used to indicate the end of line
+   if(toReturn != null && toReturn.charCodeAt(toReturn.length - 1) == 13) {
+    return toReturn.substr(0, toReturn.length - 1);
+   }
+     
+   return toReturn;
+  }
+   
+  /**
+   * Method that actually attempts to read a line from the inherent file stream using internal buffers
+   * in the given encoding. If no line termination character is found, the entire stream from the current
+   * position to the end-of-file is returned back.
+   */
+  protected function readLine(charSet:String):String {
+   var joinedString:String = '';
+   var toReturn:String = '';
+   var extraReadString:String = ''; 
+   do {
+    refillBuffer();
+ 
+    var currentReadString:String = this.buffer.readMultiByte(this.buffer.length, charSet);
+     
+    // try and see if current buffer has enough data to return a line
+    var index:int = currentReadString.indexOf('\n');
+    if(index != -1) {
+     if(index == 0) {
+      // indicates that the first character of the current read string is a new line
+      // return joined string
+      toReturn = joinedString;
+     } else {
+      toReturn = joinedString + currentReadString.substr(0, index - 1);
+     }
+ 
+     extraReadString = currentReadString.substr(index + 1); 
+     this.buffer = new ByteArray();
+     this.buffer.writeMultiByte(extraReadString, charSet);
+     this.buffer.position = 0;
+      
+     return toReturn;
+    }
+     
+    // check if we have more data to read from the file
+    // if not, we can return from this point
+    if(this.bytesToRead == 0) {
+     this.buffer = new ByteArray();
+     return joinedString + currentReadString;
+    } 
+     
+    // no the current buffer does not has enough data
+    // move the current read string to joined string
+    joinedString += currentReadString;
+    this.buffer = new ByteArray();
+   } while(true);
+    
+   return joinedString;
+  }
+   
+  /**
+   * Returns the number of bytes of data available for reading in the input buffer.
+   */
+  override public function get bytesAvailable():uint {
+   if(this.hasBuffer) {
+    return buffer.length + super.bytesAvailable;
+   }
+    
+   return super.bytesAvailable;
+  }
+   
+  /**
+   * The current position in the buffer/file where the next read will happen.
+   */
+  override public function get position():Number {
+   if(this.hasBuffer) {
+    return this.position - buffer.length;
+   }
+    
+   return super.position;
+  }
+   
+  /**
+   * Resets the next reading position in the inherent stream and adjusts the internal buffers
+   * accordingly.
+   */
+  override public function set position(value:Number):void {
+   if(this.hasBuffer) {
+    if(value > this.buffer.length) {
+     // empty the buffer
+     // and skip in original stream
+     buffer = new ByteArray();
+     value = value - buffer.length;
+     super.position = value;
+     return;
+    } 
+     
+    if(value == buffer.length) {
+     // empty the buffer
+     // no need to skip
+     buffer = new ByteArray();
+     return;
+    }
+     
+    // we just need to skip inside the buffer
+    // get how many positions do we need to skip
+    value = this.buffer.length - value;
+    var tempBuffer:ByteArray = new ByteArray();
+    this.buffer.readBytes(tempBuffer, value);
+    this.buffer = tempBuffer;
+    return;
+   }
+    
+   super.position = value;
+  }
+   
+  /**
+   * Overriden parent class functions to support buffering
+   */
+   
+   
+  override public function readBoolean():Boolean {
+   refillBuffer();
+    
+   return this.buffer.readBoolean();
+  }
+   
+  override public function readByte():int {
+   refillBuffer();
+    
+   return this.buffer.readByte();
+  }
+   
+  override public function readBytes(bytes:ByteArray, offset:uint=0, length:uint=0):void {
+   undoBuffer();
+    
+   super.readBytes(bytes, offset, length);
+  }
+   
+  override public function readDouble():Number {
+   refillBuffer();
+    
+   return this.buffer.readDouble();
+  }
+   
+  override public function readFloat():Number {
+   refillBuffer();
+    
+   return this.buffer.readFloat();
+  }
+   
+  override public function readInt():int {
+   refillBuffer();
+    
+   return this.buffer.readInt();
+  }
+   
+  override public function readObject():* {
+   undoBuffer();
+    
+   return super.readObject();
+  }
+   
+  override public function readShort():int {
+   refillBuffer();
+    
+   return this.buffer.readShort();
+  }
+   
+  override public function readUnsignedByte():uint {
+   refillBuffer();
+    
+   return this.buffer.readUnsignedByte();
+  }
+   
+  override public function readUnsignedInt():uint {
+   refillBuffer();
+    
+   return this.buffer.readUnsignedInt();
+  }
+   
+  override public function readUnsignedShort():uint {
+   refillBuffer();
+    
+   return this.buffer.readUnsignedShort();
+  }
+   
+  override public function readUTF():String {
+   undoBuffer();
+    
+   return super.readUTF();
+  }
+   
+  override public function readUTFBytes(length:uint):String {
+   undoBuffer();
+    
+   return super.readUTFBytes(length);
+  }
+ }
+}
+```
+
+Hope this helps.

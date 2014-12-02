@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Update: Ant task to update the AIR application version number
-permalink: /2010/10/update-ant-task-to-update-air.html
+permalink: /tech/update-ant-task-to-update-air.html
 redirect_from: "/2010/10/update-ant-task-to-update-air.html"
 date: Sat Oct 30 20:48:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/10/update-ant-task-to-update-air.html
 tags: adobe-air coding-techniques
 ---
+
 Recently 
 <a href="http://www.adobe.com/products/air/sdk/">AIR 2.5 SDK</a> was released by Adobe. One of the major changes in AIR 2.5 SDK is to the 
 <a href="http://kb2.adobe.com/cps/873/cpsid_87300.html">AIR Application Update Framework</a>. This impacts the way, one specifies an 

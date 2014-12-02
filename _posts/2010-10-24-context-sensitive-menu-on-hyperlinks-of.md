@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Context Sensitive menu on hyperlinks of Adobe AIR HTML control
-permalink: /2010/10/context-sensitive-menu-on-hyperlinks-of.html
+permalink: /tech/context-sensitive-menu-on-hyperlinks-of.html
 redirect_from: "/2010/10/context-sensitive-menu-on-hyperlinks-of.html"
 date: Sun Oct 24 18:46:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/10/context-sensitive-menu-on-hyperlinks-of.html
 tags: adobe-air coding-techniques
 ---
+
 Adobe AIR includes a rich HTML control based on the open-source 
 <a href="http://webkit.org/">WebKit</a> engine. This allows AIR applications to display rich HTML control and provide custom functionality around those web pages. Thus, an application can allow a user to display an HTML control and add functionalities like spell-check, dictionary support etc. One of the most required functionalities when making rich Web Application is the use of custom context-sensitive menus. Context-sensitive menus is a list of menu options, that open when you right click on an element of a user-interface (subject that the element supports one).
 <br>

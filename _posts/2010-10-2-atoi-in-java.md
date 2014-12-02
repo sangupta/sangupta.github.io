@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: atoi() in Java
-permalink: /2010/10/atoi-in-java.html
+permalink: /tech/atoi-in-java.html
 redirect_from: "/2010/10/atoi-in-java.html"
 date: Sat Oct 02 23:05:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/10/atoi-in-java.html
 tags: interview-questions java
 ---
+
 <tt>Problem: </tt>Write a function to convert an ASCII string to integer, similar to 
 <b>atoi()</b> function of C++.
 <br>

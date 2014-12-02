@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Java deprecated on Mac OS X
-permalink: /2010/10/java-deprecated-on-mac-os-x.html
+permalink: /tech/java-deprecated-on-mac-os-x.html
 redirect_from: "/2010/10/java-deprecated-on-mac-os-x.html"
 date: Sat Oct 23 16:51:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/10/java-deprecated-on-mac-os-x.html
 tags: java
 ---
+
 A few days back, Apple 
 <a href="http://developer.apple.com/library/mac/#releasenotes/Java/JavaSnowLeopardUpdate3LeopardUpdate8RN/NewandNoteworthy/NewandNoteworthy.html%23//apple_ref/doc/uid/TP40010380-CH4-SW1">announced</a> that they are deprecating Java on the Mac OS X operating system.The Mac App Store review guidelines, Section 2.24 mentions,
 <br>

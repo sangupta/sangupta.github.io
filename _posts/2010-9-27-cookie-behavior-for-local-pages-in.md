@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Cookie behavior for local pages in Adobe AIR HTML control
-permalink: /2010/09/cookie-behavior-for-local-pages-in.html
+permalink: /tech/cookie-behavior-for-local-pages-in.html
 redirect_from: "/2010/09/cookie-behavior-for-local-pages-in.html"
 date: Mon Sep 27 10:43:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/09/cookie-behavior-for-local-pages-in.html
 tags: adobe-air
 ---
+
 Adobe AIR includes the very powerful WebKit engine to render HTML content inside an AIR application. In one of our applications we heavily use this engine to render all sorts of HTML content. Recently, it so happened, that when viewing a local page (an HTML file on disk) the cookies set by the page were not being preserved. At first, it seemed like an AIR/WebKit limitation. Then we tried the 
 <a href="http://www.quirksmode.org/js/cookies.html">Quirks Mode Cookies</a> page for testing various scenarios, storing the file on our local machine.
 <br>

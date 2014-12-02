@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Useful Links
-permalink: /2010/11/useful-links.html
+permalink: /tech/useful-links.html
 redirect_from: "/2010/11/useful-links.html"
 date: Mon Nov 01 21:01:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/11/useful-links.html

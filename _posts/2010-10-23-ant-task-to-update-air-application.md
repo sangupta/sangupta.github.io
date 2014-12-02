@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: post
 title: Ant task to update the AIR application version number
-permalink: /2010/10/ant-task-to-update-air-application.html
+permalink: /tech/ant-task-to-update-air-application.html
 redirect_from: "/2010/10/ant-task-to-update-air-application.html"
 date: Sat Oct 23 12:53:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/10/ant-task-to-update-air-application.html
 tags: adobe-air tools
 ---
+
 <b>NOTE (30 Oct 2010): The ANT task has been updated to support changes in AIR 2.5. Read more in the <a href="http://blog.sangupta.com/2010/10/update-ant-task-to-update-air.html">updated entry</a>.</b>
 <br>
 <br>Using Continuous Integration in our AIR projects involves updating the build number of the AIR application with each build. The version number is stored in an application descriptor XML. Working with ANT updating the token involves adding a token value to the version attribute and then calling the 
