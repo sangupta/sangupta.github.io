@@ -68,3 +68,8 @@ body {
 .post-content h2 {
   font-size: 24px;
 }
+
+body {
+  background-image: url("/assets/images/bg.png");
+  background-repeat: repeat;
+}
