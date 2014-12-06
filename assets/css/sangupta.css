@@ -73,3 +73,10 @@ body {
   background-image: url("/assets/images/bg.png");
   background-repeat: repeat;
 }
+.relative {
+  position: relative;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+}

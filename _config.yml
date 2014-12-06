@@ -12,6 +12,7 @@ author:
 # code syntax highlighter to use
 highlighter: pygments
 markdown: redcarpet
+
 # pygments: true
 
 # file format encodings
