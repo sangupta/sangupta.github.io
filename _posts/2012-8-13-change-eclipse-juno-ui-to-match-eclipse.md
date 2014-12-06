@@ -7,11 +7,12 @@ date: Mon Aug 13 09:53:00 IST 2012
 sharingURL: http://blog.sangupta.com/2012/08/change-eclipse-juno-ui-to-match-eclipse.html
 tags: java workarounds
 ---
+
 Some of the Windows users, like me, who have switched to Eclipse Juno (Eclipse 4.2) might 
 not have liked the theme that ships as default. Specially, the piece around the toolbar 
 backgrounds, the code editing theme, the absence of left border along side line numbers, 
 and the overtly flashy UI containers.
-
+<!-- break here -->
 To put in plain simple words: Eclipse Juno theme actually sucks. All the hype around CSS 
 based styling might be very good technically, and a step forward, but per UX standards it 
 sucks, and it sucks hard.

@@ -15,6 +15,7 @@ As we all have heard that
 <br>The first blood was shed yesterday with some designers proposing new logos for the 
 <a href="http://incubator.apache.org/flex/">Apache Flex framework</a>. Below are the logos submitted by the time of writing. Please vote for your favorite ones at the project's 
 <a href="http://incubator.apache.org/flex/mailing-lists.html">mailing list</a>s.
+<!-- break here -->
 <br>
 <br>In case you are enthusiastic enough and are a designer, it would be helpful to propose your own thoughts for the same. Make sure you go over the 
 <a href="http://www.apache.org/licenses/icla.txt">Individual Contributor License Agreement</a> for you would need to donate your work to 

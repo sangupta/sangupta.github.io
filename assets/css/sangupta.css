@@ -60,15 +60,12 @@ body {
 .main .page-header {
   margin-top: 0;
 }
-
 .monoDate {
   font-family: Monaco, "Courier New", monospace;
 }
-
 .post-content h2 {
   font-size: 24px;
 }
-
 body {
   background-image: url("/assets/images/bg.png");
   background-repeat: repeat;
@@ -85,4 +82,15 @@ body {
 }
 .footer {
   font-size: 10px;
+}
+.social-links {
+  font-size: 20px;
+}
+.sidebar-main-link {
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+}
+.readMore {
+  font-style: italic;
 }

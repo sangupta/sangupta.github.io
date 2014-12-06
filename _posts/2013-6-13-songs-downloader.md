@@ -12,6 +12,7 @@ Today, it was the first glimpse of <a href="http://en.wikipedia.org/wiki/Monsoon
 Delhi. Today, also marks 11 months since the time I last blogged. It's not that I haven't been coding, but 
 my efforts were concentrated to ship many small or large applications both at work and personally. As 
 the weather changes today, even I change my course today and come back to the blogging world.
+<!-- break here -->
 
 As the first thing I did today, was work on a sample application that allows you to download media files from 
 <a href="http://songspk.name/">Songs.PK</a> site via the command line. The application was a hands-on in using 

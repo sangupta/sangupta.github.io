@@ -6,6 +6,7 @@ redirect_from: "/2012/07/trim-down-html-content-to-desired-text.html"
 date: Wed Jul 11 13:18:00 IST 2012
 sharingURL: http://blog.sangupta.com/2012/07/trim-down-html-content-to-desired-text.html
 tags: coding-techniques java
+excerpt: Given some HTML code, trim it down into valid HTML code that contains text of desired length.
 ---
 
 Problem

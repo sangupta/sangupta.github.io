@@ -10,10 +10,11 @@ author:
   url: http://sangupta.com
 
 # code syntax highlighter to use
-highlighter: pygments
+highlighter: none
 markdown: redcarpet
 
-# pygments: true
+# used to indicate where we split up post and excerpt
+excerpt_separator: <!-- break here -->
 
 # file format encodings
 encoding: utf-8

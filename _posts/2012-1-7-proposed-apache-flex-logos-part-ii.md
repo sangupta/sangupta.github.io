@@ -9,8 +9,8 @@ tags: apache-flex
 ---
 In continuation of my previous post on 
 <a href="http://blog.sangupta.com/2012/01/proposed-apache-flex-logos.html">Proposed Apache Flex Logos</a> here are some more logos that have been posted. Check them out.
-<br>
-<br>
+<!-- break here -->
+
 <h3>By Mihai Ene</h3>
 <div class="separator" style="clear: both; text-align: center;">
     <a href="http://cs.ibaneasa.ro/flex/flexlogoprop2-graybg.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="284" src="http://cs.ibaneasa.ro/flex/flexlogoprop2-graybg.png" width="320"></a>

@@ -8,8 +8,9 @@ sharingURL: http://blog.sangupta.com/2012/05/merge-different-scm-snapshots.html
 tags: java tools workarounds
 ---
 
-This post is about MergeRepo a small script that allows to merge two different snapshots of 
+This post is about `MergeRepo` a small script that allows to merge two different snapshots of 
 the same repository from different SCMs into one.
+<!-- break here -->
 
 Recently, I had to collaborate on a project where the code was in Subversion. As we usually 
 use Perforce, we forked a copy of the `SVN` trunk into `Perforce` and started our development. Once, 
