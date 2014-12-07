@@ -36,29 +36,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="/">sangupta</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="/blogs.html">Blogs</a></li>
-            <li><a href="/projects/index.html">Projects</a></li>
-            <li><a href="/experiments/index.html">Experiments</a></li>
-            <li><a href="#">Social</a></li>
-            <li><a href="#">Developer</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Resume</a></li>
-            <li><a href="/about.html#contactme">Contact</a></li>
-            <li><a href="/about.html">About</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+    {% include navbar.html %}
     
-    <div class="container-fluid">
+    <div class="container-fluid full-height">
         <div class="row">
             <div class="col-sm-3 col-md-2 sidebar">
                 {% include sidebar.html %}
