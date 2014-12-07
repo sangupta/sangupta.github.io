@@ -30,3 +30,27 @@
 
 - slug: interview
   name: Interview Questions
+
+- slug: java7
+  name: Java 7
+
+- slug: link-lists
+  name: Link Listings
+
+- slug: maer
+  name: Maer - Project Euler
+
+- slug: scalability
+  name: Scalability
+
+- slug: spring
+  name: Spring Framework
+
+- slug: tools
+  name: tools
+
+- slug: web
+  name: Web Development
+
+- slug: workarounds
+  name: Work-arounds
