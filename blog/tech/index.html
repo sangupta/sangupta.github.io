@@ -1,0 +1,20 @@
+---
+layout: default
+title: Keep Walking!
+---
+
+<h2>Keep Walking!</h2>
+
+<div class="posts">
+{% assign index = true %}
+{% for post in paginator.posts %}
+	{% if post.category != 'poetry' %}
+		<div class="row">
+			<span class="text-muted monoDate">   
+				{{ post.date | date_to_string }} :
+			</span> 
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</div>
+	{% endif %}
+{% endfor %}
+</div>

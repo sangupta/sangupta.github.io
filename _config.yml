@@ -28,6 +28,10 @@ production_url : http://sangupta.github.io
 # disable custom plugins
 safe: true
 
+# pagination options
+paginate: 5
+paginate_path: "tech/page:num/"
+
 # plugins approved to be used
 gems:
   - jekyll-sitemap
