@@ -19,3 +19,15 @@ Feel free to explore, criticize or abuse. just, **Keep Walking!**
 
 You may reach me at <a href="mailto:sandy.pec@gmail.com">sandy.pec@gmail.com</a>, or connect with me
 on Twitter at <a href="https://twitter.com/sangupta">@sangupta</a>.
+
+### Social Presence
+
+* Facebook: https://www.facebook.com/sandy.pec
+* Google Plus: https://plus.google.com/u/0/110645714607919970386
+* Twitter: https://twitter.com/sangupta
+* Github: https://github.com/sangupta
+* LinkedIn: http://in.linkedin.com/in/sandypec
+* Flickr: http://www.flickr.com/photos/sangupta
+* BitBucket: http://bitbucket.org/sangupta
+* HackerNews: https://news.ycombinator.com/user?id=prostoalex
+* StackOverflow: http://stackoverflow.com/users/75239/sangupta

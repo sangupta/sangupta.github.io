@@ -28,4 +28,5 @@ Another beauty is its easy integration with ANT, the build tool for almost all J
 projects. A GUI is also available for those who are more used to using the mouse 
 than the keyboard.
 
-Catch <a href="http://www.kclee.de/clemens/java/javancss/">JavaNCSS here</a>, and its <a href="http://sourceforge.net/projects/javancss2ant/">ANT task here</a>.
+Catch <a href="http://www.kclee.de/clemens/java/javancss/">JavaNCSS here</a>, and 
+its <a href="http://sourceforge.net/projects/javancss2ant/">ANT task here</a>.

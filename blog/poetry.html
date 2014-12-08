@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Poetry Blog Archive
+title: Archive - Poet Inside
 ---
 
-<h2>Blog Archive - Poetry</h2>
+<h2>Archive - Poet Inside</h2>
 
+<div class="archive">
 {% for post in site.posts offset: 0 %}
 	{% if post.category == 'poetry' %}
 		<div class="row">
@@ -15,3 +16,4 @@ title: Poetry Blog Archive
 		</div>
 	{% endif %}
 {% endfor %}
+</div>

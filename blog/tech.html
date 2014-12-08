@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Technical Blog Archive
+title: Archive - Keep Walking!
 ---
 
-<h2>Blog Archive - Technical</h2>
+<h2>Archive - Keep Walking!</h2>
 
+<div class="archive">
 {% for post in site.posts offset: 0 %}
 	{% if post.category != 'poetry' %}
 		<div class="row">
@@ -15,3 +16,4 @@ title: Technical Blog Archive
 		</div>
 	{% endif %}
 {% endfor %}
+</div>
