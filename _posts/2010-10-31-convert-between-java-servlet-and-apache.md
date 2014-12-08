@@ -8,13 +8,140 @@ sharingURL: http://blog.sangupta.com/2010/10/convert-between-java-servlet-and-ap
 tags: coding-techniques java
 ---
 
-When using 
-<a href="http://hc.apache.org/httpclient-3.x/index.html">Apache HttpClient</a> (now legacy), one needs to convert between Java Servlet cookies and the Apache HttpClient cookies. This basic operation is neither directly supported by the Apache HttpClient library, nor by any other open-source library. Hence, I wrote this class below to perform this utility conversions.
-<br>
-<br>Grab the code from my 
+When using <a href="http://hc.apache.org/httpclient-3.x/index.html">Apache HttpClient</a> 
+(now legacy), one needs to convert between Java Servlet cookies and the Apache HttpClient 
+cookies. This basic operation is neither directly supported by the Apache HttpClient library, 
+nor by any other open-source library. Hence, I wrote this class below to perform this utility 
+conversions.
+
+Grab the code from my 
 <a href="http://code.google.com/p/sangupta">Google Code</a> repository.
-<br>
-<br>Hope this helps.
-<br>
-<br>
-<pre class="brush: java">/**<br> * Copyright (C) 2010, Sandeep Gupta<br> * http://www.sangupta.com<br> * <br> * The file is licensed under the the Apache License, Version 2.0<br> * (the "License"); you may not use this file except in compliance with<br> * the License.  You may obtain a copy of the License at<br> * <br> * http://www.apache.org/licenses/LICENSE-2.0<br> * <br> * Unless required by applicable law or agreed to in writing, software<br> * distributed under the License is distributed on an "AS IS" BASIS,<br> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br> * <br> * See the License for the specific language governing permissions and<br> * limitations under the License.<br> * <br> */<br>package com.sangupta.util;<br><br>import java.util.Date;<br><br>import javax.servlet.http.Cookie;<br><br>/**<br> * Utility class to help convert Cookie objects between Java Servlet Cookie's<br> * and Apache HttpClient Cookie's. <br> * <br> * @author sangupta<br> * @version 1.0<br> * @since 30 Oct 2010<br> */<br>public class ApacheCookieUtils {<br> <br> /**<br>  * Method to convert an Apache HttpClient cookie to a Java Servlet cookie.<br>  * <br>  * @param apacheCookie the source apache cookie<br>  * @return a java servlet cookie<br>  */<br> public static Cookie servletCookieFromApacheCookie(org.apache.commons.httpclient.Cookie apacheCookie) {<br>  if(apacheCookie == null) {<br>   return null;<br>  }<br>  <br>  String name = apacheCookie.getName();<br>  String value = apacheCookie.getValue();<br>  <br>  Cookie cookie = new Cookie(name, value);<br><br>  // set the domain<br>  value = apacheCookie.getDomain();<br>  if(value != null) {<br>   cookie.setDomain(value);<br>  }<br>  <br>  // path<br>  value = apacheCookie.getPath();<br>  if(value != null) {<br>   cookie.setPath(value);<br>  }<br>  <br>  // secure<br>  cookie.setSecure(apacheCookie.getSecure());<br><br>  // comment<br>  value = apacheCookie.getComment();<br>  if(value != null) {<br>   cookie.setComment(value);<br>  }<br>  <br>  // version<br>  cookie.setVersion(apacheCookie.getVersion());<br>  <br>  // From the Apache source code, maxAge is converted to expiry date using the following formula<br>  // if (maxAge &gt;= 0) {<br>        //     setExpiryDate(new Date(System.currentTimeMillis() + maxAge * 1000L));<br>        // }<br>  // Reverse this to get the actual max age<br>  <br>  Date expiryDate = apacheCookie.getExpiryDate();<br>  if(expiryDate != null) {<br>   long maxAge = (expiryDate.getTime() - System.currentTimeMillis()) / 1000;<br>   // we have to lower down, no other option<br>   cookie.setMaxAge((int) maxAge);<br>  }<br>  <br>  // return the servlet cookie<br>  return cookie;<br> }<br> <br> /**<br>  * Method to convert a Java Servlet cookie to an Apache HttpClient cookie.<br>  * <br>  * @param cookie the Java servlet cookie to convert<br>  * @return the Apache HttpClient cookie<br>  */<br> public static org.apache.commons.httpclient.Cookie apacheCookieFromServletCookie(Cookie cookie) {<br>  if(cookie == null) {<br>   return null;<br>  }<br>  <br>  org.apache.commons.httpclient.Cookie apacheCookie = null;<br>  <br>  // get all the relevant parameters<br>     String domain = cookie.getDomain();<br>     String name = cookie.getName();<br>     String value = cookie.getValue();<br>     String path = cookie.getPath();<br>     int maxAge = cookie.getMaxAge();<br>     boolean secure = cookie.getSecure();<br>     <br>     // create the apache cookie<br>     apacheCookie = new org.apache.commons.httpclient.Cookie(domain, name, value, path, maxAge, secure);<br>     <br>     // set additional parameters<br>     apacheCookie.setComment(cookie.getComment());<br>     apacheCookie.setVersion(cookie.getVersion());<br><br>     // return the apache cookie<br>     return apacheCookie;<br> }<br><br>}</pre>
+
+Hope this helps.
+
+```java
+/**
+ * Copyright (C) 2010, Sandeep Gupta
+ * http://www.sangupta.com
+ * 
+ * The file is licensed under the the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * 
+ */
+package com.sangupta.util;
+ 
+import java.util.Date;
+ 
+import javax.servlet.http.Cookie;
+ 
+/**
+ * Utility class to help convert Cookie objects between Java Servlet Cookie's
+ * and Apache HttpClient Cookie's. 
+ * 
+ * @author sangupta
+ * @version 1.0
+ * @since 30 Oct 2010
+ */
+public class ApacheCookieUtils {
+  
+ /**
+  * Method to convert an Apache HttpClient cookie to a Java Servlet cookie.
+  * 
+  * @param apacheCookie the source apache cookie
+  * @return a java servlet cookie
+  */
+ public static Cookie servletCookieFromApacheCookie(org.apache.commons.httpclient.Cookie apacheCookie) {
+  if(apacheCookie == null) {
+   return null;
+  }
+   
+  String name = apacheCookie.getName();
+  String value = apacheCookie.getValue();
+   
+  Cookie cookie = new Cookie(name, value);
+ 
+  // set the domain
+  value = apacheCookie.getDomain();
+  if(value != null) {
+   cookie.setDomain(value);
+  }
+   
+  // path
+  value = apacheCookie.getPath();
+  if(value != null) {
+   cookie.setPath(value);
+  }
+   
+  // secure
+  cookie.setSecure(apacheCookie.getSecure());
+ 
+  // comment
+  value = apacheCookie.getComment();
+  if(value != null) {
+   cookie.setComment(value);
+  }
+   
+  // version
+  cookie.setVersion(apacheCookie.getVersion());
+   
+  // From the Apache source code, maxAge is converted to expiry date using the following formula
+  // if (maxAge >= 0) {
+        //     setExpiryDate(new Date(System.currentTimeMillis() + maxAge * 1000L));
+        // }
+  // Reverse this to get the actual max age
+   
+  Date expiryDate = apacheCookie.getExpiryDate();
+  if(expiryDate != null) {
+   long maxAge = (expiryDate.getTime() - System.currentTimeMillis()) / 1000;
+   // we have to lower down, no other option
+   cookie.setMaxAge((int) maxAge);
+  }
+   
+  // return the servlet cookie
+  return cookie;
+ }
+  
+ /**
+  * Method to convert a Java Servlet cookie to an Apache HttpClient cookie.
+  * 
+  * @param cookie the Java servlet cookie to convert
+  * @return the Apache HttpClient cookie
+  */
+ public static org.apache.commons.httpclient.Cookie apacheCookieFromServletCookie(Cookie cookie) {
+  if(cookie == null) {
+   return null;
+  }
+   
+  org.apache.commons.httpclient.Cookie apacheCookie = null;
+   
+  // get all the relevant parameters
+     String domain = cookie.getDomain();
+     String name = cookie.getName();
+     String value = cookie.getValue();
+     String path = cookie.getPath();
+     int maxAge = cookie.getMaxAge();
+     boolean secure = cookie.getSecure();
+      
+     // create the apache cookie
+     apacheCookie = new org.apache.commons.httpclient.Cookie(domain, name, value, path, maxAge, secure);
+      
+     // set additional parameters
+     apacheCookie.setComment(cookie.getComment());
+     apacheCookie.setVersion(cookie.getVersion());
+ 
+     // return the apache cookie
+     return apacheCookie;
+ }
+ 
+}
+```

@@ -6,9 +6,6 @@ redirect_from: "/2009/10/happy-birthday.html"
 category: poetry
 ---
 
-Happy Birthday!!!
------------------
-
 colorful candles on the cake,
 a mild blow is what it would take,
 waiting for long, family and friends,
