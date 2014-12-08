@@ -10,7 +10,7 @@ author:
   url: http://sangupta.com
 
 # code syntax highlighter to use
-highlighter: none
+highlighter: pygments
 markdown: redcarpet
 
 # used to indicate where we split up post and excerpt
