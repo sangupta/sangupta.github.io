@@ -8,26 +8,250 @@ sharingURL: http://blog.sangupta.com/2011/06/isbn-book-renaming.html
 tags: java my-projects tools
 ---
 
-Being a lazy Saturday morning, on breakfast table my father told me that how he was spending his time. He downloaded some books from the internet where in the file was named using the ISBN number of the book, say as, 
-<b>1590595262.pdf</b> for the 
-<i>The Robosapien Companion</i>, and that he was spending time renaming these books by searching Google and giving the file a proper name. I felt bad that me being a developer, still my dad was wasting time on something futile.
-<br>
-<br>Hence, I loaded my 
-<a href="http://www.eclipse.org">Eclipse</a> and sat to write a small command line tool that can do the same. Given a folder the tool will pick up all the files in the folder (except ZIP files), find files that may be ISBN named, and once found, will try and hit the free webservice at 
-<a href="http://isbndb.org">ISBNDB</a> to retrieve the book name. If retrieval succeeds, the file will be renamed as per the book name, else skipped.
-<br>
-<br>The tool can be downloaded from my 
+Being a lazy Saturday morning, on breakfast table my father told me that how he was 
+spending his time. He downloaded some books from the internet where in the file was 
+named using the ISBN number of the book, say as, `1590595262.pdf` for the **The Robosapien
+Companion**, and that he was spending time renaming these books by searching Google 
+and giving the file a proper name. I felt bad that me being a developer, still my dad 
+was wasting time on something futile.
+
+Hence, I loaded my `Eclipse` and sat to write a small command line tool that can do the 
+same. Given a folder the tool will pick up all the files in the folder (except ZIP files), 
+find files that may be ISBN named, and once found, will try and hit the free webservice at 
+<a href="http://isbndb.org">ISBNDB</a> to retrieve the book name. If retrieval succeeds, 
+the file will be renamed as per the book name, else skipped.
+
+The tool can be downloaded from my 
 <a href="http://code.google.com/p/sangupta/downloads/detail?name=ISBNBookRenamer-1.0-b2.jar">Google Code repository</a>. Using the tool is plain and simple,
-<br>
-<blockquote>
-    <pre>$ java -jar ISBNBookRenamer-1.0-b2.jar &lt;folder&gt;<br></pre>
-</blockquote>where 
-<b>folder</b> is the folder that consists of files named as 
-<tt>&lt;ISBN number&gt;.*</tt>. Note that any file ending in 
-<b>.ZIP</b> will be skipped.
-<br>
-<br>The source code for the tool is as under,
-<br>
-<br>
-<pre class="brush: java">/**<br> * Copyright (C) 2011, Sandeep Gupta<br> * http://www.sangupta.com<br> * <br> * The file is licensed under the the Apache License, Version 2.0<br> * (the "License"); you may not use this file except in compliance with<br> * the License.  You may obtain a copy of the License at<br> * <br> * http://www.apache.org/licenses/LICENSE-2.0<br> * <br> * Unless required by applicable law or agreed to in writing, software<br> * distributed under the License is distributed on an "AS IS" BASIS,<br> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br> * <br> * See the License for the specific language governing permissions and<br> * limitations under the License.<br> * <br> */<br><br>package com.sangupta.isbntools;<br><br>import java.io.BufferedReader;<br>import java.io.File;<br>import java.io.IOException;<br>import java.io.InputStream;<br>import java.io.InputStreamReader;<br>import java.net.HttpURLConnection;<br>import java.net.MalformedURLException;<br>import java.net.URL;<br><br>/**<br> * Command line tool to rename the files in a folder picking the filename to be<br> * the ISBN number and hitting the webservice at http://isbndb.com for getting <br> * the filename.<br> * <br> * All files ending in extension ZIP are skipped.<br> * <br> * @author sangupta<br> * @since 18 Jun 2011<br> */<br>public class ISBNBookRenamer {<br>        <br>        /**<br>         * The API key for the site http://isbndb.com where we get the book names from the ISBN code<br>         */<br>        private static final String ISBNDB_API_KEY = "";<br>        <br>        /**<br>         * The API end point that will be hit<br>         */<br>        private static final String API_URL = "http://isbndb.com/api/books.xml?access_key=" + ISBNDB_API_KEY + "&amp;index1=isbn&amp;value1=";<br><br>        /**<br>         * The main entry point.<br>         * <br>         * @param args<br>         */<br>        public static void main(String[] args) {<br>                // check for proper usage<br>                if(args.length != 1) {<br>                        System.out.println("Usage: ");<br>                        System.out.println("       $ java -jar ISBNBookRenamer &lt;folder&gt;");<br>                        System.out.println("              folder: the folder where all books are stored");<br>                        return;<br>                }<br><br>                // perform sanity checks<br>                String folderPath = args[0];<br>                File folder = new File(folderPath);<br>                <br>                if(!folder.exists()) {<br>                        System.out.println("The folder path you specified does not exists.");<br>                        return;<br>                }<br>                <br>                if(!folder.isDirectory()) {<br>                        System.out.println("The path you specified is not a folder.");<br>                        return;<br>                }<br>                <br>                // get a list of all files<br>                File[] files = folder.listFiles();<br>                if(files == null || files.length == 0) {<br>                        System.out.println("No file in folder to work upon.");<br>                        return;<br>                }<br>                <br>                for(File localFile : files) {<br>                        renameBook(localFile);<br>                }<br>                <br>                System.out.println("Done renaming books.");<br>        }<br><br>        /**<br>         * Processes the given file and renames the file as per ISBN bookname<br>         * if possible.<br>         * <br>         * @param localFile<br>         */<br>        private static void renameBook(File localFile) {<br>                String fileName = localFile.getName();<br>                String parentFolder = localFile.getParent();<br>                <br>                // strip off name and extension<br>                String name = null, extension = null;<br>                int extensionIndex = fileName.lastIndexOf('.');<br>                if(extensionIndex != -1) {<br>                        name = fileName.substring(0, extensionIndex);<br>                        extension = fileName.substring(extensionIndex + 1);<br>                        if(extension.equalsIgnoreCase("zip")) {<br>                                System.out.println("Filename " + fileName + "extension is ZIP... skipping!");<br>                                return;<br>                        }<br>                }<br>                <br>                if(name.length() != 10) {<br>                        System.out.println("Filename " + fileName + "is longer than 10 characters... skipping!");<br>                        return;<br>                }<br>                <br>                // now fetch the ISBN name for the book<br>                String bookName = getISBNBookName(name);<br>                if(bookName == null) {<br>                        System.out.println("Unable to fetch book name for file: " + fileName + "... skipping!");<br>                        return;<br>                }<br>                <br>                // rename the book<br>                bookName = sanitizeBookName(bookName);<br>                <br>                String newFileName = bookName + '.' + extension;<br>                File newFile = new File(parentFolder + File.separatorChar + newFileName);<br>                System.out.println("Renaming " + fileName + " to " + newFileName);<br>                boolean success = localFile.renameTo(newFile);<br>                if(!success) {<br>                        System.out.println("Failed renaming " + fileName + " to " + newFileName);<br>                        return;<br>                }<br>        }<br><br>        /**<br>         * Sanitize the bookname and remove characters that cannot be a part of the filename<br>         * <br>         * @param bookName<br>         * @return<br>         */<br>        private static String sanitizeBookName(String bookName) {<br>                bookName = bookName.replace(':', '_');<br>                return bookName;<br>        }<br><br>        /**<br>         * Given the ISBN number, return the bookname as possible.<br>         * <br>         * @param name<br>         * @return<br>         */<br>        private static String getISBNBookName(String name) {<br>                String urlToHit = API_URL + name;<br>                <br>                // hit the webservice<br>                HttpURLConnection conn = null;<br>                InputStream in = null;<br>            BufferedReader rd = null;<br>                try {<br>                        conn = (HttpURLConnection) (new URL(urlToHit)).openConnection();<br>                        conn.setRequestMethod("GET");<br>        <br>                        int responseCode = conn.getResponseCode();<br>                        if (responseCode != HttpURLConnection.HTTP_OK) {<br>                                in = conn.getErrorStream();<br>                                rd = new BufferedReader(new InputStreamReader(in));<br>                            String tempLine = rd.readLine();<br>                            StringBuilder response = new StringBuilder();<br>                                while (tempLine != null) {<br>                                        response.append(tempLine).append("\n");<br>                                        tempLine = rd.readLine();<br>                                }<br>                                <br>                                System.out.println("Unable to get book name for " + name + " with error: " + response.toString());<br>                        } else {<br>                                in = conn.getInputStream();<br>                                rd = new BufferedReader(new InputStreamReader(in));<br>                            String tempLine = rd.readLine();<br>                            StringBuilder response = new StringBuilder();<br>                                while (tempLine != null) {<br>                                        response.append(tempLine).append("\n");<br>                                        tempLine = rd.readLine();<br>                                }<br>                                <br>                                String xml = response.toString();<br>                                System.out.println("XML response returned is: " + xml);<br>                                <br>                                int titleIndexStart = xml.indexOf("&lt;Title&gt;");<br>                                if(titleIndexStart == -1) {<br>                                        System.out.println("Unable to get book title via XML response: " + xml);<br>                                        return null;<br>                                }<br>                                <br>                                int titleIndexEnd = xml.indexOf("&lt;/Title&gt;", titleIndexStart);<br>                                String bookName = xml.substring(titleIndexStart + 7, titleIndexEnd);<br>                                return bookName;<br>                        }<br>                } catch (MalformedURLException e) {<br>                        System.out.println("Unable to get book name for book " + name);<br>                        e.printStackTrace();<br>                } catch (IOException e) {<br>                        System.out.println("Unable to get book name for book " + name);<br>                        e.printStackTrace();<br>                } finally {<br>                        if(conn != null) {<br>                                conn.disconnect();<br>                        }<br><br>                        if(rd != null) {<br>                                try {<br>                                        rd.close();<br>                                } catch (IOException e) {<br>                                        e.printStackTrace();<br>                                }<br>                        }<br>                        <br>                        if(in != null) {<br>                                try {<br>                                        in.close();<br>                                } catch (IOException e) {<br>                                        e.printStackTrace();<br>                                }<br>                        }<br>                }<br>                <br>                return null;<br>        }<br><br>}<br></pre>
-<br>Hope this helps.
+
+```bash
+$ java -jar ISBNBookRenamer-1.0-b2.jar <folder>;
+
+where 
+	folder is the folder that consists of files named as 
+	<ISBN number>.*. Note that any file ending in .ZIP will be skipped.
+```
+
+Hope this helps!
+
+The source code for the tool is as under,
+
+```java
+package com.sangupta.isbntools;
+ 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+ 
+/**
+ * Command line tool to rename the files in a folder picking the filename to be
+ * the ISBN number and hitting the webservice at http://isbndb.com for getting 
+ * the filename.
+ * 
+ * All files ending in extension ZIP are skipped.
+ * 
+ * @author sangupta
+ * @since 18 Jun 2011
+ */
+public class ISBNBookRenamer {
+         
+        /**
+         * The API key for the site http://isbndb.com where we get the book names from the ISBN code
+         */
+        private static final String ISBNDB_API_KEY = "";
+         
+        /**
+         * The API end point that will be hit
+         */
+        private static final String API_URL = "http://isbndb.com/api/books.xml?access_key=" + ISBNDB_API_KEY + "&index1=isbn&value1=";
+ 
+        /**
+         * The main entry point.
+         * 
+         * @param args
+         */
+        public static void main(String[] args) {
+                // check for proper usage
+                if(args.length != 1) {
+                        System.out.println("Usage: ");
+                        System.out.println("       $ java -jar ISBNBookRenamer <folder>");
+                        System.out.println("              folder: the folder where all books are stored");
+                        return;
+                }
+ 
+                // perform sanity checks
+                String folderPath = args[0];
+                File folder = new File(folderPath);
+                 
+                if(!folder.exists()) {
+                        System.out.println("The folder path you specified does not exists.");
+                        return;
+                }
+                 
+                if(!folder.isDirectory()) {
+                        System.out.println("The path you specified is not a folder.");
+                        return;
+                }
+                 
+                // get a list of all files
+                File[] files = folder.listFiles();
+                if(files == null || files.length == 0) {
+                        System.out.println("No file in folder to work upon.");
+                        return;
+                }
+                 
+                for(File localFile : files) {
+                        renameBook(localFile);
+                }
+                 
+                System.out.println("Done renaming books.");
+        }
+ 
+        /**
+         * Processes the given file and renames the file as per ISBN bookname
+         * if possible.
+         * 
+         * @param localFile
+         */
+        private static void renameBook(File localFile) {
+                String fileName = localFile.getName();
+                String parentFolder = localFile.getParent();
+                 
+                // strip off name and extension
+                String name = null, extension = null;
+                int extensionIndex = fileName.lastIndexOf('.');
+                if(extensionIndex != -1) {
+                        name = fileName.substring(0, extensionIndex);
+                        extension = fileName.substring(extensionIndex + 1);
+                        if(extension.equalsIgnoreCase("zip")) {
+                                System.out.println("Filename " + fileName + "extension is ZIP... skipping!");
+                                return;
+                        }
+                }
+                 
+                if(name.length() != 10) {
+                        System.out.println("Filename " + fileName + "is longer than 10 characters... skipping!");
+                        return;
+                }
+                 
+                // now fetch the ISBN name for the book
+                String bookName = getISBNBookName(name);
+                if(bookName == null) {
+                        System.out.println("Unable to fetch book name for file: " + fileName + "... skipping!");
+                        return;
+                }
+                 
+                // rename the book
+                bookName = sanitizeBookName(bookName);
+                 
+                String newFileName = bookName + '.' + extension;
+                File newFile = new File(parentFolder + File.separatorChar + newFileName);
+                System.out.println("Renaming " + fileName + " to " + newFileName);
+                boolean success = localFile.renameTo(newFile);
+                if(!success) {
+                        System.out.println("Failed renaming " + fileName + " to " + newFileName);
+                        return;
+                }
+        }
+ 
+        /**
+         * Sanitize the bookname and remove characters that cannot be a part of the filename
+         * 
+         * @param bookName
+         * @return
+         */
+        private static String sanitizeBookName(String bookName) {
+                bookName = bookName.replace(':', '_');
+                return bookName;
+        }
+ 
+        /**
+         * Given the ISBN number, return the bookname as possible.
+         * 
+         * @param name
+         * @return
+         */
+        private static String getISBNBookName(String name) {
+                String urlToHit = API_URL + name;
+                 
+                // hit the webservice
+                HttpURLConnection conn = null;
+                InputStream in = null;
+            BufferedReader rd = null;
+                try {
+                        conn = (HttpURLConnection) (new URL(urlToHit)).openConnection();
+                        conn.setRequestMethod("GET");
+         
+                        int responseCode = conn.getResponseCode();
+                        if (responseCode != HttpURLConnection.HTTP_OK) {
+                                in = conn.getErrorStream();
+                                rd = new BufferedReader(new InputStreamReader(in));
+                            String tempLine = rd.readLine();
+                            StringBuilder response = new StringBuilder();
+                                while (tempLine != null) {
+                                        response.append(tempLine).append("\n");
+                                        tempLine = rd.readLine();
+                                }
+                                 
+                                System.out.println("Unable to get book name for " + name + " with error: " + response.toString());
+                        } else {
+                                in = conn.getInputStream();
+                                rd = new BufferedReader(new InputStreamReader(in));
+                            String tempLine = rd.readLine();
+                            StringBuilder response = new StringBuilder();
+                                while (tempLine != null) {
+                                        response.append(tempLine).append("\n");
+                                        tempLine = rd.readLine();
+                                }
+                                 
+                                String xml = response.toString();
+                                System.out.println("XML response returned is: " + xml);
+                                 
+                                int titleIndexStart = xml.indexOf("<Title>");
+                                if(titleIndexStart == -1) {
+                                        System.out.println("Unable to get book title via XML response: " + xml);
+                                        return null;
+                                }
+                                 
+                                int titleIndexEnd = xml.indexOf("</Title>", titleIndexStart);
+                                String bookName = xml.substring(titleIndexStart + 7, titleIndexEnd);
+                                return bookName;
+                        }
+                } catch (MalformedURLException e) {
+                        System.out.println("Unable to get book name for book " + name);
+                        e.printStackTrace();
+                } catch (IOException e) {
+                        System.out.println("Unable to get book name for book " + name);
+                        e.printStackTrace();
+                } finally {
+                        if(conn != null) {
+                                conn.disconnect();
+                        }
+ 
+                        if(rd != null) {
+                                try {
+                                        rd.close();
+                                } catch (IOException e) {
+                                        e.printStackTrace();
+                                }
+                        }
+                         
+                        if(in != null) {
+                                try {
+                                        in.close();
+                                } catch (IOException e) {
+                                        e.printStackTrace();
+                                }
+                        }
+                }
+                 
+                return null;
+        }
+ 
+}
+```

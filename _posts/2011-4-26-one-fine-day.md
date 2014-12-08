@@ -6,9 +6,6 @@ redirect_from: "/2011/04/one-fine-day.html"
 category: poetry
 ---
 
-One Fine Day
-------------
-
 The sun is rising, clear and bright,
 winds gushing from all over,
 a huge dust storm looms,

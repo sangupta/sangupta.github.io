@@ -9,12 +9,13 @@ tags: workarounds
 ---
 
 At times when connecting devices to PC one may face an MTP error. To give a little background, 
-<b>MTP</b> stands for 
-<tt><a href="http://en.wikipedia.org/wiki/Media_Transfer_Protocol">Media Transfer Protocol</a></tt>, which essentially has been designed to transfer media (other than photographs) from various devices on to the desktop computer. Windows Vista (onwards) directly supports MTP, whereas Windows XP needs some custom drivers.
-<br>
-<br>I faced the same today, while syncing my mobile, and found the following solution to work on Windows XP.
-<br>
-<br>
+`MTP` stands for <a href="http://en.wikipedia.org/wiki/Media_Transfer_Protocol">Media Transfer Protocol</a>, 
+which essentially has been designed to transfer media (other than photographs) from various 
+devices on to the desktop computer. Windows Vista (onwards) directly supports MTP, whereas Windows 
+XP needs some custom drivers.
+
+I faced the same today, while syncing my mobile, and found the following solution to work on Windows XP.
+
 <ol>
     <li>Copy <tt>umdf.exe</tt> from <tt>wmp11-windowsxp-x86-enu.exe</tt> to your hard drive. You may use any of the two methods below:<br>
         <ol>
@@ -34,6 +35,7 @@ At times when connecting devices to PC one may face an MTP error. To give a litt
     <li>Start the installation of <tt>umdf.exe</tt>. After it's finished, (just to be sure) restart your computer.</li>
     <li>Connect your phone and Enjoy!</li>
 </ol>
-<br>As for the reason for the error cropping up, the installer CD released by the mobile had some corrupted files :)
-<br>
-<br>Hope this helps.
+
+As for the reason for the error cropping up, the installer CD released by the mobile had some corrupted files :)
+
+Hope this helps.

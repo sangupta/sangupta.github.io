@@ -6,9 +6,6 @@ redirect_from: "/2011/04/your-smile.html"
 category: poetry
 ---
 
-Your Smile
-----------
-
 If there ever was a way devised
 to quantum how much I love you
 and in my arms you could surmise

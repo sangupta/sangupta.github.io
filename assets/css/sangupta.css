@@ -81,6 +81,10 @@ body {
 .post-content h2 {
   font-size: 24px;
 }
+.post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+  padding-top: 20px;
+}
+
 body {
   background-image: url("/assets/images/bg.png");
   background-repeat: repeat;

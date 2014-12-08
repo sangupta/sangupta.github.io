@@ -9,13 +9,12 @@ tags: just-like-that
 ---
 
 
-
-    What would you do if you could travel back in time? 
-
-    Assassinate Marilyn Monroe? 
-    Go on a date with Hitler? 
-
-    Obviously...
+> What would you do if you could travel back in time? 
+>
+> Assassinate Marilyn Monroe? 
+> Go on a date with Hitler? 
+>
+> Obviously...
 
 Alex Varanese has createde some magic, 
 <a href="http://www.behance.net/Gallery/ALT1977-WE-ARE-NOT-TIME-TRAVELERS/545221">check it out.</a>

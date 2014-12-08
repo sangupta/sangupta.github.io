@@ -15,7 +15,7 @@ called, `FileStreamWithLineReader`.
 
 To read a line from a text file,
 
-```
+```as3
 var file:File = new File("fileToBeRead.txt");
 var stream:FileStreamWithLineReader = new FileStreamWithLineReader();
 stream.open(file, FileMode.READ);
@@ -28,7 +28,7 @@ while(stream.bytesAvailable) {
 The class does not have big detrimental effect on the performance of read operations, but still I would 
 recommend using it only for files when one needs to read the entire file line by line.
 
-```
+```as3
 /**
  *
  * as3extensions - ActionScript Utility Classes

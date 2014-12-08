@@ -21,7 +21,7 @@ Adding a check for its presence is definitely a good idea, but depending on the
 in my purview. Here is the code of a custom function that does the same for you, 
 and in cases, can remove your dependency on ATP.
 
-```visualbasic
+```vb.net
 Public Function MyNetWorkDays(ByVal startDate As Date, ByVal endDate As Date, Optional ByVal holidays As range = Nothing) As Integer
 	
 	Dim diff As Integer, weeks As Integer, ed As Integer, sd As Integer, delta As Integer

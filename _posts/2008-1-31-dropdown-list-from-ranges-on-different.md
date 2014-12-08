@@ -24,7 +24,7 @@ ranges in cells `A1:A10`. You would need to create a formula in a surrogate cell
 `B2` of `Sheet1`) as `=createdropdown(A1:A10,One,Two)`. The following code is used 
 to achieve the feat.
 
-```visualbasic
+```vb.net
 Public Function mergeRange(ByVal range1 As Range, ByVal range2 As Range) As Collection
 
 	Dim resultSet As New Collection
