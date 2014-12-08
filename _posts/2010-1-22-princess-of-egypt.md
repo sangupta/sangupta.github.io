@@ -6,9 +6,6 @@ redirect_from: "/2010/01/princess-of-egypt.html"
 category: poetry
 ----
 
-Princess of Egypt!
-------------------
-
 You are the princess of Egypt and I'm just a man
 I want to be with you, I feel astray
 I need a miracle how to make you understand

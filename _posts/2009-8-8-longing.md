@@ -6,9 +6,6 @@ redirect_from: "/2009/08/longing.html"
 category: poetry
 ---
 
-The Longing
------------
-
 The land and air all around us,
 devoid of moist, cracked and dry.
 Waiting for the rains to come,

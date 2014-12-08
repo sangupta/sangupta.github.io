@@ -6,8 +6,6 @@ redirect_from: "/2009/10/my-un-innovative-friend.html"
 category: poetry
 ---
 
-My Un-Innovative Friend ;)
---------------------------
 
 in this (professional) world where smartness is to adapt
 to camaflouge; to adjust for personal gains, is considered apt

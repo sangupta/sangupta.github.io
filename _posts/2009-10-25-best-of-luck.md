@@ -6,9 +6,6 @@ category: poetry
 title: Best of Luck!!!
 ---
 
-Best of Luck!!!
----------------
-
 With these verses I send 
 thousand white roses hand plucked
 to brighten up your day

@@ -6,9 +6,6 @@ redirect_from: "/2009/05/last-nail.html"
 category: poetry
 ---
 
-The Last Nail
--------------
-
 when all happiness ends
 the clouds of sorrow ascend
 when there is no one to depend

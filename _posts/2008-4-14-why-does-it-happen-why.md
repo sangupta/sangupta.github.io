@@ -7,9 +7,6 @@ category: poetry
 ---
 
 Why does it happen, Why?
-------------------------
-
-Why does it happen, Why?
 At the peak of your career,
 You realize, Time flew by,
 Leaving you secluded to cry!

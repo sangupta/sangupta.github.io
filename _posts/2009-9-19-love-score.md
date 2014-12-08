@@ -6,9 +6,6 @@ redirect_from: "/2009/09/love-score.html"
 category: poetry
 ---
 
-Love Score
-----------
-
 my fall will be for you,
 to hold you in the wild. 
 my rise will be of you,

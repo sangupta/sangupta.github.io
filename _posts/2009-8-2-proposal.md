@@ -6,9 +6,6 @@ redirect_from: "/2009/08/proposal.html"
 category: poetry
 ---
 
-The Proposal
-------------
-
 For the past decade, playing hide and seek,
 is a wish, a dream, that had gone meek.
 Since that day of vivid college images,

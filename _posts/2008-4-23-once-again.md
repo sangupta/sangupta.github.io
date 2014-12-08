@@ -6,9 +6,6 @@ redirect_from: "/2008/04/once-again.html"
 category: poetry
 ---
 
-Once Again
-----------
-
 Lying all alone, thinking,
 Of your mesmerizing smile,
 Dream after dreams, weaving,

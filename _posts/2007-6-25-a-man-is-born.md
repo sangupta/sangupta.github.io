@@ -6,9 +6,6 @@ redirect_from: "/2007/06/man-is-born.html"
 category: poetry
 ---
 
-A Man is Born
--------------
-
 When a child is born
 In this world full of thorns
 

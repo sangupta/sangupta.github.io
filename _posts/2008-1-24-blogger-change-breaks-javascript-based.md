@@ -8,12 +8,40 @@ sharingURL: http://blog.sangupta.com/2008/01/blogger-change-breaks-javascript-ba
 tags: blogger my-projects
 ---
 
-A recent Blogger update has broken many Javascript Blogger themes. The issue cropped up because of the way we code our Javascripts. Some of us are finicky enough to make them browser-safe for those old muggy browsers which don't recognize the &lt;script&gt; tag.
-<p></p>
-<pre class="brush: js">&lt;script type='text/javascript'&gt;<br>&lt;!-- prevent old browsers from rendering this<br>alert("Hello World!);<br>// prevent javascript interpreter from parsing end tag --&gt;<br>&lt;/script&gt;<br></pre>
-<p align="justify">Now with the new update, what is happening is, Blogger cleans up all the new line breaks from the &lt;script&gt; tag. This makes the whole script as a comment and renders it unfunctional. Hence, the themes break.</p>
-<pre class="brush: js">&lt;script type='text/javascript'&gt;<br>
-    <!-- prevent old browsers from rendering this alert("Hello World!); // prevent javascript interpreter from parsing end tag --><br>&lt;/script&gt;<br></pre>
-<p align="justify">The quick-fix to this problem is to encapsulate all your script inside a CDATA tag. This would solve the problem. Actually this is a problem with the scripts and not with Blogger. They just made their system XML compliant.</p>
-<pre class="brush: js">&lt;script type='text/javascript'&gt;<br>//&lt;![CDATA[<br>alert("Hello World");<br>//]]&gt;<br>&lt;/script&gt;<br></pre>
-<p align="justify">The issue was reported by Dave on my <a href="http://foliage-in-xml.blogspot.com/2007/12/modified-foliage-for-download.html">Modified Foliage Theme</a> blog. Thanks Dave for reporting it so soon.<br><br>Hope this helps.</p>
+A recent Blogger update has broken many Javascript Blogger themes. The issue cropped up 
+because of the way we code our Javascripts. Some of us are finicky enough to make them 
+browser-safe for those old muggy browsers which don't recognize the `<script>` tag.
+
+```javascript
+<script type='text/javascript'>
+<!-- prevent old browsers from rendering this
+alert("Hello World!);
+// prevent javascript interpreter from parsing end tag -->
+</script>
+```
+
+Now with the new update, what is happening is, Blogger cleans up all the new line breaks 
+from the `script` tag. This makes the whole script as a comment and renders it unfunctional. 
+Hence, the themes break.
+
+```javascript
+<script type='text/javascript'>
+<!-- prevent old browsers from rendering this alert("Hello World!); // prevent javascript interpreter from parsing end tag -->
+</script>
+```
+
+The quick-fix to this problem is to encapsulate all your script inside a `CDATA` 
+tag. This would solve the problem. Actually this is a problem with the scripts and 
+not with Blogger. They just made their system XML compliant.
+
+```javascript
+<script type='text/javascript'>
+//<![CDATA[
+alert("Hello World");
+//]]>
+</script>
+```
+
+The issue was reported by Dave on my <a href="http://foliage-in-xml.blogspot.com/2007/12/modified-foliage-for-download.html">Modified Foliage Theme</a> blog. Thanks Dave for reporting it so soon.
+
+Hope this helps.
