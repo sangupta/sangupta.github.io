@@ -6,9 +6,6 @@ redirect_from: "/2012/01/happy-birthday.html"
 category: poetry
 ---
 
-Happy Birthday!
----------------
-
 The things we feel the deepest
 are the hardest things to say!
 

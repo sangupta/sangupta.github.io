@@ -12,7 +12,9 @@ Some of the Windows users, like me, who have switched to Eclipse Juno (Eclipse 4
 not have liked the theme that ships as default. Specially, the piece around the toolbar 
 backgrounds, the code editing theme, the absence of left border along side line numbers, 
 and the overtly flashy UI containers.
+
 <!-- break here -->
+
 To put in plain simple words: Eclipse Juno theme actually sucks. All the hype around CSS 
 based styling might be very good technically, and a step forward, but per UX standards it 
 sucks, and it sucks hard.

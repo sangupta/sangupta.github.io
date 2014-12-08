@@ -11,6 +11,7 @@ tags: coding-techniques java
 If you are working with HTML5 Canvas element and are looking to save the generated PNG file 
 back on to the server via Java - it is not as easy as saving the byte array. The reason that 
 the generated PNG data is URL encoded and is prefixed with the dataURI format headers.
+
 <!-- break here -->
 
 ```javascript
