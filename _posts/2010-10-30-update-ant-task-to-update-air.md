@@ -8,32 +8,295 @@ sharingURL: http://blog.sangupta.com/2010/10/update-ant-task-to-update-air.html
 tags: adobe-air coding-techniques
 ---
 
-Recently 
-<a href="http://www.adobe.com/products/air/sdk/">AIR 2.5 SDK</a> was released by Adobe. One of the major changes in AIR 2.5 SDK is to the 
-<a href="http://kb2.adobe.com/cps/873/cpsid_87300.html">AIR Application Update Framework</a>. This impacts the way, one specifies an 
-<b>application version</b> in their AIR applications. The 
-<b>version</b> tag has been removed, and two new tags, 
-<b>versionNumber</b> and 
-<b>versionLabel</b> have been added. 
-<br>
-<br>I had earlier posted code (see 
-<a href="http://blog.sangupta.com/2010/10/ant-task-to-update-air-application.html">Ant task to update AIR application number</a>) for an ANT task that helps update the application version in a continuous integration model. In this post, I update the ANT task to support the new attributes of AIR 2.5.
-<br>
-<br>The task can be used as,
-<br>
-<pre class="brush: xml">
-    <!-- For projects up to AIR 2.0 --><br>
-    <version appdescriptor="myproject-app.xml" buildnumber="1.0.0.${build.number}">
-        <br>
-    </version><br><br>
-    <!-- For projects on AIR 2.5 --><br>
-    <version appdescriptor="myproject-app.xml" versionnumber="1.0.0" versionlabel="1.0.0.${build.number}">
-        <br>
-    </version><br></pre>
-<br>The code can also be downloaded from my 
+Recently <a href="http://www.adobe.com/products/air/sdk/">AIR 2.5 SDK</a> was released by 
+Adobe. One of the major changes in AIR 2.5 SDK is to the 
+<a href="http://kb2.adobe.com/cps/873/cpsid_87300.html">AIR Application Update Framework</a>. 
+This impacts the way, one specifies an `application version` in their AIR applications. The 
+`version` tag has been removed, and two new tags, `versionNumber` and `versionLabel` have been added. 
+
+I had earlier posted code (see 
+<a href="http://blog.sangupta.com/2010/10/ant-task-to-update-air-application.html">Ant task to 
+update AIR application number</a>) for an ANT task that helps update the application version in 
+a continuous integration model. In this post, I update the ANT task to support the new attributes of AIR 2.5.
+
+The task can be used as,
+
+```xml
+   <!-- For projects up to AIR 2.0 -->
+	<version appdescriptor="myproject-app.xml" buildnumber="1.0.0.${build.number}">
+	</version>
+	 
+	<!-- For projects on AIR 2.5 -->
+	<version appdescriptor="myproject-app.xml" versionnumber="1.0.0" versionlabel="1.0.0.${build.number}">
+	</version>
+```
+
+The code can also be downloaded from my 
 <a href="http://code.google.com/p/sangupta">Google Code</a> repository.
-<br>
-<br>
-<pre class="brush: as3">/**<br> * Copyright (C) 2010, Sandeep Gupta<br> * http://www.sangupta.com<br> * <br> * The file is licensed under the the Apache License, Version 2.0<br> * (the "License"); you may not use this file except in compliance with<br> * the License.  You may obtain a copy of the License at<br> * <br> * http://www.apache.org/licenses/LICENSE-2.0<br> * <br> * Unless required by applicable law or agreed to in writing, software<br> * distributed under the License is distributed on an "AS IS" BASIS,<br> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br> * <br> * See the License for the specific language governing permissions and<br> * limitations under the License.<br> * <br> */<br>package com.sangupta.ant.tasks;<br><br>import java.io.BufferedReader;<br>import java.io.BufferedWriter;<br>import java.io.File;<br>import java.io.FileReader;<br>import java.io.FileWriter;<br>import java.io.IOException;<br>import java.io.Writer;<br><br>import org.apache.tools.ant.BuildException;<br>import org.apache.tools.ant.Task;<br><br>/**<br>* A simple ANT task that takes in an Adobe AIR application's application descriptor<br>* XML file and replaces the &lt;version&gt; string with the given build number. The<br>* task comes handy when used in a continuous integration process. The task has been<br>* tested with AIR SDK version 1.0 to 2.5. For AIR version's up to 2.0 the task replaces<br>* the <code>version</code> tag. For AIR version 2.5, the task replaces <code>versionNumber</code><br>* and <code>versionLabel</code> tags. In case, the <code>versionLabel</code> is not<br>* specified, the task replaces the same value as <code>versionNumber</code>. The <br>* <code>versionNumber</code> should be of the format &lt;0-999&gt;.&lt;0-999&gt;.&lt;0-999&gt;<br>* <br>* Works for my use cases, your mileage may vary.<br>* <br>* <br>* <b>Note: The application descriptor file must be write-enabled before invoking the task.</b><br>* <br>* @author Sandeep Gupta <a href="mailto:sangupta@gmail.com">[email]</a><br>* @version 1.1<br>* @since 23 Oct 2010<br>*/<br>public class AIRVersionTask extends Task {<br> <br> /**<br> * The location of the application descriptor XML file.<br> */<br> private String appDescriptor = null;<br> <br> /**<br> * The build number to replace the version with.<br> */<br> private String buildNumber = null;<br> <br> /**<br>  * AIR 2.5+ build number of the form x.y.z<br>  */<br> private String versionNumber = null;<br> <br> /**<br>  * AIR 2.5+ build label string that is shown to the user (optional).<br>  */<br> private String versionLabel = null;<br> <br> /**<br> * Constant representing the platform dependent new-line character.<br> */<br> private static String newline = System.getProperty("line.separator");<br> <br> /**<br> * Here goes the task execution code, pretty self-explanatory.<br> */<br> public void execute() throws BuildException {<br>  // test for AIR version<br>  if(isEmpty(this.buildNumber) &amp;&amp; isEmpty(this.versionNumber)) {<br>   throw new BuildException("Either buildNumber or versionNumber must be specified.");<br>  }<br>  <br>  if(!isEmpty(this.buildNumber) &amp;&amp; !isEmpty(this.versionNumber)) {<br>   throw new BuildException("Only one of buildNumber or versionNumber should be specified.");<br>  }<br>  <br>  // check the file has to be an XML file<br>  if(!(this.appDescriptor != null &amp;&amp; this.appDescriptor.toLowerCase().endsWith(".xml"))) {<br>   throw new BuildException("The application descriptor must be an XML file.");<br>  }<br>  <br>  // check if the file is actually present<br>  File xml = new File(this.appDescriptor);<br>  if(!xml.exists()) {<br>   throw new BuildException("The provided application descriptor file does not exist.");<br>  }<br>  <br>  // check if this is AIR 2.5 build<br>  boolean isAir25 = false;<br>  <br>  // check for build number<br>  if(isEmpty(this.buildNumber)) {<br>   isAir25 = true;<br>  }<br>  <br>  // if there is not version label - put the version number in<br>  if(isAir25) {<br>   if(isEmpty(this.versionLabel)) {<br>    this.versionLabel = this.versionNumber;<br>   }<br>  }<br>  <br>  // read the file and modify the build number<br>  StringBuilder builder = new StringBuilder();<br>  BufferedReader reader = null;<br>  Writer output = null;<br>  <br>  try {<br>   reader =  new BufferedReader(new FileReader(xml));<br>   String line = null;<br>   while((line = reader.readLine()) != null) {<br>    <br>    if(!isAir25) {<br>     line = replaceTag(line, "version", this.buildNumber);<br>    } else {<br>     line = replaceTag(line, "versionNumber", this.versionNumber);<br>     line = replaceTag(line, "versionLabel", this.versionLabel);<br>    }<br>    <br>    builder.append(line);<br>    builder.append(newline);<br>   }<br><br>   // gracefully close the reader<br>   reader.close();<br><br>   // now we have the contents in string builder<br>   // just replace the file in<br>   output = new BufferedWriter(new FileWriter(xml));<br>   output.write(builder.toString());<br>   output.close();<br>   <br>   // all done<br>  } catch(IOException e) {<br>   throw new BuildException("Unable to set version string.", e);<br>  } finally {<br>   if(reader != null) {<br>    try {<br>     reader.close();<br>    } catch(Exception ex) {<br>     // do nothing<br>    }<br>   }<br>   <br>   if(output != null) {<br>    try {<br>     output.close();<br>    } catch(Exception ex) {<br>     // do nothing<br>    }<br>   }<br>  }<br> }<br> <br> /**<br>  * Given a tag name replace the tag value with the given value.<br>  * <br>  * @param line the line to look for tag in<br>  * @param tagName the name of the tag to search for<br>  * @param value the value to be put as tag value<br>  * @return the modified/original line depending if the tag was replaced or not<br>  */<br> private String replaceTag(String line, String tagName, String value) {<br>  String startTag = "&lt;" + tagName + "&gt;";<br>  String endTag = "
-    <!--" + tagName + "-->";<br>  <br>  String outLine = line.trim();<br>  if(outLine.startsWith(startTag) &amp;&amp; outLine.endsWith(endTag)) {<br>   int index = line.indexOf(outLine);<br>   line = line.substring(0, index) + startTag + value + endTag;<br>  }<br>  <br>  return line;<br> }<br> <br> /**<br>  * Convenience function to test if a string contains anything except whitespaces.<br>  * <br>  * @param string string to test for.<br>  * @return <code>true</code> if the string is <code>null</code> or empty, <code>false</code> otherwise.<br>  */<br> private boolean isEmpty(String string) {<br>  if(string == null || string.trim().length() == 0) {<br>   return true;<br>  }<br>  <br>  return false;<br> }<br><br> // Usual accessor's follow<br><br> /**<br>  * @return the appDescriptor<br>  */<br> public String getAppDescriptor() {<br>  return appDescriptor;<br> }<br><br> /**<br>  * @param appDescriptor the appDescriptor to set<br>  */<br> public void setAppDescriptor(String appDescriptor) {<br>  this.appDescriptor = appDescriptor;<br> }<br><br> /**<br>  * @return the buildNumber<br>  */<br> public String getBuildNumber() {<br>  return buildNumber;<br> }<br><br> /**<br>  * @param buildNumber the buildNumber to set<br>  */<br> public void setBuildNumber(String buildNumber) {<br>  this.buildNumber = buildNumber;<br> }<br><br> /**<br>  * @return the versionNumber<br>  */<br> public String getVersionNumber() {<br>  return versionNumber;<br> }<br><br> /**<br>  * @param versionNumber the versionNumber to set<br>  */<br> public void setVersionNumber(String versionNumber) {<br>  this.versionNumber = versionNumber;<br> }<br><br> /**<br>  * @return the versionLabel<br>  */<br> public String getVersionLabel() {<br>  return versionLabel;<br> }<br><br> /**<br>  * @param versionLabel the versionLabel to set<br>  */<br> public void setVersionLabel(String versionLabel) {<br>  this.versionLabel = versionLabel;<br> }<br> <br>}</pre>
-<br>Hope this helps.
+
+```as3
+/**
+ * Copyright (C) 2010, Sandeep Gupta
+ * http://www.sangupta.com
+ * 
+ * The file is licensed under the the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * 
+ */
+package com.sangupta.ant.tasks;
+ 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+ 
+import org.apache.tools.ant.BuildException;
+import org.apache.tools.ant.Task;
+ 
+/**
+* A simple ANT task that takes in an Adobe AIR application's application descriptor
+* XML file and replaces the <version> string with the given build number. The
+* task comes handy when used in a continuous integration process. The task has been
+* tested with AIR SDK version 1.0 to 2.5. For AIR version's up to 2.0 the task replaces
+* the <code>version</code> tag. For AIR version 2.5, the task replaces <code>versionNumber</code>
+* and <code>versionLabel</code> tags. In case, the <code>versionLabel</code> is not
+* specified, the task replaces the same value as <code>versionNumber</code>. The 
+* <code>versionNumber</code> should be of the format <0-999>.<0-999>.<0-999>
+* 
+* Works for my use cases, your mileage may vary.
+* 
+* 
+* <b>Note: The application descriptor file must be write-enabled before invoking the task.</b>
+* 
+* @author Sandeep Gupta <a href="mailto:sangupta@gmail.com">[email]</a>
+* @version 1.1
+* @since 23 Oct 2010
+*/
+public class AIRVersionTask extends Task {
+  
+ /**
+ * The location of the application descriptor XML file.
+ */
+ private String appDescriptor = null;
+  
+ /**
+ * The build number to replace the version with.
+ */
+ private String buildNumber = null;
+  
+ /**
+  * AIR 2.5+ build number of the form x.y.z
+  */
+ private String versionNumber = null;
+  
+ /**
+  * AIR 2.5+ build label string that is shown to the user (optional).
+  */
+ private String versionLabel = null;
+  
+ /**
+ * Constant representing the platform dependent new-line character.
+ */
+ private static String newline = System.getProperty("line.separator");
+  
+ /**
+ * Here goes the task execution code, pretty self-explanatory.
+ */
+ public void execute() throws BuildException {
+  // test for AIR version
+  if(isEmpty(this.buildNumber) && isEmpty(this.versionNumber)) {
+   throw new BuildException("Either buildNumber or versionNumber must be specified.");
+  }
+   
+  if(!isEmpty(this.buildNumber) && !isEmpty(this.versionNumber)) {
+   throw new BuildException("Only one of buildNumber or versionNumber should be specified.");
+  }
+   
+  // check the file has to be an XML file
+  if(!(this.appDescriptor != null && this.appDescriptor.toLowerCase().endsWith(".xml"))) {
+   throw new BuildException("The application descriptor must be an XML file.");
+  }
+   
+  // check if the file is actually present
+  File xml = new File(this.appDescriptor);
+  if(!xml.exists()) {
+   throw new BuildException("The provided application descriptor file does not exist.");
+  }
+   
+  // check if this is AIR 2.5 build
+  boolean isAir25 = false;
+   
+  // check for build number
+  if(isEmpty(this.buildNumber)) {
+   isAir25 = true;
+  }
+   
+  // if there is not version label - put the version number in
+  if(isAir25) {
+   if(isEmpty(this.versionLabel)) {
+    this.versionLabel = this.versionNumber;
+   }
+  }
+   
+  // read the file and modify the build number
+  StringBuilder builder = new StringBuilder();
+  BufferedReader reader = null;
+  Writer output = null;
+   
+  try {
+   reader =  new BufferedReader(new FileReader(xml));
+   String line = null;
+   while((line = reader.readLine()) != null) {
+     
+    if(!isAir25) {
+     line = replaceTag(line, "version", this.buildNumber);
+    } else {
+     line = replaceTag(line, "versionNumber", this.versionNumber);
+     line = replaceTag(line, "versionLabel", this.versionLabel);
+    }
+     
+    builder.append(line);
+    builder.append(newline);
+   }
+ 
+   // gracefully close the reader
+   reader.close();
+ 
+   // now we have the contents in string builder
+   // just replace the file in
+   output = new BufferedWriter(new FileWriter(xml));
+   output.write(builder.toString());
+   output.close();
+    
+   // all done
+  } catch(IOException e) {
+   throw new BuildException("Unable to set version string.", e);
+  } finally {
+   if(reader != null) {
+    try {
+     reader.close();
+    } catch(Exception ex) {
+     // do nothing
+    }
+   }
+    
+   if(output != null) {
+    try {
+     output.close();
+    } catch(Exception ex) {
+     // do nothing
+    }
+   }
+  }
+ }
+  
+ /**
+  * Given a tag name replace the tag value with the given value.
+  * 
+  * @param line the line to look for tag in
+  * @param tagName the name of the tag to search for
+  * @param value the value to be put as tag value
+  * @return the modified/original line depending if the tag was replaced or not
+  */
+ private String replaceTag(String line, String tagName, String value) {
+  String startTag = "<" + tagName + ">";
+  String endTag = "<!--" + tagName + "-->";
+   
+  String outLine = line.trim();
+  if(outLine.startsWith(startTag) && outLine.endsWith(endTag)) {
+   int index = line.indexOf(outLine);
+   line = line.substring(0, index) + startTag + value + endTag;
+  }
+   
+  return line;
+ }
+  
+ /**
+  * Convenience function to test if a string contains anything except whitespaces.
+  * 
+  * @param string string to test for.
+  * @return <code>true</code> if the string is <code>null</code> or empty, <code>false</code> otherwise.
+  */
+ private boolean isEmpty(String string) {
+  if(string == null || string.trim().length() == 0) {
+   return true;
+  }
+   
+  return false;
+ }
+ 
+ // Usual accessor's follow
+ 
+ /**
+  * @return the appDescriptor
+  */
+ public String getAppDescriptor() {
+  return appDescriptor;
+ }
+ 
+ /**
+  * @param appDescriptor the appDescriptor to set
+  */
+ public void setAppDescriptor(String appDescriptor) {
+  this.appDescriptor = appDescriptor;
+ }
+ 
+ /**
+  * @return the buildNumber
+  */
+ public String getBuildNumber() {
+  return buildNumber;
+ }
+ 
+ /**
+  * @param buildNumber the buildNumber to set
+  */
+ public void setBuildNumber(String buildNumber) {
+  this.buildNumber = buildNumber;
+ }
+ 
+ /**
+  * @return the versionNumber
+  */
+ public String getVersionNumber() {
+  return versionNumber;
+ }
+ 
+ /**
+  * @param versionNumber the versionNumber to set
+  */
+ public void setVersionNumber(String versionNumber) {
+  this.versionNumber = versionNumber;
+ }
+ 
+ /**
+  * @return the versionLabel
+  */
+ public String getVersionLabel() {
+  return versionLabel;
+ }
+ 
+ /**
+  * @param versionLabel the versionLabel to set
+  */
+ public void setVersionLabel(String versionLabel) {
+  this.versionLabel = versionLabel;
+ }
+  
+}
+```
+
+Hope this helps.

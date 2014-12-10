@@ -44,7 +44,8 @@ The code for the application is also available in my
 <a href="http://code.google.com/p/sangupta">Google Code</a> repository.
 
 The main MXML code is as,
-```xml
+
+```mxml
     <s:windowedapplication height="600" initialize="onInit()" width="800" xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:s="library://ns.adobe.com/flex/spark"> 
         <br> 
         <br> 
@@ -63,8 +64,8 @@ The main MXML code is as,
 
 The SCRIPT block should contain the following code,
 
-```
-import mx.controls.Menu;
+```as3
+   import mx.controls.Menu;
    import mx.events.MenuEvent;
     
    /**
