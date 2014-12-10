@@ -14,6 +14,8 @@ had coded a small command line tool that helps in renaming books as per their IS
 my father lay hands on the tools, and started using it, he found it useful but also complained 
 that it lagged features, and yes, was buggy in a way ;)
 
+<!-- break here -->
+
 So here is an update on the command line tool, with the following new features and a couple of small bug fixes:
 
 * Adds support to retain the ISBN number as the prefix or the suffix when renaming the book

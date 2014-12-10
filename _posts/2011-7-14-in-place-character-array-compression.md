@@ -6,6 +6,7 @@ redirect_from: "/2011/07/in-place-character-array-compression.html"
 date: Thu Jul 14 08:00:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/07/in-place-character-array-compression.html
 tags: interview-questions java
+excerpt: Given a character stream as an array, compress the characters in place appending the number of continuous characters by the numerical value and then the character. 
 ---
 
 Problem

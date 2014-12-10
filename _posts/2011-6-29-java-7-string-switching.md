@@ -14,6 +14,8 @@ spent some time fiddling with the new features in. One of the most striking feat
 Java 7, specially after working in ActionScript 3, is the ability to 
 <b>switch on strings</b>.
 
+<!-- break here -->
+
 ActionScript developers would know the value and power of this small feature, as it gets 
 rid of those ugly multiple `if-else if-else if-else` blocks. One way to fool around was to use 
 `enum`s but that to me seemed overkill specifically if the input data was coming from a file, 

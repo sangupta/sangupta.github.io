@@ -6,13 +6,14 @@ redirect_from: "/2011/04/itoa-in-java.html"
 date: Tue Apr 19 14:00:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/04/itoa-in-java.html
 tags: interview-questions java
+excerpt: Implement itoa() in Java
 ---
 
 Problem
 -------
 
 Write a function to convert an integer value to its ASCII equivalent and return as a 
-character array, similar to itoa() function of C++.
+character array, similar to `itoa()` function of C++.
 
 Solution
 --------

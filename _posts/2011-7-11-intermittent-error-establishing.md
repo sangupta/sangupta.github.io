@@ -17,6 +17,8 @@ of experience in using the both I rarely find it difficult debugging a bug, but 
 have come across issues that have been both time-consuming and have thrown open unleashed 
 areas of the frameworks. Recently, I happened to land debugging one such issue.
 
+<!-- break here -->
+
 When running are project, which uses 
 <a href="http://static.springsource.org/spring/docs/2.5.x/api/org/springframework/orm/hibernate3/HibernateTemplate.html">HibernateTemplate</a> 
 to simplify access to the data layer, we saw intermittent timeout issues. The intermittent 

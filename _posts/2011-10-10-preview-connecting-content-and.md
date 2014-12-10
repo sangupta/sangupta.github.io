@@ -12,6 +12,8 @@ tags: adobe-air creativity-concepts
 <a href="http://www.adobe.com">Adobe</a> presented a Social Study on how to connect content and 
 community in the cloud at <a href="http://max.adobe.com/attend">Adobe MAX 2011</a>.
 
+<!-- break here -->
+
 As mentioned for the video,
 
 >    See how a few simple UX design patterns can facilitate a shared, social learning experience 

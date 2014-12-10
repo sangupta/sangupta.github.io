@@ -14,6 +14,8 @@ gets right they donate 10 grains of rice to the World Food Programme to help end
 cause itself along with the methodology they employ makes it a huge attraction. I am addicted 
 to the game myself, but the professional commitments do not let me make the most of it.
 
+<!-- break here -->
+
 Thus, I decided to use some of my skills to better use... and developed `FRAG - Free Rice Avant Garde`.
 
 <a href="http://en.wikipedia.org/wiki/Frag_(video_gaming)">Frag</a> as per <a href="http://en.wikipedia.org">Wikipedia</a> is,

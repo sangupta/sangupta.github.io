@@ -6,10 +6,13 @@ redirect_from: "/2012/01/proposed-apache-flex-logos-round-i.html"
 date: Tue Jan 24 18:00:00 IST 2012
 sharingURL: http://blog.sangupta.com/2012/01/proposed-apache-flex-logos-round-i.html
 tags: apache-flex
+excerpt: From among all the contenders, after the first round of voting, the results are as under.
 ---
+
 From among all the contenders, after the first round of voting, the results are as under:
-<br>
-<br>
+
+<!-- break here -->
+
 <a href="http://s.apache.org/af-logo-49">Logo #49</a>:
 <br> Total: 106.5 Pts
 <br> Community: 83.5 *

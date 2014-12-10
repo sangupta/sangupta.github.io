@@ -12,6 +12,8 @@ User interface designer Cullen Dudas doesn't work at Microsoft. Yet. But from th
 of this stunning demo of his Copenhagen User Experience design concept, Microsoft might 
 want to hire him before someone else does. Could this be a first look at Windows 8?
 
+<!-- break here -->
+
 <div style="text-align: center;">
     <object height="385" width="640"><param name="movie" value="http://www.youtube.com/v/G0r6tINInrw&amp;hl=hi_IN&amp;fs=1&amp;"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/G0r6tINInrw&amp;hl=hi_IN&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></object> 
 </div>

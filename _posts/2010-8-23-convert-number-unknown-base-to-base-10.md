@@ -6,6 +6,7 @@ redirect_from: "/2010/08/convert-number-unknown-base-to-base-10.html"
 date: Mon Aug 23 13:48:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/08/convert-number-unknown-base-to-base-10.html
 tags: interview-questions
+excerpt: Convert a given number in unknown base to base 10.
 ---
 
 Problem

@@ -18,6 +18,8 @@ of AIR 3.0</a> is the introduction of
 allow a developer to extend the capabilities of the AIR platform by running native code directly from their 
 AIR applications. Quoting from Adobe's site,
 
+<!-- break here -->
+
 <blockquote>
     This new capability allows developers to:
     <br>

@@ -13,6 +13,8 @@ account. I have been using a Mac for over two years now, but my primary machine 
 a Windows one. For some reason, I had to setup the Mac running Mac OS X Snow Leopard as 
 the active machine.
 
+<!-- break here -->
+
 As with every geek, setting up IM, Mail, Chrome etc. take a precedence than setting up the 
 IDE. So here I was trying to connect iChat 5 with my Google Account. At first it seemed 
 so simple, you start iChat, it gives you an option to setup the chat account, choose 

@@ -14,6 +14,8 @@ three problems which requires one to write small pieces of code to solve, and pr
 solution as the password to the next level. Something similar to 
 <a href="http://projecteuler.net/">Project Euler</a> problems.
 
+<!-- break here -->
+
 The challenge claims it may take from anywhere between 20 minutes and 2 hours. The first 
 and second level are quite easy and should be completed within 15 minutes (including the 
 time to fire up the IDE and keying in code, lazying around in bed). The third level requires 

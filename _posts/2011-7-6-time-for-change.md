@@ -14,6 +14,8 @@ They say,
 
 How true this is, we realize as we keep walking down the lane of our life.
 
+<!-- break here -->
+
 Today, happens to be one such change. Today, I have started migrating all code from various repositories that held my code, such as 
 <a href="http://sourceforge.net/projects/jerry/">Source Forge</a>, 
 <a href="http://code.google.com/p/sangupta">Google Code</a> and other locally hosted ones, to their new home - 

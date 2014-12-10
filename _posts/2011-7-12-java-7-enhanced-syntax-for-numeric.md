@@ -10,6 +10,8 @@ tags: java7
 As far as I know, Java never updated the syntax for defining integral constants since JDK 1.2, which 
 seems like ages before. To end that drought, Java 7 defines enhanced syntax for the following,
 
+<!-- break here -->
+
 * Numeric constants expressed as binary
 * Suffix to denote type as short or byte
 * Improved readability by use of underscores in integer constants

@@ -13,6 +13,8 @@ While working today with <a href="http://www.eclipse.org/egit">EGit</a> for the
 Commit statistics and the various file details. If you ponder over the API details at 
 <a href="http://developer.github.com/v3/repos/commits/">http://developer.github.com/v3/repos/commits/</a>,
 
+<!-- break here -->
+
 ```text
 GET /repos/:user/:repo/commits/:sha
 ```

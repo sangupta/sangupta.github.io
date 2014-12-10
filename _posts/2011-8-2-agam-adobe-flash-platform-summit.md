@@ -16,6 +16,8 @@ demos and tutorials, the evangelist team shared. The sessions had packed a lot o
 which to grasp in the given time frame was difficult. Add to it the magical Bangalore weather 
 and the tasty south indian dishes for lunch, my experience enhances many a folds.
 
+<!-- break here -->
+
 Anyways, this post is not about the shared information (there will be more later), but about 
 the best time and/or session, we had in the summit. To disappoint all the geeks, what am I 
 talking of is the live performance of the contemporary carnatic rock band, 

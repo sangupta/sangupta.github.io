@@ -15,6 +15,8 @@ disk) the cookies set by the page were not being preserved. At first, it seemed 
 AIR/WebKit limitation. Then we tried the <a href="http://www.quirksmode.org/js/cookies.html">Quirks 
 Mode Cookies</a> page for testing various scenarios, storing the file on our local machine.
 
+<!-- break here -->
+
 In most of the scenarios the local page was able to store and retrieve cookies in subsequent 
 launches of application (the cookies were being saved across sessions). However, in one of 
 the use-cases it failed. On digging deep under the hood, I found the root cause of the problem. 

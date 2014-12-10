@@ -14,6 +14,8 @@ everything from a user’s perspective. For a geek, it’s just a front-end for 
 RSS/Atom feed (XML data) with many regular user experience workflows thrown in. But is t
 hat it to Reader? Let’s explore!
 
+<!-- break here -->
+
 There are many variants that have tried to imitate Google Reader, with most of them being 
 desktop clients. IE, Firefox, Safari, Outlook and host of other daily-use applications 
 bring feed aggregation to your desktop. They all provide most or more features than the 

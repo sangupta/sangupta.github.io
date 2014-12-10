@@ -16,6 +16,8 @@ tags: just-like-that
 >
 > Obviously...
 
+<!-- break here -->
+
 Alex Varanese has createde some magic, 
 <a href="http://www.behance.net/Gallery/ALT1977-WE-ARE-NOT-TIME-TRAVELERS/545221">check it out.</a>
 

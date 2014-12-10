@@ -13,6 +13,8 @@ Found this interesting piece on scalability: Google's own application
 on the benefits of moving to cloud, including the main reason, scalability, is itself 
 running over quota.
 
+<!-- break here -->
+
 Check this snapshot,
 
 <div class="separator" style="border-bottom: medium none; border-left: medium none; border-right: medium none; border-top: medium none; clear: both; text-align: center;">

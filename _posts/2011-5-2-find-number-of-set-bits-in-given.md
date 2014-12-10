@@ -6,6 +6,7 @@ redirect_from: "/2011/05/find-number-of-set-bits-in-given.html"
 date: Mon May 02 08:56:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/05/find-number-of-set-bits-in-given.html
 tags: interview-questions
+excerpt: Find the number of set bits in an integer N.
 ---
 
 Problem

@@ -13,6 +13,8 @@ The actual class implementation is available in the
 <a href="http://hg.mozilla.org/tamarin-central/file/e774dfe22b39/extensions/Trace.as">tamarin-central</a> codebase. 
 An excerpt of the class implementation is as under (copyright notices etc removed),
 
+<!-- break here -->
+
 ```as3
 package flash.trace
     public class Trace

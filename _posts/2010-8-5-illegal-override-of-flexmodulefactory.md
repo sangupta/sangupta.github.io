@@ -13,6 +13,8 @@ the following runtime error:
 
 > VerifyError: Error #1053: Illegal override of FlexModuleFactory in mx.core.FlexModuleFactory.
 
+<!-- break here -->
+
 I went back and double checked the compilation settings for the project, the Flex SDK, the AIR 
 SDK, third-party libs that are being used. All the same. Clean building the project didn't help 
 either. Not to waste time I put some debug points in my code and realized the origination of the 

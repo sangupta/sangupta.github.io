@@ -14,6 +14,8 @@ in another language. Recently, I have started migrating one of the de-facto open
 software to ActionScript. And the piece is huge. Giving different names to each overloaded 
 method and then making sure that you call the right one tends to get complicated.
 
+<!-- break here -->
+
 Assigning a variable `Object` to method arguments and then writing the overloaded method is 
 so so messy and ugly. While porting this piece, this problem had been in my mind for almost 
 a week now, and today morning it occurred that I could use `abstraction` to solve my problem. 

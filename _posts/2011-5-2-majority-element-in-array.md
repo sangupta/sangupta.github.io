@@ -6,6 +6,7 @@ redirect_from: "/2011/05/majority-element-in-array.html"
 date: Mon May 02 13:25:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/05/majority-element-in-array.html
 tags: interview-questions
+excerpt: Find the majority element in an array where the element occupies more than 50% of the array.
 ---
 
 Problem

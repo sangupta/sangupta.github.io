@@ -14,6 +14,8 @@ after many trials and errors I could solve the puzzle. And now I can sit and rel
 look at my stupid face as to why I was writing over 100 lines of code to solve, when the
 solution was simply a few lines.
 
+<!-- break here -->
+
 Anyways, am done with the challenge and I have my passcode now! Next steps involve dropping 
 them a mail with my solutions.
 

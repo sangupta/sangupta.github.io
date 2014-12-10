@@ -12,10 +12,12 @@ Problem
 -------
 
 Consider a list of lottery tickets where the only information available is the ticket 
-number, and the contact/verification details of the purchaser. The tickets are sold as p
-er 4 regions, East/West/North/South, and have the same as the first letter of the ticket 
+number, and the contact/verification details of the purchaser. The tickets are sold as 
+per 4 regions, East/West/North/South, and have the same as the first letter of the ticket 
 number. Given that one has to traverse through all ticket numbers only once, design a 
 lottery system to pick a winner.
+
+<!-- break here -->
 
 Solution
 --------

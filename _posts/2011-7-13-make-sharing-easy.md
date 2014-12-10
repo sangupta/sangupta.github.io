@@ -13,6 +13,8 @@ so that sharing becomes easy. As this was something I had turned off a while bac
 in was not so tough. Hence, from just now all over my blog the following 3 buttons will appear 
 along with the usual <b>ReTweet</b> button,
 
+<!-- break here -->
+
 * Facebook Like button
 * Google Buzz button
 * Google +1 button

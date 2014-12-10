@@ -16,6 +16,8 @@ around mathematical puzzles and problems. In their own words,
 > mathematics will help you arrive at elegant and efficient methods, the use of a 
 > computer and programming skills will be required to solve most problems.
 
+<!-- break here -->
+
 A problem is posted every week and many of them require one to write code to solve them. More 
 than the code, it wants the user to go over the internet, read more on the problem and then build 
 an optimal solution. Per their claim, most of the problems can be solved under a few seconds. If 

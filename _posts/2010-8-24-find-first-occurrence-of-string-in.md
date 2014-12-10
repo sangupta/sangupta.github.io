@@ -6,6 +6,7 @@ redirect_from: "/2010/08/find-first-occurrence-of-string-in.html"
 date: Tue Aug 24 13:45:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/08/find-first-occurrence-of-string-in.html
 tags: interview-questions
+excerpt: Implement indexOf() method in Java
 ---
 
 Problem

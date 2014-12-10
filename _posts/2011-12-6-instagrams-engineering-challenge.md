@@ -11,6 +11,8 @@ tags: code-challenge coding-techniques my-projects
 Three weeks ago, Instagram posted an engineering challenge: 
 <a href="http://instagram-engineering.tumblr.com/post/12651721845/instagram-engineering-challenge-the-unshredder">The Unshredder</a>. The challenge presented an image that had been vertically shredded/spliced and then rejoined randomly, thus resulting in an image that looks like a puzzle. What one had to do was to write a script to take that image and unshred it - yes, reconstruct the original image. 
 
+<!-- break here -->
+
 From their blog,
 
 <blockquote style="padding-left: 20px;">
