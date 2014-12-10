@@ -13,6 +13,9 @@ author:
 highlighter: pygments
 markdown: redcarpet
 
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
 # used to indicate where we split up post and excerpt
 excerpt_separator: <!-- break here -->
 
