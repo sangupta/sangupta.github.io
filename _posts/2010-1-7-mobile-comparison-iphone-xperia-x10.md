@@ -7,11 +7,13 @@ date: Thu Jan 07 22:27:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/01/mobile-comparison-iphone-xperia-x10.html
 tags: just-like-that
 ---
-<div align="justify">
-    Recently there have been various (next gen) mobile handsets announced. I was thinking of changing my phone and took some time out to compare them out. Herein I compare Apple iPhone 3GS, Sony Ericsson Xperia X10, Blackberry Storm 2, Motorola Droid, Google Nexus ONE. The results are interesting. 
-</div>
-<br>
-<br>
+
+Recently there have been various (next gen) mobile handsets announced. I was thinking of changing 
+my phone and took some time out to compare them out. Herein I compare Apple iPhone 3GS, Sony Ericsson 
+Xperia X10, Blackberry Storm 2, Motorola Droid, Google Nexus ONE. The results are interesting. 
+
+<!-- break here -->
+
 <div style="font-family: Arial; font-size: 11px;">
     <table valign="top" border="1px">
         <thead>

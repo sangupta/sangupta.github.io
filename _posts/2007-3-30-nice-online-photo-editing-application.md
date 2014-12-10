@@ -13,6 +13,8 @@ great help to me... and one of such sites in definitely <a href="http://code.goo
 Code</a>. It contains a plethora of information and many a times exposes me to web 
 applications that come in very handy at times.
 
+<!-- break here -->
+
 It was today in the day, that I found this website 
 <a href="http://www.picnik.com/">PICNIK</a>, quite an unusual name to what it does. The 
 User Interface is almost stunning and the features amazing. It is an online photo editing 

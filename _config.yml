@@ -32,7 +32,7 @@ production_url : http://sangupta.github.io
 safe: true
 
 # pagination options
-paginate: 5
+paginate: 20
 paginate_path: "tech/page:num/"
 
 # plugins approved to be used

@@ -6,11 +6,14 @@ redirect_from: "/2007/03/orkut-my-friends.html"
 date: Fri Mar 30 22:34:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/03/orkut-my-friends.html
 ---
+
 I recently discovered that a Google Map of Orkut friends aka 
 `Friend's Map` could be viewed when online. Ya... i know I sound dumb for 
 the feature has been present there on Orkut since Sep 2006, but it isn't 
 really my fault. As per Google, when the feature is enabled a user gets 
 a new feature notification. But, in my case it never happened.
+
+<!-- break here -->
 
 I was striving hard to find out how to get to the Friends Map network, 
 but it has not been documented at any place. Searching a lot didn't turn 

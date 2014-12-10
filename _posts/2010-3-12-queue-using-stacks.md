@@ -13,6 +13,8 @@ of the candidates we had interviewed had flunked the question,
 `How do you implement a Queue using two Stack's?` Hence, I take today's opportunity to 
 discuss the implementation for the problem stated above.
 
+<!-- break here -->
+
 Solution
 --------
 

@@ -7,9 +7,13 @@ date: Wed Apr 09 10:00:00 IST 2008
 sharingURL: http://blog.sangupta.com/2008/04/history-of-orkut-chain-emails.html
 ---
 
-Chain Emails - Ones that you keep receiving all through the day and wonder why don't they just land up in the SPAM folder. This morning I received one another: About the Birth of Orkut! I am sure most of you must have read this email for the number of times it has been forwarded is quite large. For those of you, who haven't, lets ponder over the contents first,
-<br>
-<br>
+Chain Emails - Ones that you keep receiving all through the day and wonder why don't they 
+just land up in the SPAM folder. This morning I received one another: About the Birth of 
+Orkut! I am sure most of you must have read this email for the number of times it has been 
+forwarded is quite large. For those of you, who haven't, lets ponder over the contents first.
+
+<!-- break here -->
+
 <span style="font-style: italic;">A guy lost his girlfriend in a train accident....but the gal's name nowhere appeared in the dead list. This guy grew up n became IT technical architect in his late 20?s, achievement in itself!!. He hired developers from the whole globe and plan to make a software where he could search for his gf through the web..Things went as planned...n he found her, after losing millions of dollars and 3 long years!! It was time to shut down the search operation, when the CEO of Google had a word with this guy n took over this application, This Software made a whopping 1 billion dollars profit in its first year, which we today know as ORKUT .</span>
 <br>
 <br>

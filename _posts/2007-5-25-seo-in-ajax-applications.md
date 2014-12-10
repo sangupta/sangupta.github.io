@@ -15,6 +15,8 @@ need to make a round trip ala GMail. But then, how about the integration of my w
 Search Engines? How would I be able to make my site Search-Engine friendly? Would SEO (Search 
 Engine Optimization) be the price I need to pay up for having a nice UI.
 
+<!-- break here -->
+
 Then began my search on Google and just typing "SEO AJAX" fetched me some 33 million links. 
 Wow! I am not the only one interested in such information. Browsing a few links threw me to 
 a plethora of information that has been gathered, written, re-written and published on Internet.

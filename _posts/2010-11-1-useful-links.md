@@ -11,6 +11,8 @@ tags: link-listings
 Starting this post, I am going to try and post useful/interesting technical 
 links that I come across the web.
 
+<!-- break here -->
+
 * Research post on <a href="http://googleresearch.blogspot.com/2010/10/poetic-machine-translation.html">Poetic Machine Translation</a>
 
 * Play <a href="http://www.international-karate.de.vu/">International Karate</a> in your browser

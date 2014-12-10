@@ -13,6 +13,8 @@ while authenticating via OAuth. It seems the OAuth header used when making authe
 requests to other Google APIs does not work when sending to Google Buzz API. Here is a 
 sample of the Authorization header that I used to make it work.
 
+<!-- break here -->
+
 ```
 Authorization: OAuth oauth_consumer_key=anonymous,oauth_version=1.0,oauth_signature_method=HMAC- SHA1,oauth_token=MY_TOKEN,oauth_nonce=D8CE99A1-B346-9474-1469-D4F370F76F37,oauth_signature=MY_SIGNATURE,oauth_timestamp=1274883043,oauth_ callback=oob
 ```

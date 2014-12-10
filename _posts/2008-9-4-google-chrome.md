@@ -15,6 +15,8 @@ the first start, as with Mozilla Firefox, it asked whether to import data
 from the current Internet Explorer. Hehe, I don't know why all browsers target 
 `IE` as their arch-rival.
 
+<!-- break here -->
+
 The first instant liking was its icon and the comic strip that accompanied 
 the Google Chrome launch. For those of you, who didn't had a chance to go 
 through the making of Chrome, <a href="http://www.google.com/googlebooks/chrome/index.html">here it is</a>. 

@@ -10,6 +10,8 @@ sharingURL: http://blog.sangupta.com/2007/01/kratumant.html
 `Azcarya` is a sanskrit word that as per <em>Capeller's Sanskrit-English Dictionary</em> means 
 strange, miraculous; wonder, prodigy.
 
+<!-- break here -->
+
 Why `Azcarya`? I chose `Azcarya` as the blog name, for one the word <strong><em>Blog</em></strong> to me 
 seems strange. I personally don't like the word blog, but there are always few downside to every good 
 thing. Miraculous, for whosever the person was behind inventing this way of push-button publishing and 

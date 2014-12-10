@@ -13,6 +13,8 @@ help developers/programmers find out the health and wellness of their code. It a
 helps the test writers by guiding them with an ordinal numbers with the number of 
 test cases needed to test each logical flow.
 
+<!-- break here -->
+
 I then started looking for something that could have given my CC details for each 
 class/method in a Java Project. As "open-source" is the buzz word today, my search 
 was limited to "open-source" project. JavaNCSS computes the CC metrics for a given 

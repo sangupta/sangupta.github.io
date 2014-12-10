@@ -15,6 +15,8 @@ time it was IE 6.0 that I was testing the theme on. The theme almost behaved in 
 except a few DIV issues. After fixing them, my attention diverted to a flicker that was caused in 
 the pull button.
 
+<!-- break here -->
+
 As soon as I hovered over the pull button, there was a flicker over the string drop animation. When 
 I de-hovered, there was a flicker again. It was occurring again and again. The browsers are supposed 
 to cache to all images, and hence, my first assumption was it to be just another CSS issue. I tried 

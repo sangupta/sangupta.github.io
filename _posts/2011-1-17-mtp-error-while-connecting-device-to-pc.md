@@ -14,6 +14,8 @@ which essentially has been designed to transfer media (other than photographs) f
 devices on to the desktop computer. Windows Vista (onwards) directly supports MTP, whereas Windows 
 XP needs some custom drivers.
 
+<!-- break here -->
+
 I faced the same today, while syncing my mobile, and found the following solution to work on Windows XP.
 
 <ol>

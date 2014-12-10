@@ -14,6 +14,8 @@ no feeds could be detected for the blog. When I gotta know of this I was surpris
 and a bit upset. One, for my blog could not be added to a blog roll and second, 
 I would not be getting more visitors, doh!
 
+<!-- break here -->
+
 Another worry was to analyze the cause behind it. as I tried it myself and with 
 a few hits and trials, I came to the conclusion that FeedBurner is the culprit 
 here. When you are redirecting all your feed viewers to FeedBurner using the Blogger's 

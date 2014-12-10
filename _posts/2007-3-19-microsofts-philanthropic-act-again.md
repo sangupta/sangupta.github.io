@@ -12,6 +12,8 @@ tags: just-like-that
 organizations when people use Windows Live Search to search for data. This is something 
 they should have started well before. But its not too late ever.
 
+<!-- break here -->
+
 They are funding 
 <a href="http://click4thecause.live.com/search/charity/default.aspx">NineMillions.org</a> and 
 <a href="http://teamseattle.live.com/Search/Charity/TeamSeattle/Default.aspx">Team Seattle</a>. 

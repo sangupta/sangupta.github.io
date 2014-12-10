@@ -17,6 +17,8 @@ Consider the palindromic numbers that can be expressed as the sum of a square an
 <b>exactly</b> 4 different ways. For example, 5229225 is a palindromic number and it can be expressed in exactly 
 4 different ways:
 
+<!-- break here -->
+
 * 2285<sup>2</sup> + 20<sup>3</sup>
 * 2223<sup>2</sup> + 66<sup>3</sup>
 * 1810<sup>2</sup> + 125<sup>3</sup>

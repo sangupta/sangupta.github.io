@@ -14,6 +14,8 @@ theme is available in formats for MS Office 97-2003 & MS Office 2007 versions.
 You may read more about the theme 
 <a href="http://code.google.com/p/azcarya/wiki/FoliagePowerPointTemplate">here</a>. 
 
+<!-- break here -->
+
 Download the theme from <a href="http://code.google.com/p/azcarya/downloads/list">here</a>. 
 The following slideshow shows some of the snaps from a presentation I am currently working on,
 

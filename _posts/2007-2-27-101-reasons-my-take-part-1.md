@@ -8,7 +8,10 @@ sharingURL: http://blog.sangupta.com/2007/02/101-reasons-my-take-part-1.html
 tags: java just-like-that
 ---
 
-<p>I devoted much of the time today reading a lot of stuff about the various points stated in the above said article. Here is what I could find and gather up. So here I come.</p> 
+I devoted much of the time today reading a lot of stuff about the various points stated in the above said article. Here is what I could find and gather up. So here I come.
+
+<!-- break here -->
+
 <p><span style="color:#ff8000;">REASON 1:</span> <a href="http://www.manageability.org/manageabilityWiki/PublicDomainAPIs">Public Domain API's</a> - Any Java public API are part of the public domain, .NET apis are proprietary and can open the door to a law suit.<br><br><span style="color:#ff8000;">MY TAKE:</span> It appears partly true to me. There are many APIs of JAVA that are not complete open-source. Yes, Microsoft definitely has not released the source code to the .NET framework, but its counterpart <a href="http://www.mono-project.com/Main_Page">MONO</a> is a fair good implementation of the framework. </p> 
 <p>But, does it really concerns a developer. How many of us have actually checked the code of the API or have needed to check it out for our own projects? Hardly anyone.</p> 
 <p> </p> 

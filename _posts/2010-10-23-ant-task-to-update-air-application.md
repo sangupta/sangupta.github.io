@@ -19,6 +19,8 @@ an application descriptor XML. Working with ANT updating the token involves addi
 a token value to the version attribute and then calling the 
 `replace` task to update the value at build time. For example,
 
+<!-- break here -->
+
 ```xml
     <!-- An application version designator (such as "v1", "2.5", or "Alpha 1"). Required. --><br>  
     <version>

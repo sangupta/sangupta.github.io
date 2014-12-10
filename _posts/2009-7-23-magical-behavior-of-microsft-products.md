@@ -12,6 +12,8 @@ Today morning I received one of those another forwarded mails telling me of all
 those crazy magical things that Microsoft products do, and which no one from Microsoft 
 including Bill Gates (as claimed in the email) is able to explain. 
 
+<!-- break here -->
+
 Without wasting a minute let's take a look at the magic and the magic behind it ;)
 
 Magic #1

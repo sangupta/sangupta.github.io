@@ -13,6 +13,8 @@ tags: evenstar my-projects
 the same, I moved one of my favorite blogs to be powered by `Evenstar`. But, the final destination 
 is far away. One day of rest, and then I embark further to make Evenstar, a place where dreams come true.
 
+<!-- break here -->
+
 Go ahead and check out my creations running on my creation. 
 <a href="http://www.poetinside.com/">PoetInside</a>, my poetry blog, is now powered by 
 `Evenstar`.

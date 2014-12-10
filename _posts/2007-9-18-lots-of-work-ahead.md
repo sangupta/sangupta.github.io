@@ -13,6 +13,8 @@ Documents umbrella. Since April, when Google first announced Presentations I was
 more than happy, now I could share more content with all my friends. Here is what 
 Google has to say,
 
+<!-- break here -->
+
 >    Earlier this year, we 
 >   <a target="_blank" href="http://googleblog.blogspot.com/2007/04/were-expecting.html">told you</a> that in addition to documents and spreadsheets, we'd soon be adding support for presentations as well. We know you've been waiting, and today we're excited to invite you to try out presentations for yourself at 
 >    <a target="_blank" href="http://documents.google.com/">http://documents.google.com</a>.

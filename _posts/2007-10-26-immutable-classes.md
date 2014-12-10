@@ -16,6 +16,8 @@ classes. From novice to experts, from beginners to leads, they were all. You utt
 classes from the JDK itself, which exhibit this behavior. Surprised - Don't be! All primitive 
 wrapper classes such as `Integer, Double, Float, Boolean, Short, Byte` etc. are immutable objects.
 
+<!-- break here -->
+
 OK - lots of talk on immutability, lets define this first. As per 
 <a href="http://www.pcmag.com/encyclopedia_term/0,2542,t=immutable+class&amp;i=44820,00.asp">PC 
 Magazine</a>, it is a class in which none of the elements in the instances of the class can be 

@@ -14,6 +14,8 @@ due to blogger changing its API in version 2. The theme is available for preview
 title="Modified XML Foliage theme for blogger">here</a>. Links to download the entire theme files, would be 
 here by tomorrow.
 
+<!-- break here -->
+
 Please let me know your feedback and comments. I am also working on a modified version on the theme, with 
 lots more options like a place for widgets, more bookmark options, calendar based navigation and lots 
 more AJAX. So keep pouring in your thoughts.

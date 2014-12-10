@@ -12,6 +12,8 @@ A recent Blogger update has broken many Javascript Blogger themes. The issue cro
 because of the way we code our Javascripts. Some of us are finicky enough to make them 
 browser-safe for those old muggy browsers which don't recognize the `<script>` tag.
 
+<!-- break here -->
+
 ```javascript
 <script type='text/javascript'>
 <!-- prevent old browsers from rendering this

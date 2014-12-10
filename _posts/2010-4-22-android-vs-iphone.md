@@ -7,6 +7,7 @@ date: Thu Apr 22 16:45:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/04/android-vs-iphone.html
 tags: just-like-that
 ---
+
 Android doesn't removes your super-hero :)
 
 <div class="separator" style="clear: both; text-align: center;">

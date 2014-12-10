@@ -8,7 +8,12 @@ sharingURL: http://blog.sangupta.com/2007/03/101-reasons-my-take-part-2.html
 tags: java just-like-that
 ---
 
-<p>Folks, it was HOLI time in India, the festival of colors, and I was enjoying the aura around me. Anyway's, continuing with the Java and .NET debate, I move ahead pondering over the next 10 reasons.</p> 
+Folks, it was HOLI time in India, the festival of colors, and I was enjoying the aura 
+around me. Anyway's, continuing with the Java and .NET debate, I move ahead pondering 
+over the next 10 reasons.
+
+<!-- break here -->
+
 <p><font color="#ff8000">REASON 11:</font> <a href="http://www.manageability.org/manageabilityWiki/NoLizardBrain">No Lizard Brain</a> - .NET programmers continue to struggle with the complexities of a hybrid managed/unmanaged environment.</p> 
 <p><font color="#ff8000">MY TAKE:</font> Managed environment is what the framework is all about. In my opinion the availability to work with unmanaged code via the USING clause, is a boon for programmers who want to part-shift their applications (still using the COM components) to migrate some code to the new platform. For those who target the Windows platform audience via the desktop applications, .NET is the best choice. It offers the fastest way to build desktop applications with the best GUI ever. Writing own controls is also a breeze. For web applications also, ASP.NET offers some respite. Integrating much needed functionality is already available as drop-down controls.</p> 
 <p>For the lizard brain, I am not a medico, so can't really analyze its brain ;)</p> 

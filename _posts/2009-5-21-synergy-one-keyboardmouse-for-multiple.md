@@ -15,6 +15,8 @@ keyboard/mouse combination. Sounds familiar, huh? I have been irritated by
 this a lot in the past, and recently, I discovered this magical tool which 
 left me cursing as to why I didn't discover it earlier.
 
+<!-- break here -->
+
 <a href="http://synergy2.sourceforge.net">Synergy</a>, an open source tool that 
 seems to be doing magic. In its own words,
 

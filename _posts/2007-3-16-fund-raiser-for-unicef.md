@@ -11,6 +11,8 @@ tags: just-like-that
 This is a fund raising campaign for the poor by UNICEF. For everyone who signs 
 up with this network, US $5 will be donated to the UNICEF to help poor across the world.
 
+<!-- break here -->
+
 My sincere request with you all to kindly check this out and help raise funds to eliminate poverty.
 <a href="http://friends.unicefusa.org/r/6740b4122506102aa29c">Click here to continue, 
 http://friends.unicefusa.org/r/6740b4122506102aa29c</a>

@@ -6,6 +6,7 @@ redirect_from: "/2011/01/row-consisting-max-continuous-chain-of.html"
 date: Sun Jan 23 13:36:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/01/row-consisting-max-continuous-chain-of.html
 tags: interview-questions
+excerpt: Find the row with maximum ONEs in a given row in a n*n matrix
 ---
 
 Problem

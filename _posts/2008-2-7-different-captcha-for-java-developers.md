@@ -12,6 +12,8 @@ A while ago I was just cruising from one website to another, when I came across
 free Java hosting to developers so that they can go ahead and hone their web 
 application skills.
 
+<!-- break here -->
+
 As with any usual website even they wanted me to signup. I am lured to test the 
 service and without delay I clicked on the link. The page it led to attracted me 
 to it. The signup form is not like every other. It includes a Challenge.

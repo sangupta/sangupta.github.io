@@ -13,6 +13,8 @@ polyline. In the field of Civil Engineering, survey drawings consists of hundred
 thousands, of 3D polylines. But a designer needs to convert them to 2D model to work and 
 plan on that.
 
+<!-- break here -->
+
 It's a pity that AutoCAD (already into Release 18) has still not addressed this problem, 
 and given a ready-to-use command. If they would have it would have been a boon for 
 engineers. Most of us use some sort of customized scripts to acheive the job, and for 

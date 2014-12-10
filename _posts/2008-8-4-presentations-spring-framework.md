@@ -15,6 +15,8 @@ There are two presentations covering the <a href="http://azcarya.googlecode.com/
 the <a href="http://azcarya.googlecode.com/files/Spring%20Abstractions.ppsx">Enterprise Service 
 Abstractions</a>.
 
+<!-- break here -->
+
 An online preview would be available shortly.
 
 Hope this helps!

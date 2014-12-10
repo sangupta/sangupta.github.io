@@ -14,6 +14,8 @@ power (or insignificance) of a DOT in the GMail email address. May be I will tak
 an example to start with. My email address happens to be `sandy.pec@gmail.com`. Preventing 
 spammers gain access to email address is so tough ;)
 
+<!-- break here -->
+
 Now guess what would happen if some one was to send an email to
 `sandypec@gmail.com`. Logically and with any other email service, the email would be 
 sent to some one with that address and not to me. Right! WRONG! This is where GMail 

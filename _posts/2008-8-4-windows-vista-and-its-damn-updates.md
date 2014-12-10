@@ -13,6 +13,8 @@ we get familiar and acquainted with. To use it on your computer becomes more of 
 standard than a choice, for computer manufacturers don't offer much systems on other 
 OS platforms, and Apple tends to be too costlier.
 
+<!-- break here -->
+
 On the same lines when I was looking for a laptop last year, I settled for a DELL 
 machine with Windows Vista Home Premium pre-loaded. But today, I realize what a 
 big mistake I made. Don't worry - not on the part of choosing DELL, but picking up 

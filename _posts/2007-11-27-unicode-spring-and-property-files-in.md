@@ -6,6 +6,7 @@ redirect_from: "/2007/11/unicode-spring-and-property-files-in.html"
 date: Tue Nov 27 12:15:00 IST 2007
 sharingURL: http://blog.sangupta.com/2007/11/unicode-spring-and-property-files-in.html
 tags: coding-techniques java
+excerpt: Handling 0xc invalid character exception in Spring configuration
 ---
 
 Problem

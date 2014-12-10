@@ -16,6 +16,8 @@ add-in. Well, to makes obviously no difference as the addin is a part of standar
 Office shipment. But, when you are developing a spreadsheet to be used by many, 
 you are not very sure whether they have the addin installed/active.
 
+<!-- break here -->
+
 Adding a check for its presence is definitely a good idea, but depending on the 
 `Analysis ToolPack` just for `NetworkDays` functionality is not worth it, atleast 
 in my purview. Here is the code of a custom function that does the same for you, 

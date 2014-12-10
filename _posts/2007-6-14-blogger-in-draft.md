@@ -12,6 +12,8 @@ Google has just invieled the draft version of some new features to come up in th
 blogger including uploading of videos. Check it out at 
 <a href="http://draft.blogger.com">http://draft.blogger.com</a>
 
+<!-- break here -->
+
 I just tried using the upload video function and its just great. It uploads your 
 video to Google videos and embeds the link directly in the post. Bye Bye to all 
 thsoe Myspace and youtube hacks.

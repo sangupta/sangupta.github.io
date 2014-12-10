@@ -10,6 +10,8 @@ tags: just-like-that
 
 Just found a list of new features the Orkut team is currently working
 
+<!-- break here -->
+
 * Allow posting more than 12 photos in an album
 * Restrict the copy and paste functions on photos
 * Allow me to change colors and layout of my profile

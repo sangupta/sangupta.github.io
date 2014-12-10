@@ -13,6 +13,8 @@ my team) on toes for a few days. It is an old issue (almost an year now) which I
 down due to some fond memories. The problem is related to J2EE Web Application project. 
 The project background is not needed to relate to the problem.
 
+<!-- break here -->
+
 The application was using Struts 1.1 and was deployed in Weblogic 8.1 SP1. The problem 
 occurred while I was deploying my WAR (in the exploded form) after modification of 
 `struts-config.xml`, and not when I was deploying the complete WAR as a whole. I had 

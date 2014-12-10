@@ -12,6 +12,8 @@ This one is going to be a short. A friend of mine did spend some time
 on <a href="http://www.poetinside.com">PoetInside</a>, which now runs on `Evenstar` 
 and informed me of three cool bugs which I missed unit-testing.
 
+<!-- break here -->
+
 * First, that all my apostrophe's were converted to junk characters. The root 
 cause of the issue lies in the character formatting issues. The XML file exported 
 from Blogger is in UTF-8, and while importing I lost the UTF-8 encoding. Thus, 

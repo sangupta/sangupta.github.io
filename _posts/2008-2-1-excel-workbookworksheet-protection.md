@@ -12,6 +12,8 @@ Another find of the day. Security and Microsoft seem to be antonyms. And that
 too so easy. I had been using Excel for many-many years now, but I discovered 
 these holes only day-before. What a fool I have been :(
 
+<!-- break here -->
+
 In no particular order I would travel through various holes/tricks that can be 
 exploited/used to have your way. :D Infact, I had to resort to dirty methods to 
 gain some insight into understanding something.

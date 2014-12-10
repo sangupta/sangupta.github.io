@@ -14,6 +14,8 @@ Adobe. One of the major changes in AIR 2.5 SDK is to the
 This impacts the way, one specifies an `application version` in their AIR applications. The 
 `version` tag has been removed, and two new tags, `versionNumber` and `versionLabel` have been added. 
 
+<!-- break here -->
+
 I had earlier posted code (see 
 <a href="http://blog.sangupta.com/2010/10/ant-task-to-update-air-application.html">Ant task to 
 update AIR application number</a>) for an ANT task that helps update the application version in 

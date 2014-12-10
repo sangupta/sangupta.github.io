@@ -13,6 +13,8 @@ A few days back, Apple
 deprecating Java on the Mac OS X operating system.The Mac App Store review 
 guidelines, Section 2.24 mentions,
 
+<!-- break here -->
+
 > apps that use deprecated or optionally installed technologies will be rejected.
 
 This essentially translates that no Java application would hit the Mac App Store. 

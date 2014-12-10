@@ -6,6 +6,7 @@ redirect_from: "/2011/07/in-place-character-array-encoding.html"
 date: Wed Jul 13 08:19:00 IST 2011
 sharingURL: http://blog.sangupta.com/2011/07/in-place-character-array-encoding.html
 tags: interview-questions java
+excerpt: Given a character stream as an array, encode the characters in place replacing given set of characters by their 3-character equivalent. The array is terminated by a `0x00` character. If the array cannot be fully encoded, the array should not be modified.
 ---
 
 Problem

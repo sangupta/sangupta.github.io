@@ -10,6 +10,8 @@ sharingURL: http://blog.sangupta.com/2007/02/google-microsoft.html
 Come on, I am not gonna write about their everyday battles and the long time war. This 
 post is about how Google has transformed out lives and kicked out Microsoft.
 
+<!-- break here -->
+
 It has been only a few years since Google has launched. But the way it has impacted 
 users like me is phenomenal. In just over 3 years when I first subscribed for GMail, I 
 have become highly dependant on Google services for my daily activity. On date I use 

@@ -11,6 +11,8 @@ tags: coding-techniques interview-questions
 Recently, someone asked me to construct the expression (a XOR b) using NAND 
 gate/operator only. The first thing I did was write down the expressions which I thought I would need during the expression,
 
+<!-- break here -->
+
 ```
 NOT (x OR y) = (NOT x) AND (NOT y)
 NOT (x AND y) = (NOT x) OR (NOT y)

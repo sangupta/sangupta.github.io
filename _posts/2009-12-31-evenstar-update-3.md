@@ -15,6 +15,8 @@ post, here comes the first preview of
 system in general is fully functional with some of the features pending wiring, 
 and a few nice touches remaining, including building a beautiful but fast enough theme.
 
+<!-- break here -->
+
 For the curious the following still need to be perfected. Any help on the same is most welcome.
 
 * Importing from Blogger is still somewhat broken

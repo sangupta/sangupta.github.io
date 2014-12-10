@@ -17,6 +17,8 @@ have been a JAVA fanatic or must be a student in a hurry to submit his
 reports. With this thought I smiled on the authors ignorance and went on 
 to continue with my work.
 
+<!-- break here -->
+
 While scrolling through my mails I read the title again, and say it its 
 catchy line, or my insanity, I opened the mail again. This time I was 
 upto scrutinizing the mail, checking all facts and figures and making 

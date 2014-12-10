@@ -13,6 +13,8 @@ with all the more so into blogging, I can't expect to start something new. I wil
 have to migrate all my blogs to `Evenstar`, sooner or later. How to do that blazingly 
 fast? Can't even think of posting each and every post manually - that would be suicidal.
 
+<!-- break here -->
+
 Thus, the only option left is a blog importer. With the option being common in every 
 day's blogging system, it is all the more easy. Thus, I went ahead and coded a blog 
 importer in `Evenstar`. Yes, you read it right - to start with `Evenstar` can now import 

@@ -12,6 +12,8 @@ A wise man once said, **Change is the only constant!** And today is the day of t
 change. This blog has a new home, `http://blog.sangupta.com`; a new theme with some 
 new colors; and a new name, **sangupta**.
 
+<!-- break here -->
+
 `sangupta` has been my user id in the online world, and hence, it sticks.
 
 The code pieces have a new home as well, <a href="http://code.google.com/p/sangupta">http://code.google.com/p/sangupta</a>.

@@ -12,9 +12,10 @@ If you are using a Mac and running Flex Builder 3 to develop AIR applications
 on AIR 1.5 runtime, you may encounter an issue where Flex Builder simply refuses 
 to debug/run the AIR application giving you the following popup,
 
+<!-- break here -->
+
 > Process terminated without establishing connection to debugger. If the program 
 > is already running, close it before attempting to debug.
-
 
 Most of the solutions you would find via Google, would ask you to change the AIR 
 application descriptor to point to 1.5 namespace. Well, this is one of the biggest 

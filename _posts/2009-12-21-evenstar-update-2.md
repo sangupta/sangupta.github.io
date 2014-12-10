@@ -19,6 +19,8 @@ some nice little tweaks to the look and feel itself. Till I tie all this stuff
 up, you may take a look at the full size version of branding 
 <a href="http://myjerry.org/evenstar.html">here</a>.
 
+<!-- break here -->
+
 You might noticed the words 
 <a href="http://myjerry.org">myJerry</a></b> in there, yes, thats the abode where 
 `evenstar` will reside. What is 

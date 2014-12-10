@@ -18,6 +18,8 @@ an index. The last being something which I have delved in deep in the past coupl
 months. This has been quite a learning experience and as I dwell more, the deeper the 
 mystery it becomes.
 
+<!-- break here -->
+
 But just retrieving results is not that encompasses a search engine. Providing search 
 suggestions for misspelled words, and finding documents containing similar text for 
 the search query is another problem that the search engines need to tackle. For example, 

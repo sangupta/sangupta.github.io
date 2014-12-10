@@ -18,6 +18,8 @@ have a large user base, then you might need to think again. Being in India, I kn
 is a real large population that uses <a href="http://mail.rediff.com">RediffMail</a> 
 and <a href="http://mail.indiatimes.com">IndiaTimes Mail</a>.
 
+<!-- break here -->
+
 As somewhere on the Net I read, that most of the users are never using more than 50% of the 
 available limit on both <a href="http://mail.yahoo.com">Yahoo</a> and <a href="http://hotmail.com">Hotmail</a>, 
 and for <a href="http://mail.google.com/">Google</a> the figure stands at 40%. (I can't find the link to 

@@ -15,8 +15,9 @@ Google yesterday unvieled a new technology that would help shape Web 3.0. In the
 <a href="http://www.adobe.com/products/flex/">Flex</a>/
 <a href="http://labs.adobe.com/technologies/apollo/">Apollo </a>and 
 <a href="http://www.silverlight.net/">Silverlight</a>, Google has touched the area which no one could have imagined.
-<br>
-<p></p>
+
+<!-- break here -->
+
 <br>As per Google, 
 <a href="http://gears.google.com/">Google Gears </a>is an open source browser extension that enables web applications to provide offline functionality using following JavaScript APIs:
 <br>

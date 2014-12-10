@@ -13,6 +13,8 @@ I just read a news in my feeds from
 <a href="http://news.google.com/news?ned=hi_in">Google News in Hindi</a>. Wow! That's amazing. 
 As usual, I clicked on the link, and I was taken to the webpage. It looks stunning.
 
+<!-- break here -->
+
 I was expecting some stale news, as there are not many channels out there, but was pleased 
 to find almost the same articles, as they were on the English version. The only negative 
 aspect was the font. I did not find it too clear. It seems to be a little blurred.

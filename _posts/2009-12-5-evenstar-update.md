@@ -12,6 +12,8 @@ tags: evenstar my-projects
 hope that my prayers would be answered, answered with a gift, a gift that is 
 worth everything I may ever be.
 
+<!-- break here -->
+
 They say necessity is the mother of all invention. For me, it has been the 
 sucker of many odd hours at night leading to the development of a blogging engine. 
 Yes, `evenstar` is a blogging engine! For the geeks and interested here are 

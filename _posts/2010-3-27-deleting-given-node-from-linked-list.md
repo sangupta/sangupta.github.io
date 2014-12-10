@@ -6,6 +6,7 @@ redirect_from: "/2010/03/deleting-given-node-from-linked-list.html"
 date: Sat Mar 27 19:39:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/03/deleting-given-node-from-linked-list.html
 tags: interview-questions
+excerpt: Delete a node from a linked list - Java implementation
 ---
 
 Problem

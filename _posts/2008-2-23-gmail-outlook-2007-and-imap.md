@@ -16,6 +16,8 @@ account in Outlook 2007. It was a breeze setting up specially with the help of
 tutorial available on Google 
 <a title="Tutorial to configure GMaill with Outlook 2007" href="http://mail.google.com/support/bin/answer.py?answer=77689" target="_blank">here</a>.
 
+<!-- break here -->
+
 The tricky part was to move the Outlook `.pst` file to a different drive from 
 the default location. Anyone who has had worked with Windows with long would 
 know how pain is to backup data from C drive in case of failures. Using the 

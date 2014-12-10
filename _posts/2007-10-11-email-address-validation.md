@@ -13,6 +13,8 @@ Last night, while developing code for
 situation where-in I had to validate an email-address. I wanted a way to stop people putting 
 `abc@abc.com` like I had been doing so, throughout my interactions with the Web. 
 
+<!-- break here -->
+
 The big question was: how to judge whether an entered text was really a valid email address. A 
 solution to the above problem is in using a verification email, but it is not the best practice. 
 Sometimes, a legitimate user has to go through the process of getting a validation email just 

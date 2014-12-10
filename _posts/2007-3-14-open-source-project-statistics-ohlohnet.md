@@ -15,6 +15,8 @@ to the counter in the first glance. This was something unusual in the world of *
 where we find more of them representing the technology used, the target technology and the 
 projects that power the service.
 
+<!-- break here -->
+
 This was a counter that was not about itself, it was about the project that I was interested 
 in. I clicked on the counter, and what opened was a magicians box. With loads of information, 
 and a wealth of statistics, the dashboard was analyzing this open-source project, and 

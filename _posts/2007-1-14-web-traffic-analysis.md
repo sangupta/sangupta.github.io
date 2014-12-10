@@ -12,6 +12,8 @@ I have recently started using the Google Analytics for web traffic analysis for 
 my projects. Previously using AWStats the difference in two is quite noticeable. It seems 
 like take a giant leap from DOS to Windows Vista.
 
+<!-- break here -->
+
 Google Analytics is free for everyone who has a hit count of 5 million page view per month 
 or less. That is more than sufficient for every person like you and me. Neither our website 
 nor our blogs get that much hits.

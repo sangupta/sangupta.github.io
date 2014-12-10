@@ -15,6 +15,8 @@ between ranges. Third, a collection can not be used for data validation. Fourth,
 custom function/method from VBA can be invoked in the cell validation formula. So 
 this complicates the matter a bit.
 
+<!-- break here -->
+
 I recently had to achieve this, so as to self-audit the entries. This particularly 
 comes in handy when one is trying to link entries across multiple sheets to a single ID. 
 

@@ -12,6 +12,8 @@ Life is so busy these days, we rarely get time to pursue our dreams. Ideas keep
 coming in our minds, we keep planning every small detail, then throwing them 
 into corners of our mind.
 
+<!-- break here -->
+
 Same with me, posts lurking in the draft mode, thousands of lines of code waiting 
 to be checked in, many emails to be replied to. Today, as I put finishing touches 
 to one my latest projects, I hope to get more time to pursue things pending.

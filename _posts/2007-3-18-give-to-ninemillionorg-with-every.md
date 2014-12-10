@@ -12,6 +12,8 @@ Please help and support <a href="http://ninemillion.org">ninemillion.org</a>. It
 refugee children with in their educational buildup. For every search you make using the 
 Windows Live Search, Microsoft is going to contribute to this UN effort.
 
+<!-- break here -->
+
 <a title="http://click4thecause.live.com/search/charity/default.aspx" 
 href="http://click4thecause.live.com/search/charity/default.aspx">http://click4thecause.live.com/search/charity/default.aspx</a>
 

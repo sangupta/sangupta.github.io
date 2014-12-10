@@ -11,6 +11,8 @@ Its been long since I have posted on this blog of mine. It really sounds a
 lot disgusting to readers. I am in the process of restructuring all my stuff, 
 my blogs, websites and stuff alike.
 
+<!-- break here -->
+
 It's Azcarya's turn for now. I am categorizing my blogs so, Azcarya shall be the technical blog, 
 <a href="http://poetinside.blogspot.com/">Poet Inside</a> about the music inside me, and 
 <a href="http://iliked.blogspot.com/">What I Like...</a> about things I am reading, listening and enjoying.

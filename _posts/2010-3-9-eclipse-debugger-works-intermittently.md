@@ -15,6 +15,8 @@ next guess was workspace corruption so I deleted and rebuild the entire workspac
 no avail. After a lot of futile efforts and after wasting 3 hours on the same, here is 
 what I got.
 
+<!-- break here -->
+
 Eclipse Debugger with Sun JDK 1.6.0_14 is broken. The problem occurs on Windows and Linux 
 platforms. This is an issue with the JVM and not the Eclipse Debugger. The workaround is 
 to use the -XX:+UseParallelGC VM option. For those interested in knowing more details 

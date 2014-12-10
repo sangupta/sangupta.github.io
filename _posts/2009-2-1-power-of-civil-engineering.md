@@ -14,6 +14,8 @@ tags: just-like-that
 The power to observe, perceive and act has elevated man into a class of his own. 
 This god gifted ability has led him to cause change within and around himself.
 
+<!-- break here -->
+
 Change - as they say is the only thing that is permanent. This unquenched thirst 
 for change is the sole spark that drives one to create the world around into a home 
 fit for coexistence of all.

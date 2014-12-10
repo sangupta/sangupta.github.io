@@ -6,6 +6,7 @@ redirect_from: "/2010/10/atoi-in-java.html"
 date: Sat Oct 02 23:05:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/10/atoi-in-java.html
 tags: interview-questions java
+excerpt: Implement atoi() in Java
 ---
 
 Problem

@@ -19,6 +19,8 @@ link is broken. Read the entries on the blog
 <a href="http://google-code-featured.blogspot.com/2007_11_01_archive.html" 
 title="Blog entries for November">here</a>.
 
+<!-- break here -->
+
 The projects featured till now are:
 
 * <a href="http://google-code-featured.blogspot.com/2007/11/emote.html" title="Emote">Emote</a>

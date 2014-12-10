@@ -16,6 +16,8 @@ how this time is arrived at), the JVM instance for the application is spinned do
 hard-disks that do the same to save energy. With comments all over it seems JVM instances 
 have been brought down with even one minute of inactivity :(
 
+<!-- break here -->
+
 Essentially spinning down is a boon for the environment and to the concept of elasticity. 
 First, it reduces CO2 emission by reducing the power consumption. Second, the less the 
 number of warm instances available, less the number of machines required. Third, applications 

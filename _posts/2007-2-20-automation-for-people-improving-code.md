@@ -13,6 +13,8 @@ no more just concerned about the desired functionality working fine, he is more 
 doing his job. And for this, enters the vast field of code quality metrics, analysis, improvement techniques 
 and bla bla bla.
 
+<!-- break here -->
+
 Eclipse, for Java developers has become much more than just an IDE. It has become a dashboard/desktop where 
 a programmer does everything in his daily routine. Using Eclipse has become more fun with plugins to control 
 the daily jobs.. setting songs in Winamp, chatting with google talk, email notifications and browsing 

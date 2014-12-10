@@ -16,6 +16,8 @@ already available on web via a browser, but, the sparkling difference is the com
 and commanding interface. And yes, for those who might not have picked it up, Times Reader 
 is a desktop application. Yes, it is !!!
 
+<!-- break here -->
+
 Times Reader makes reading news worthy as the interface is built specifically for the 
 purpose. Again there is no need to wait for page refreshes to get updates, Times Reader 
 would itself refresh the contents continually, without any user input. It keeps 

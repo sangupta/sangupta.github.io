@@ -15,6 +15,8 @@ Prologue
 
 In science, all new discoveries, inventions and innovations bolster the already established facts and laws. They are derived from all previous experimentation and in-line with established rules of science. They do not differ unless one is in contradiction of the other. As an example, the discovery of radio waves by Heinrich Hertz was based on earlier discoveries of electricity and magnetism, made by Newton, Young, Huygens, Faraday, Maxwell and others.
 
+<!-- break here -->
+
 Let's go for a walk in the case of Astrology.
 
 Definition of Astrology

@@ -13,6 +13,8 @@ Working with Adobe AIR one often needs to read text files from the user's file s
 Thus, I came up with an extended implementation of the `FileStream` class that supports reading line by line, aptly 
 called, `FileStreamWithLineReader`.
 
+<!-- break here -->
+
 To read a line from a text file,
 
 ```as3

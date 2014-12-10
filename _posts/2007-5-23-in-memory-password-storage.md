@@ -15,6 +15,8 @@ been a challenge. Lots of methodologies to encrypt sensitive information, and th
 subsequent storage and retrieval have been developed. These have rendered unauthorized 
 access attacks to a minimum.
 
+<!-- break here -->
+
 But, the serious challenge that we still face is the **Impersonation**. All the sensitive 
 information is secured just behind a small 8-14 character password, the typical length of 
 a password the user keeps. Login names can quite easily be seen being typed in. Now the 

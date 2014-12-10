@@ -14,6 +14,8 @@ cookies. This basic operation is neither directly supported by the Apache HttpCl
 nor by any other open-source library. Hence, I wrote this class below to perform this utility 
 conversions.
 
+<!-- break here -->
+
 Grab the code from my 
 <a href="http://code.google.com/p/sangupta">Google Code</a> repository.
 

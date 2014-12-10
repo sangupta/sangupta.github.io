@@ -12,6 +12,8 @@ Google fetched me millions of results. I just tic-tac-toed and clicked on a few.
 A hell lot of templates were available. But they all had their own pro's and con's. 
 For me the two things that were disappointing were:
 
+<!-- break here -->
+
 First, the themes were made for Blogger 2.0 and hence, one would not be able to use 
 the NEW templating features of Blogger 3.0. Second, all the templates were made for 
 800 x 600 resolution. Most of my visitors have a resolution of 1024 x 768 or more, 

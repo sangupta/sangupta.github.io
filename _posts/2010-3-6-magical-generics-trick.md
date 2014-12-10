@@ -7,6 +7,7 @@ date: Sat Mar 06 11:49:00 IST 2010
 sharingURL: http://blog.sangupta.com/2010/03/magical-generics-trick.html
 tags: coding-techniques java
 ---
+
 Recently, I had to look back at some of the pieces I coded a few years back and 
 found a generics trick I had forgotten. Thought of sharing with everyone.
 
@@ -15,6 +16,8 @@ methods etc, we are not aware of the type of object a method may return. Perfect
 examples to the same could be the use of `HibernateTemplate`, `EHCache`, 
 `ApplicationContext.getBean`, and alike. What we do at such hour is simply, define 
 the return type of the method as `Object` and then cast back to the required original such as,
+
+<!-- break here -->
 
 
 ```java

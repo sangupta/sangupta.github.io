@@ -13,6 +13,8 @@ Since birth I have been a person who tries to defy every theorem and logic. I de
 from the side that is in minority ;) Gosh minority how minor they are. Anyway's, I always try and 
 find out why is something as it is? Why not the other way?
 
+<!-- break here -->
+
 Coming back to the agenda, the past weekend I spent my time exploring through the features of ASP.NET. 
 This was one territory I had never explored before. I had worked on a couple of .NET applications 
 before, but never worked on a .NET web application. So here was the chance. I got ready to write a 
