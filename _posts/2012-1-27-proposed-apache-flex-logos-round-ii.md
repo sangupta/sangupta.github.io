@@ -7,8 +7,13 @@ date: Fri Jan 27 18:09:00 IST 2012
 sharingURL: http://blog.sangupta.com/2012/01/proposed-apache-flex-logos-round-ii.html
 tags: apache-flex
 ---
+
 The Apache Flex logo contest came to end today with the results for Round 2 being announces by 
-<b>Doug Arthur</b>. And the winner is,
+<b>Doug Arthur</b>. 
+
+<!-- break here -->
+
+And the winner is,
 <br>
 <br>
 <a href="http://s.apache.org/af-logo-42">Logo #42</a>:
