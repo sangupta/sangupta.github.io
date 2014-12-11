@@ -15,5 +15,5 @@ License
 -------
 
 ```
-You may use everything as you want, just don't copy and use my name.
+All code is copyright Apache License Version 2. All posts are copyright by me - unauthorized reproduction is not allowed.
 ```
