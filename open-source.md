@@ -1,6 +1,6 @@
 ---
 title: Open Source
-layout: default
+layout: page
 ---
 
 Influence of Open Source

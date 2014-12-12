@@ -3,6 +3,11 @@ layout: default
 title: Coding Challenges
 ---
 
+Coding Challenges
+-----------------
+
+Following are the various coding challenges I have participated in. In no particular order:
+
 ### Greplin
 
 Greplin posted a <a href="http://challenge.greplin.com/">coding challenge</a> with 3 levels. My solutions for the entire
