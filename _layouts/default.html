@@ -67,7 +67,17 @@
     
 	<!-- Latest compiled and minified JavaScript -->
     <script src="/assets/js/jquery-2.1.1.min.js" type="text/javascript"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" type="text/javascript"></script></body>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets/js/sangupta.js" type="text/javascript"></script>
+
+    <!-- Check for page specific javascripts -->
+    {% if page.js_onload %}
+        <script>
+            $({{ page.js_onload }});
+        </script>
+    {% endif %}
 
     <!-- we include disqus below this line from disqus.html -->
+    </body>
+
 </html>

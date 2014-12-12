@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Projects
+js_onload: getProjectList
 ---
 
-Listing of all current projects with their brief description.
+<ul id="projectList">
+	<i class="fa-li fa fa-spinner fa-spin"></i> Loading...
+</ul>
