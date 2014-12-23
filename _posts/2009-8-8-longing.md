@@ -6,6 +6,7 @@ redirect_from: "/2009/08/longing.html"
 category: poetry
 ---
 
+```
 The land and air all around us,
 devoid of moist, cracked and dry.
 Waiting for the rains to come,
@@ -45,3 +46,4 @@ To quench the thirst of many,
 when will the dark clouds arrive?
 The ears are eager for the thunder,
 for, we all need a reason to survive!
+```

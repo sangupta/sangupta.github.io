@@ -6,6 +6,7 @@ redirect_from: "/2011/04/your-smile.html"
 category: poetry
 ---
 
+```
 If there ever was a way devised
 to quantum how much I love you
 and in my arms you could surmise
@@ -25,3 +26,4 @@ for love is a blessing, not a wile,
 whose fragrance can be felt
 when looking at me, you smile
 the magic making my heart melt!
+```

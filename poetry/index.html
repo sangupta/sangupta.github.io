@@ -17,7 +17,9 @@ title: Poet Inside
 		    </header>
 
 		    <div id="post-content" class="post-content">
-		        {{ post.content }}
+		    	<div class="poetry">
+		        	{{ post.content }}
+		        </div>
 
 		        {% if post.category %}
 		            {% for site_category in site.data.categories %}

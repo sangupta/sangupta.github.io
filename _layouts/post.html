@@ -5,7 +5,7 @@ layout: default
 {% assign post = page %}
 
 <div class="row">
-    <div class="col-md-9">
+    <div class="col-md-12">
         <article>
             <header id="post-header">
                 <div class="row">
@@ -33,19 +33,14 @@ layout: default
             </header>
 
             <div id="post-content" class="post-content">
+                {% if post.category == 'poetry' %}
+                    <div class="poetry">
+                {% endif %}
+
                 {{ content | remove: '<p></p>' }}
 
-                {% if post.category %}
-                    {% for site_category in site.data.categories %}
-                        {% if site_category.slug == post.category %}
-                            {% assign category = site_category %}
-                        {% endif %}
-                    {% endfor %}
-                    {% if category %}
-                        {% capture category_content %} in <span class="label" style="background-color:{{ category.color }}"><a href="/blog/category/{{ category.slug }}">{{ category.name }}</a></span>{% endcapture %}
-                    {% endif %}
-                {% else %}
-                    {% assign category_content = '' %}
+                {% if post.category == 'poetry' %}
+                    </div>
                 {% endif %}
 
                 {% if post.tags.size > 0 %}
@@ -65,7 +60,9 @@ layout: default
                     {% assign tags_content = '' %}
                 {% endif %}
 
-                <p id="post-meta">Posted {{ category_content }}{{ tags_content }}</p>
+                {% if tags_content != '' %}
+                    <p id="post-meta">Posted {{ tags_content }}</p>
+                {% endif %}
             </div>
         </article>
 
@@ -91,7 +88,9 @@ layout: default
 
         <div id="disqus_thread"></div>
     </div>
+    <!--
     <div class="col-md-3">
         {% include post-sidebar.html %}
     </div>
+    -->
 </div>

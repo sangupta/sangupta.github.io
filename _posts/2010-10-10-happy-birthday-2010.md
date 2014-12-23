@@ -6,9 +6,7 @@ redirect_from: "/2010/10/happy-birthday.html"
 category: poetry
 ---
 
-Happy Birthday!
----------------
-
+```
 On this beautiful autumn day
 when you wake up to the sun's ray
 and a chill in the air's fray
@@ -33,3 +31,4 @@ The only thing I'd like to say
 to you on your special day
 its your friend from far away
 Wishing you a Very Happy Birthday!!!
+```

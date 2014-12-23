@@ -6,6 +6,7 @@ redirect_from: "/2012/01/happy-birthday.html"
 category: poetry
 ---
 
+```
 The things we feel the deepest
 are the hardest things to say!
 
@@ -35,5 +36,6 @@ what I feel, words can never convey!
 
 I wish the breath of my life
 a very Happy Birthday!
+```
 
 **- For my beautiful darling Wife, on her birthday!**

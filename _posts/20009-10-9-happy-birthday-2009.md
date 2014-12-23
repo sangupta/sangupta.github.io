@@ -6,6 +6,7 @@ redirect_from: "/2009/10/happy-birthday.html"
 category: poetry
 ---
 
+```
 colorful candles on the cake,
 a mild blow is what it would take,
 waiting for long, family and friends,
@@ -31,3 +32,4 @@ bring every happiness your way,
 with each passing moment, I pray,
 fragrance of winter's makes you sway,
 wishing you a very happy birthday!!!
+```

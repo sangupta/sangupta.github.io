@@ -6,9 +6,7 @@ redirect_from: "/2008/02/elegant-stranger.html"
 category: poetry
 ---
 
-Elegant Stranger!
------------------
-
+```
 I endure the empty lane, fighting my inner pain,
 Your thoughts driving me insane, Is it drop of tear or rain?
 
@@ -29,3 +27,4 @@ Striking a bond at the first sight, with her eyes so true.
 
 In this journey of life, lonely, I wander,
 Desiring your company, as my Elegant Stranger!
+```

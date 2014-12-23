@@ -6,6 +6,7 @@ redirect_from: "/2009/09/love-score.html"
 category: poetry
 ---
 
+```
 my fall will be for you,
 to hold you in the wild. 
 my rise will be of you,
@@ -30,5 +31,6 @@ my fall will be for you,
 my love will be in you,
 if you be the one to cut me,
 I will bleed forever!
+```
 
 PS: inspired by <a href="http://nightiwsh.com/">Nightwish</a>'s awesome song, <a href="http://www.youtube.com/watch?v=C8GOHJAnVh4">Ghost Love Score</a>.

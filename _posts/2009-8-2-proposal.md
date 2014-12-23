@@ -6,6 +6,7 @@ redirect_from: "/2009/08/proposal.html"
 category: poetry
 ---
 
+```
 For the past decade, playing hide and seek,
 is a wish, a dream, that had gone meek.
 Since that day of vivid college images,
@@ -55,3 +56,4 @@ Years will pass, decades too,
 I want to spend my whole life through.
 With you beside me, till old we grew,
 I wanna know, if you would want too?
+```

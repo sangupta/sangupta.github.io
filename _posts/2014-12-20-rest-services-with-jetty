@@ -1,0 +1,53 @@
+---
+layout: post
+title: Building a REST Server using Jetty
+permalink: /tech/rest-server-with-jetty.html
+tags: coding-techniques java
+---
+
+Today, most of the enterprise applications are distributed. And this also calls that
+the various components communicate with each other either using a `Message Queue` or
+via `REST services`. I have seen people still building Java web applications that are
+eventually deployed in a container like `Tomcat`. This is actually **over engineering**.
+
+To build applications that expose `REST services` to be consumed, we do not need a
+server like `Tomcat`, for that is inefficient use of resources. Running such applications
+on servers like `Jetty` and `Netty` would be much more efficient. Simply fire a Java
+command line application and the services are exposed. This also helps in **scalability**
+of the application. For scaling, just add more nodes and fire the Java process rather
+than configuring Tomcat, deploying a WAR and then waiting for container to start up.
+
+To wire all of this, the following `main` function can be used:
+
+```java
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+ 
+import org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.servlet.ServletContextHandler;
+import org.eclipse.jetty.servlet.ServletHolder;
+ 
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.WebResource;
+import com.sun.jersey.spi.container.servlet.ServletContainer;
+ 
+public class MinimalServerRest {
+ 
+     public static void main(String[] args) throws Exception {
+         ServletHolder sh = new ServletHolder(ServletContainer.class);    
+         sh.setInitParameter("com.sun.jersey.config.property.resourceConfigClass", "com.sun.jersey.api.core.PackagesResourceConfig");
+         sh.setInitParameter("com.sun.jersey.config.property.packages", "rest");//Set the package where the services reside
+         sh.setInitParameter("com.sun.jersey.api.json.POJOMappingFeature", "true");
+       
+         Server server = new Server(9999);
+         ServletContextHandler context = new ServletContextHandler(server, "/", ServletContextHandler.SESSIONS);
+         context.addServlet(sh, "/*");
+         server.start();
+         server.join();      
+      }
+}
+```
+
+The above code will launch your REST services on local port `9999`.
+
+Hope this helps!

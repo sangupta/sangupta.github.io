@@ -6,6 +6,7 @@ redirect_from: "/2010/01/princess-of-egypt.html"
 category: poetry
 ----
 
+```
 You are the princess of Egypt and I'm just a man
 I want to be with you, I feel astray
 I need a miracle how to make you understand
@@ -47,3 +48,4 @@ Let this happen every single day
 Wake me up as you on my b'day last year!
 
 You are the princess of Egypt and I'm just a man!
+```

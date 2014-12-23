@@ -6,6 +6,7 @@ redirect_from: "/2007/06/man-is-born.html"
 category: poetry
 ---
 
+```
 When a child is born
 In this world full of thorns
 
@@ -101,3 +102,4 @@ His life gets a new definition
 
 His resentment has gone
 For now, a man is born!
+```

@@ -6,6 +6,7 @@ redirect_from: "/2008/04/once-again.html"
 category: poetry
 ---
 
+```
 Lying all alone, thinking,
 Of your mesmerizing smile,
 Dream after dreams, weaving,
@@ -35,3 +36,4 @@ Oh God, have mercy, ordain,
 Let my suffering end, Make it rain,
 Let me just once more, pass,
 My Elegant Stranger, Again!
+```

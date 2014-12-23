@@ -6,6 +6,7 @@ redirect_from: "/2009/05/last-nail.html"
 category: poetry
 ---
 
+```
 when all happiness ends
 the clouds of sorrow ascend
 when there is no one to depend
@@ -40,3 +41,4 @@ strength had gone, courage was frail
 to her last jolt, you failed
 sealing your coffin, she
 hammered in the last nail!
+```
