@@ -6,6 +6,7 @@ redirect_from: "/2008/04/why-does-it-happen-why.html"
 category: poetry
 ---
 
+```
 Why does it happen, Why?
 At the peak of your career,
 You realize, Time flew by,
@@ -30,3 +31,4 @@ You find no angel nearby,
 To console your bleeding soul,
 On whom you could rely!!
 Why does it happen, Why?
+```

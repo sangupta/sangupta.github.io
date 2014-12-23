@@ -6,7 +6,7 @@ redirect_from: "/2009/10/my-un-innovative-friend.html"
 category: poetry
 ---
 
-
+```
 in this (professional) world where smartness is to adapt
 to camaflouge; to adjust for personal gains, is considered apt
 
@@ -30,5 +30,6 @@ term it un-innovative is nothing but comic
 
 and even if I am wrong, and they are true
 I am glad to have an un-innovative friend like you!
+```
 
 _**- for an un-innovative mind.**_

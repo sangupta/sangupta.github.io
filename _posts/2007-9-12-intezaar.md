@@ -3,11 +3,13 @@ layout: post
 title: Intezaar - Wait!
 permalink: /poetry/intezaar.html
 redirect_from: "/2007/09/blog-post.html"
+category: poetry
 ---
 
 इंतज़ार !
 -------
 
+```
 रोज रोज उन्हें देख कर, उनसे मिलने की तमन्ना रखते हैं !
 हाल-ए-दिल कैसे बयाँ करें, इसी की कल्पना करते हैं !!
 
@@ -19,3 +21,4 @@ redirect_from: "/2007/09/blog-post.html"
 
 दिल को उन्ही की हसरत है, आंखों को उनका दीदार !
 जब वोह हमसे दोस्ती करें, उसी लम्हे का इंतज़ार !!
+```

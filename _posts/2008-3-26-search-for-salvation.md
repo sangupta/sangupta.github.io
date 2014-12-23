@@ -6,6 +6,7 @@ redirect_from: "/2008/03/search-for-salvation.html"
 category: poetry
 ---
 
+```
 Its been long you have been deary, My heart filled with emotions fiery,
 Sometimes you seem a mystery, At times the cause of my misery.
 
@@ -29,3 +30,4 @@ But, in my heart I know, Its a wish that will never come true.
 
 Its much more, than said, Only for this sufferer,
 Infuse life in my soul, O Elegant Stranger!
+```

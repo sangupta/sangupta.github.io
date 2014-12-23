@@ -44,9 +44,9 @@ title: Keep Walking!
                     {% if page == paginator.page %}
                         <li class="active"><span>{{ page }}</span></li>
                     {% elsif page == 1 %}
-                        <li><a href="/blog/">1</a></li>
+                        <li><a href="/tech/index.html">1</a></li>
                     {% else %}
-                        <li><a href="/{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a></li>
+                        <li><a href="/{{ site.paginate_path | replace: ':num', page }}/index.html">{{ page }}</a></li>
                     {% endif %}
                 {% endfor %}
                 {% if paginator.next_page %}
