@@ -80,10 +80,14 @@
     {% endif %}
 
     <!-- we include disqus below this line from disqus.html -->
-    {% include disqus.html %}
+    {% if site.serving_publicly %}
+        {% include disqus.html %}
+    {% endif %}
 
     <!-- include analytics below this line -->
-    
+    {% if site.serving_publicly %}
+        {% include analytics.html %}
+    {% endif %}
     </body>
 
 </html>
