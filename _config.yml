@@ -9,6 +9,9 @@ author:
   email: sandy.pec@gmail.com
   url: http://sangupta.com
 
+# are we publicly serving
+serving_publicly: true
+
 # code syntax highlighter to use
 highlighter: pygments
 markdown: redcarpet
