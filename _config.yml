@@ -26,7 +26,8 @@ excerpt_separator: <!-- break here -->
 encoding: utf-8
 
 # used in sitemap to produce absolute urls
-production_url : http://sangupta.github.io
+url: http://sangupta.com
+domain: sangupta.com
 
 # where all code is kept
 # source: /git/sangupta.github.io
