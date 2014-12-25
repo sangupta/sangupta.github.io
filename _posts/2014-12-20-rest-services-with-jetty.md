@@ -10,6 +10,8 @@ the various components communicate with each other either using a `Message Queue
 via `REST services`. I have seen people still building Java web applications that are
 eventually deployed in a container like `Tomcat`. This is actually **over engineering**.
 
+<!-- break here -->
+
 To build applications that expose `REST services` to be consumed, we do not need a
 server like `Tomcat`, for that is inefficient use of resources. Running such applications
 on servers like `Jetty` and `Netty` would be much more efficient. Simply fire a Java
