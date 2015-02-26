@@ -3,6 +3,7 @@ layout: post
 title: Introducting Java based HTTP server
 permalink: /tech/introducing-java-http-server.html
 tags: coding-techniques java
+excerpt: Introducing a new HTTP server that can be used by Java developers for simple development needs.
 ---
 
 All web developers need an HTTP server to test their code snippets every other day. If
