@@ -1,17 +1,11 @@
 ---
 layout: post
 permalink: /poetry/princess-of-egypt.html
-title: Princess of Egypt
 redirect_from: "/2010/01/princess-of-egypt.html"
 category: poetry
-----
+---
 
 ```
-You are the princess of Egypt and I'm just a man
-I want to be with you, I feel astray
-I need a miracle how to make you understand
-I'd make you happy but you're far away
-
 Its not a coincidence but our fate
 We met on the magical day and date
 Spent time sharing some jokes and laughter
@@ -49,3 +43,5 @@ Wake me up as you on my b'day last year!
 
 You are the princess of Egypt and I'm just a man!
 ```
+
+~ inspired from the awesome song **Princess of Egypt** by **E-Type**.
