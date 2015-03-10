@@ -23,7 +23,15 @@
 
     <!-- Turn on IE cleartype -->
     <meta http-equiv="cleartype" content="on">
-	
+
+    {% if page.title %}
+    <meta property="og:title" value="{{ page.title }}" />
+    {% endif %}
+
+    {% if page.fbimage %}
+    <meta property="og:image" value="{{ page.fbimage }}" />
+	{% endif %}
+
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css"/>

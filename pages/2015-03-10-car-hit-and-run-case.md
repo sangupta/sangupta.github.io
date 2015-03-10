@@ -2,6 +2,7 @@
 layout: default
 title: Fraud People - Jaideep and Reena
 permalink: /pages/car-hit-and-run-case.html
+fbimage: http://sangupta.com/assets/images/jaideep.jpg
 ---
 
 ## FRAUD People: Jaideep Shingari and Reena Rawat
