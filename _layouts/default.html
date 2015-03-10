@@ -30,6 +30,8 @@
 
     {% if page.permalink %}
     <meta property="og:url" content="{{ page.permalink }}" />
+    {% else %}
+    <meta property="og:url" content="{{ page.url }}" />
     {% endif %}
 
     {% if page.title %}
@@ -39,6 +41,10 @@
     {% if page.fbimage %}
     <meta property="og:image" itemprop="image primaryImageOfPage" content="{{ page.fbimage }}" />
 	{% endif %}
+
+    {% if page.fbdesc %}
+    <meta property="og:description" content="{{ page.fbdesc }}" />
+    {% endif %}
 
     <meta name="twitter:app:country" content="IN" />
 

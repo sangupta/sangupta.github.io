@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Fraud People - Jaideep and Reena
+title: Fraud People - Jaideep Shingari and Reena
 fbimage: http://sangupta.com/assets/images/jaideep.jpg
+fbdesc: Both these guys hit my stationary car, agreed to pay up and are now absconding.
 ---
 
 ## FRAUD People: Jaideep Shingari and Reena Rawat
