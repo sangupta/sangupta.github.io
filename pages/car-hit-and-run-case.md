@@ -61,3 +61,15 @@ I despise these people. Sick!
 **Being a good Indian, I am not posting the pic of `Reena` or disclosing her profile link. This is my upbringing!**
 
 Jaideep on Facebook: https://www.facebook.com/jaideep.shingari
+
+#### Update: 10-Mar-2015, 10:00 PM IST
+
+`Jaideep` disables/deletes his facebook profile.
+
+#### Update: 10-Mar-2015, 11:50 PM IST
+
+`Jaideep` removes his Google+ profile pic, and changes settings to `Restricted`
+
+#### Update: 11-Mar-2015, 8:00 AM IST
+
+`Reena` disables/deletes her facebook profile. Removes her Google+ profile pic and changes settings to `Restricted`. So much efforts by `Jaideep` and `Reena` to go into hiding and save some bucks.
