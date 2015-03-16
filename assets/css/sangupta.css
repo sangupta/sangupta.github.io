@@ -8,6 +8,9 @@ body {
 .pad-top-20 {
   padding-top: 20px;
 }
+.pad-left-20 {
+  padding-left: 20px;
+}
 .sidebar {
   display: none;
 }
@@ -181,4 +184,10 @@ code.language-text {
 }
 .statcounter {
   display: none;
+}
+.flexbox {
+  display: flex;
+}
+.fb-share-button {
+  padding-left: 20px;
 }
