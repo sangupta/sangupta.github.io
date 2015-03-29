@@ -3,17 +3,12 @@ layout: post
 title: Windows Shell and Wildcard Command-line argument resolution
 permalink: /tech/windows-shell-wildcard-argument-resolution.html
 tags: java, coding-techniques
-excerpt: Windows Shell parses any wildcard path arguments that you supply over the command 
-line, before passing the arguments to the actual program that has been invoked.
 ---
-
-For quite some time I have been building command-line tools for easing my day-to-day work,
-or automate multiple workflow steps, or as an administrator interface to projects that I
-work upon. The beauty of command-line tools is that you can focus on logic than presentation
-and yet roll out a ready-to-use solution with much ease.
 
 `Problem:` `Windows Shell` parses any wildcard path arguments that you supply over the command 
 line, before passing the arguments to the actual program that has been invoked.
+
+<!-- break here -->
 
 Now let's see why this is a problem. A simple tool when invoked from the `Windows Shell`
 command line behaved very differently from when the same arguments were provided either via
