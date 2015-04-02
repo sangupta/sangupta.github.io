@@ -21,3 +21,10 @@ on Twitter at <a href="https://twitter.com/sangupta">@sangupta</a>.
 
 My social presence links can be found in the left navigation menu.
 
+#### GPG Key
+
+The GPG Key fingerprint is `9127 C67F 5CEE 90F2 EC65 83D1 CE65 932B DD59 F1A9`
+
+The 64-bit fingerprint is `CE65 932B DD59 F1A9`
+
+You can download the raw key from [keybase.io/sangupta/key.asc](https://keybase.io/sangupta/key.asc). More details can be found in this [gist](https://gist.github.com/sangupta/ed57c851411318a15904).
