@@ -15,5 +15,6 @@ License
 -------
 
 ```
-All code is copyright Apache License Version 2. All posts are copyright by me - unauthorized reproduction is not allowed.
+All code is copyright Apache License Version 2. 
+All posts are copyright by me - unauthorized reproduction is not allowed.
 ```
