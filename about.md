@@ -3,31 +3,21 @@ layout: default
 title: About Me
 ---
 
-## Developer, Gamer, Trance enthusiast, Poet, & a Compulsive Coder!
+### Developer, Gamer, Trance enthusiast, and a Poet!
 
-I have spent the last 11+ years building applications that target the desktop, the web, mobile devices
-and now the tablets. Anything left or missed?
+Hi, I'm Sandeep Gupta, a developer working for [Adobe Systems](http://adobe.com) based out of Delhi, India. I have spent the last 11+ years professionally building applications that target the desktop, the web, mobile devices and the tablets. I usually work on the server stuff, but am hands-on developing beautiful websites.
 
-As they say, actions speak louder than words, for a developer, **Code** speaks louder than anything. 
-Across the site you will find references to what I have done in the past, except during professional assignments. 
+Across the site you will find references to what I have done in the past, except my professional assignments. All my code is
+usually open-source, and can be on my [GitHub/sangupta](https://github.com/sangupta).
 
 Feel free to explore, criticize or abuse. just, **Keep Walking!**
 
 <a id="contact"></a>
 
-### Contact
+#### Contact
 
 You may reach me at <a href="mailto:sandy.pec@gmail.com">sandy.pec@gmail.com</a>, or connect with me
 on Twitter at <a href="https://twitter.com/sangupta">@sangupta</a>.
 
-### Social Presence
+My social presence links can be found in the left navigation menu.
 
-* Facebook: https://www.facebook.com/sandy.pec
-* Google Plus: https://plus.google.com/u/0/110645714607919970386
-* Twitter: https://twitter.com/sangupta
-* Github: https://github.com/sangupta
-* LinkedIn: http://in.linkedin.com/in/sandypec
-* Flickr: http://www.flickr.com/photos/sangupta
-* BitBucket: http://bitbucket.org/sangupta
-* HackerNews: https://news.ycombinator.com/user?id=prostoalex
-* StackOverflow: http://stackoverflow.com/users/75239/sangupta
