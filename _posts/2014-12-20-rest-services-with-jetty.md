@@ -93,4 +93,40 @@ perform better.
 **Note** here that `Netty` supposedly runs faster than `Jetty` but I have never rolled a sub-system
 in production based on the same, and thus I won't comment on its performance advantages.
 
+### 16 June 2015 Update
+
+Adding the `dependencies` section of the `pom.xml` file that I use to run the sample code:
+
+```xml
+<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-server</artifactId>
+			<version>9.2.5.v20141112</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlet</artifactId>
+			<version>9.2.5.v20141112</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-server</artifactId>
+			<version>2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-jetty-servlet</artifactId>
+			<version>2.17</version>
+		</dependency>
+	</dependencies>
+```
+
 Hope this helps!
