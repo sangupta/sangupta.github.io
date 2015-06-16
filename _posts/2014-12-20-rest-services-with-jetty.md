@@ -98,7 +98,7 @@ in production based on the same, and thus I won't comment on its performance adv
 Adding the `dependencies` section of the `pom.xml` file that I use to run the sample code:
 
 ```xml
-<dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
