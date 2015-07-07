@@ -20,7 +20,7 @@ in your code as:
 </dependency>
 ```
 
-Hope this helps.
+* JOpenSurf Home Page: https://code.google.com/p/jopensurf/
+* LIRE Home Page: https://code.google.com/p/lire/
 
-JOpenSurf Home Page: https://code.google.com/p/jopensurf/
-LIRE Home Page: https://code.google.com/p/lire/
+Hope this helps.
