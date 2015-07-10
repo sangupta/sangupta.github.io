@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Jerry-Core
+github: jerry-core
 ---
 
 <h1>Jerry Core</h1>
