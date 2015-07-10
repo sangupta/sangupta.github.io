@@ -5,19 +5,22 @@ title: Home
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12" style="padding-left: 0;">
 			<h2>Recent Posts</h2>
 
 			{% if site.posts %}
-			    {% for post in site.posts offset:0 limit:10 %}
+			    {% for post in site.posts offset:0 limit:3 %}
 			        <section class="post">
 			            <header class="post-header">
-			                <h4 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a><small> &ndash; <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small></h4>
+			                <h3 class="post-title">
+			                	<a href="{{ post.url }}">{{ post.title }}</a>
+			                	<br>
+			                	<small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small>
+			                </h3>
 			            </header>
 			            <div class="post-description">
-			            	{{ post.excerpt | remove: '<p></p>' }}
+			            	{{ post.content }}
 			            </div>
-			            <a href="{{ post.url }}" class="readMore">Read more</a>
 			            <div class="clearfix"></div>
 			        </section>
 			    {% endfor %}
