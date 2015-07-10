@@ -77,10 +77,8 @@ main {
   margin-top: 0;
 }
 .main {
-/*  background-image: url("/assets/images/bg.png");
-  background-repeat: repeat;
-*/
-background-color: white;
+  background-color: white;
+  min-height: 500px;
 }
 .main p {
   margin-bottom: 25px;
