@@ -96,6 +96,7 @@ background-color: white;
 }
 .main pre {
   line-height: 22px;
+  margin-bottom: 30px;
 }
 .main h1 {
   line-height: 54px;
@@ -106,7 +107,7 @@ background-color: white;
   font-weight: 400;
 }
 .post-content p, .page-content p {
-  padding-top: 30px;
+  /*padding-top: 30px;*/
 }
 li p {
   padding-top: 0 !important;
@@ -197,7 +198,7 @@ table>thead>tr>th, table>tbody>tr>th, table>tfoot>tr>th, table>thead>tr>td, tabl
   border: 1px solid #ddd;
 }
 code.language-text {
-  color: #0ee;
+  color: #333;
 }
 .poetry pre, .poetry pre code {
   background-color: transparent !important;
