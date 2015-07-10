@@ -252,6 +252,6 @@ article.one-poem:after, section.post:after {
 .poem-content {
   text-align: center;
 }
-ul#projectList li {
+ul.projectList li {
   margin: 10px 0;
 }
