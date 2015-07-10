@@ -36,19 +36,9 @@ mostly of weekends, vacations or otherwise when connectivity was limited.
 
 Over the course of last 3 years, I am glad to have worked on more than 50 different ideas, all under open source,
 with some reaching the maturity to be called as <a href="/projects/index.html">projects</a> and some still nascent 
-infants to be called as <a href="/experiments/index.html">Experiments</a>.
+infants to be called as <a href="/projects/index.html#expermients">experiments</a>.
 
 I am sure many of the ideas from expriments will move to being **projects** with time. Till then, you can browse
 them over in their respective places, and **you are most most welcome to join in and lend a helping hand**.
-
-You may head over to the following project to learn more:
-
-* <a href="/projects/index.html">Projects</a> - fully mature libraries, tools and applications that you may right
-away use
-
-* <a href="/experiments/index.html">Experiments</a> - to explore ideas that I work upon
-
-* My <a href="https://github.com/sangupta">Git Hub</a> repository for any and everything.
-
 
 Keep Walking and Keep Coding!
