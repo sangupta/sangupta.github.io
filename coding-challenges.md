@@ -3,15 +3,14 @@ layout: default
 title: Coding Challenges
 ---
 
-Coding Challenges
------------------
-
-Following are the various coding challenges I have participated in. In no particular order:
+## Coding Challenges
 
 ### Greplin
 
 Greplin posted a <a href="http://challenge.greplin.com/">coding challenge</a> with 3 levels. My solutions for the entire
 challenge can be found in my GitHub repository at <a href="https://github.com/sangupta/greplin">Greplin</a>.
+
+<hr>
 
 ### Image Unshred
 
@@ -19,11 +18,14 @@ Instagram posted a <a href="http://instagram-engineering.tumblr.com/post/1265172
 on image unshredding</a> in 2011 around stiching back pieces of an image that has been shredded. My solution for the same can be found in
 my GitHub repository at <a href="https://github.com/sangupta/image-unshred">Image Unshred</a>.
 
+<hr>
 
 ### Luhny Bin
 
 Square posted a <a href="http://corner.squareup.com/2011/11/luhny-bin.html">coding challenge</a> for Luhn check in 2011. 
 My solution for the same can be found in my GitHub repository at <a href="https://github.com/sangupta/luhnybin">Luhny Bin</a>.
+
+<hr>
 
 ### Project Euler
 
@@ -33,3 +35,5 @@ will help you arrive at elegant and efficient methods, the use of a computer and
 will be required to solve most problems.
 
 Solutions to `82` problems by me can be found in my Github repository at <a href="https://github.com/sangupta/maer">Maer</a>.
+
+<hr>
