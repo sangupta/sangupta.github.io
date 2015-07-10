@@ -5,7 +5,7 @@ permalink: /tech/jopensurf-maven-central
 tags: java, open-source
 ---
 
-Sometime back I happened to work with `JOpenSurf` project for some prototypign work. The project is also a dependency
+Sometime back I happened to work with `JOpenSurf` project for some prototyping work. The project is also a dependency
 of the `LIRE` project, the popular Lucene based Image Retrieval library. The only drawback if the `JOpenSurf` project
 was its non-availability in Maven Central.
 
