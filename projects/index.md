@@ -354,7 +354,7 @@ clean this laundry list once every quarter when some experiments mature into pro
 
 	<li>
 		<span class="name">
-			<a href="/projects/twittercli">Twitter CLI</a>: A command-line power tool for Twitter based on https://github.comsferik/t but in Java
+			<a href="/projects/twittercli">Twitter CLI</a>: A command-line power tool for Twitter based on <a href="https://github.comsferik/t" target="_blank">https://github.comsferik/t</a> but in Java
 		</span>
 
 		<span class="label label-warning">JAVA</span>
