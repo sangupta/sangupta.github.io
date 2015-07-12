@@ -2,9 +2,8 @@
 layout: project
 title: Murmur
 github: murmur
+maven: true
 ---
-
-<h1>Murmur</h1>
 
 `murmur` is a pure Java implementation of all `Murmur` hashes, namely, `Murmur1`, `Murmur2` and `Murmur3`. The library is a direct Java implementation of the C++ source code. Hash generation has been 100% unit tested against the hashes generated using the C++ code. The library should help in building bloom filters, or to just compute the hash for checking sanity of data, as `Murmur3` is much faster than MD5 and SHA computations.
 

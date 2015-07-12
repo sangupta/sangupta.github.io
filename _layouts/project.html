@@ -3,11 +3,33 @@ layout: default
 ---
 
 <div class="project-content">
+	<h1>{{ page.title }}</h1>
+
+	{% if page.maven %}
+	<p>
+		<a href="https://travis-ci.org/sangupta/{{page.github}}" target="_blank">
+			<img src="https://travis-ci.org/sangupta/{{page.github}}.svg?branch=master" alt="Build Status">
+		</a>
+
+		<a href="https://coveralls.io/r/sangupta/{{page.github}}" target="_blank">
+			<img src="https://coveralls.io/repos/sangupta/{{page.github}}/badge.png" alt="Coverage Status">
+		</a>
+
+		<a href="https://maven-badges.herokuapp.com/maven-central/com.sangupta/{{page.github}}" target="_blank">
+			<img src="https://maven-badges.herokuapp.com/maven-central/com.sangupta/{{page.github}}/badge.svg" alt="Maven Version">
+		</a>
+
+		<a href="http://javadoc-badge.appspot.com/com.sangupta/{{page.github}}" target="_blank">
+			<img src="http://javadoc-badge.appspot.com/com.sangupta/{{page.github}}.svg?label=javadoc" alt="JavaDoc">
+		</a>
+	</p>
+	{% endif %}
+
 	{{ content }}
 </div>
 
 {% if page.github %}
-    <a href="https://github.com/sangupta/{{page.github}}">
+    <a href="https://github.com/sangupta/{{page.github}}" target="_blank">
   		<img style="position: absolute; top: 0; right: 0; border: 0;" src="//s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub">
 	</a>
 {% endif %}
