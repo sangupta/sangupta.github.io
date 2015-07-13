@@ -85,3 +85,7 @@ The library can be downloaded from Maven Central using:
 ### License
 
 The library is released under the terms of **Apache Public License Version 2**.
+
+### License
+
+The library is released under the terms of **Apache Public License Version 2**.

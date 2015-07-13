@@ -15,3 +15,6 @@ The library is tested on the following JDK versions:
 * Oracle JDK 7
 * Open JDK 7
 
+### License
+
+The library is released under the terms of **Apache Public License Version 2**.

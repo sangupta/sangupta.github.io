@@ -1,16 +1,10 @@
 ---
-layout: default
+layout: project
 title: Jerry-Http
 github: jerry-http
 ---
 
-<h1>Jerry HTTP</h1>
-
-[![Build Status](https://travis-ci.org/sangupta/jerry-http.svg?branch=master)](https://travis-ci.org/sangupta/jerry-http)
-[![Coverage Status](https://coveralls.io/repos/sangupta/jerry-http/badge.png)](https://coveralls.io/r/sangupta/jerry-http)
-[![Maven Version](https://maven-badges.herokuapp.com/maven-central/com.sangupta/jerry-http/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.sangupta/jerry-http)
-
-**Jerry-Http** library makes it possible to make internet calls super-easy. All calls return a `WebResponse` object
+`jerry-http` library makes it possible to make internet calls super-easy. All calls return a `WebResponse` object
 that has many utility methods to work with. Most of the HTML/CSS/JS resource calls, or REST calls are now a single
 line of code away.
 
@@ -51,3 +45,7 @@ GET a `WebResponse` from http://sangupta.com
 ```java
 WebResponse response = WebInvoker.getResponse("http://sangupta.com");
 ```
+
+### License
+
+The library is released under the terms of **Apache Public License Version 2**.

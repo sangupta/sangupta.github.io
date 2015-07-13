@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: project
 title: Log Parser
 github: log-parser
 ---
 
-<h1>Log Parser</h1>
+A simple Java libary to parse various kind of known log files.
 
+### License
+
+The library is released under the terms of **Apache Public License Version 2**.

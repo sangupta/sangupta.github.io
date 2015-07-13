@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: project
 title: HTTP ToolBox
 github: http-toolbox
 ---
 
-<h1>HTTP ToolBox</h1>
+Command line HTTP tools.
 
+### License
+
+The library is released under the terms of **Apache Public License Version 2**.

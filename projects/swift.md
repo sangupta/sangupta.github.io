@@ -1,8 +1,15 @@
 ---
-layout: default
+layout: project
 title: Swift
 github: swift
 ---
 
-<h1>Swift</h1>
+A simple HTTP server using [Netty](http://netty.io) framework. 
 
+### WARNING
+Very nascent - not to be used other than for development. I use this repository to learn about NETTY in my 
+free time.
+
+### License
+
+The library is released under the terms of **Apache Public License Version 2**.
