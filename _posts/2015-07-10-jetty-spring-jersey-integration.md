@@ -67,7 +67,7 @@ can be `@Autowire`d or `@Inject`ed. Let's take a look at the `initialize` method
 			return;
 		}
 		
-		// mode code omitted for brevity
+		// more code omitted for brevity
 	}
 ```
 
