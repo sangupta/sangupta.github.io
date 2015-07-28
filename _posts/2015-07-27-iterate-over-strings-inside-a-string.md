@@ -10,7 +10,7 @@ read lines within a single `String` object. `Java` does not offer a simple solut
 object to a `byte[]` and then use `ByteArrayInputStream` or use a `StringReader` and then push this into another line-by-line reader.
 
 For the same, I wrote a simple utility class, <a href="https://github.com/sangupta/jerry-core/blob/master/src/main/java/com/sangupta/jerry/io/StringLineIterator.java">StringLineIterator</a> 
-(available in <a href="https://github.com/jerry-core">jerry-core</a> project) simplifying reading of
+(available in <a href="https://github.com/sangupta/jerry-core">jerry-core</a> project) simplifying reading of
 lines to the following code snippet:
 
 ```java
