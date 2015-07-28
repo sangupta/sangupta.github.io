@@ -16,6 +16,26 @@ I added the following implementations to the <a href="https://github.com/sangupt
 * `MMapFileBackedBitArray` - one that is file-persisted, but uses memory-mapped files for nuch faster performance
 * `JavaBitSetArray` - one that uses internal `Java` implementation underneath
 
+Usage is pretty simple as,
+
+```java
+final int maxElements = 1000 * 1000; // 1 million
+BitArray ba = new FileBackedBitArray(new File("my-bit-array.ba"), maxElements);
+
+boolean updated = ba.setBit(13); // returns true
+updated = ba.setBit(13); // returns false
+ba.clearBit(13);
+udpated = ba.setBit(13); // returns true
+
+boolean isSet = ba.getBit(13); // returns true
+
+
+// using the memory-mapped version is similar
+ba = new MMapFileBackedBitArray(new File("my-bit-array"), maxElements);
+
+// all other operations are the same
+```
+
 I have used `MMapFileBackedBitArray` in production for the last few years and has been quite useful and fast.
 
 Hope this helps.
