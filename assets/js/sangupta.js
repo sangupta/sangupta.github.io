@@ -1,28 +1,51 @@
-function getProjectList() {
-	var uri = "https://api.github.com/users/sangupta/repos?per_page=200";
+var sangupta = {};
 
-	$.getJSON(uri, function (result) {
-		if(!result || result.length == 0) {
-			return;
-		}
+/**
+ * Used to merge hogan.js template with data
+ */
+function mergeHoganTemplate() {
+	var template = $('#hoganTemplate').val();
+	template = $.trim(template);
 
-		addRepos("#projectList", result);
+	var json = $('#jsonData').val();
+	json = $.trim(json);
+	json = $.parseJSON(json);
+
+	if(!template) {
+		return;
+	}
+
+	if(sangupta.hogan) {
+		// just merge
+		var compiled = Hogan.compile(template);
+		var html = compiled.render(json);
+
+		// put this in iframe
+		$('#hoganFrame').contents().find('html').html(html);
+		return;
+	}
+
+	// get the script and merge
+	$.getScript('http://twitter.github.io/hogan.js/builds/3.0.1/hogan-3.0.1.js', function() {
+		// set that we have loaded hogan
+		sangupta.hogan = true;
+
+		var compiled = Hogan.compile(template);
+		var html = compiled.render(json);
+
+		// put this in iframe
+		$('#hoganFrame').contents().find('html').html(html);
 	});
-};
+}
 
-function addRepos(selector, repos) {
-	var parent = $(selector);
-	parent.html('');
-
-	$.each(repos, function(index, repo) {
-		addRepo(repo, parent);
-	});
-};
-
-function addRepo(repo, parent) {
-	var $item = $("<li>");
-	var $name = $("<a>").attr("href", repo.html_url).text(repo.name);
-    $item.append($("<span>").addClass("name").append($name));
-
-	$item.appendTo(parent);
+/**
+ * Format the pasted JSON
+ */
+function formatJSON() {
+	var json = $('#jsonData').val();
+	json = $.trim(json);
+	json = $.parseJSON(json);
+	
+	json = JSON.stringify(json, null, 4);
+	$('#jsonData').val(json);
 }

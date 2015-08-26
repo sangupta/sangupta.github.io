@@ -260,3 +260,15 @@ hr {
 ul.projectList li {
   margin: 10px 0;
 }
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+}
+textarea {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
