@@ -77,6 +77,14 @@ title: Projects &amp; Experiments
 
 		<span class="label label-warning">JAVA</span>
 	</li>
+	
+	<li>
+		<span class="name">
+			<a href="/projects/esclient">ElasticSearch Client</a>: Strongly typed GSON based ElasticSearch client
+		</span>
+
+		<span class="label label-warning">JAVA</span>
+	</li>
 
 	<li>
 		<span class="name">
