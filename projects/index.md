@@ -240,6 +240,8 @@ title: Projects &amp; Experiments
 
 </ul>
 
+<span id="experiments"></span>
+
 <h1>Experiments</h1>
 
 <p>
@@ -247,7 +249,7 @@ These are projects that are no-way near completion and may not even compile. The
 clean this laundry list once every quarter when some experiments mature into projects.
 </p>
 
-<ul id="experiments" class="projectList" name="experiments">
+<ul class="projectList" name="experiments">
 	<li>
 		<span class="name">
 			<a href="/projects/andruil">Andruil</a>: Java GUI command-line shell power tool
