@@ -24,28 +24,29 @@
     <!-- Turn on IE cleartype -->
     <meta http-equiv="cleartype" content="on">
 
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:site_name" content="Sandeep Gupta" />
     <meta property="og:type" content="website" />
+    {% if page.fbimage %}
+    	<meta property="og:image" itemprop="image primaryImageOfPage" content="{{ page.fbimage }}" />
+	{% endif %}
+    {% if page.fbdesc %}
+    	<meta property="og:description" content="{{ page.fbdesc }}" />
+    {% endif %}
+
+    <meta property="article:author" content="https://www.facebook.com/sandy.pec" />
+    
+    {% if page.permalink %}
+    	<meta property="og:url" content="{{ page.permalink }}" />
+    {% else %}
+    	<meta property="og:url" content="http://sangupta.com{{ page.url }}" />
+    {% endif %}
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:domain" content="sangupta.com"/>
-
-    {% if page.permalink %}
-    <meta property="og:url" content="{{ page.permalink }}" />
-    {% else %}
-    <meta property="og:url" content="http://sangupta.com{{ page.url }}" />
-    {% endif %}
-
     {% if page.title %}
-    <meta name="twitter:title" property="og:title" itemprop="title name" content="{{ page.title }}" />
+    	<meta name="twitter:title" property="og:title" itemprop="title name" content="{{ page.title }}" />
     {% endif %}
-
-    {% if page.fbimage %}
-    <meta property="og:image" itemprop="image primaryImageOfPage" content="{{ page.fbimage }}" />
-	{% endif %}
-
-    {% if page.fbdesc %}
-    <meta property="og:description" content="{{ page.fbdesc }}" />
-    {% endif %}
-
     <meta name="twitter:app:country" content="IN" />
 
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
