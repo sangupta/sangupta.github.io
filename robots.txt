@@ -1,1 +1,3 @@
 # Don't disallow anything for now
+User-agent: *
+Allow: /
