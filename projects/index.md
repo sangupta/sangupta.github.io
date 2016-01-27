@@ -69,6 +69,14 @@ title: Projects &amp; Experiments
 
 		<span class="label label-warning">JAVA</span>
 	</li>
+	
+	<li>
+		<span class="name">
+			<a href="/projects/dribbble-java-client">Domain Objects</a>: Contract and implementations for common-useful domain objects
+		</span>
+
+		<span class="label label-warning">JAVA</span>
+	</li>
 
 	<li>
 		<span class="name">
