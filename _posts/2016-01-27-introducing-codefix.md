@@ -27,7 +27,7 @@ $ java -jar codefix.jar rtrim -r -p *.java c:\code
 $ java -jar codefix.jar encoding -r -p *.txt -s ISO-8969 -t UTF-8 c:\textdocs
 ```
 
-You may download the binary/read more in the [release notes](https://github.com/sangupta/codefix/releases/tag/codefix-1.0.0)
-here or may take a dive into the [source code](https://github.com/sangupta/codefix).
+You may [download the binary](https://github.com/sangupta/codefix/releases/tag/codefix-1.0.0)
+or may take a dive into the [source code](https://github.com/sangupta/codefix).
 
 Hope this helps.

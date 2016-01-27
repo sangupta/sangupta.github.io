@@ -8,20 +8,11 @@ Fix minor code refactoring tasks.
 
 `codefix` allows to achieve the following code refactoring tasks via command line:
 
-* Add/update copyright headers
-* Remove copyright headers
+* Add/update/remove copyright headers
 * Remove trailing white-spaces
 * Add a new line at the end of file
+* Change file encoding
 
-### Changelog
+#### Releases
 
-**Current Development**
-
-* [Feature] Add/update copyright headers
-* [Feature] Remove copyright headers
-* [Feature] Remove trailing white-spaces
-* [Feature] Add a new line at the end of file
-
-### License
-
-The library is released under the terms of **Apache Public License Version 2**.
+* Version 1.0.0 is available at https://github.com/sangupta/codefix/releases/tag/codefix-1.0.0
