@@ -13,11 +13,11 @@ author:
 serving_publicly: true
 
 # code syntax highlighter to use
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+# redcarpet:
+#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 # used to indicate where we split up post and excerpt
 excerpt_separator: <!-- break here -->
