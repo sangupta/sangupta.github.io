@@ -88,6 +88,14 @@ title: Projects &amp; Experiments
 	
 	<li>
 		<span class="name">
+			<a href="/projects/dryrun">DryRun</a>: Mocked classes for unit testing
+		</span>
+
+		<span class="label label-warning">JAVA</span>
+	</li>
+	
+	<li>
+		<span class="name">
 			<a href="/projects/esclient">ElasticSearch Client</a>: Strongly typed GSON based ElasticSearch client
 		</span>
 
@@ -241,6 +249,14 @@ title: Projects &amp; Experiments
 	<li>
 		<span class="name">
 			<a href="/projects/unwind">UnWind</a>: Expand shortened URLs
+		</span>
+
+		<span class="label label-warning">JAVA</span>
+	</li>
+	
+	<li>
+		<span class="name">
+			<a href="/projects/urn">Urn</a>: Object storage library supporting multiple backends
 		</span>
 
 		<span class="label label-warning">JAVA</span>
