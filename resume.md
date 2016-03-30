@@ -8,12 +8,12 @@ title: Resume
 
 ### Professional Employment
 
-| Term                 | Employer                      | Designation               |
-|----------------------|-------------------------------|---------------------------|
-| Mar 2009 to date     | Adobe Systems Incorporated    | Senior Computer Scientist |
-| May 2007 to Mar 2009 | Headstrong India, now Genpact | Lead Consultant           |
-| Jan 2006 to May 2007 | Tavant Technologies           | Software Engineer         |
-| Aug 2003 to Dec 2005 | RITES                         | Engineer                  |
+| Term               | Employer                      | Designation               |
+|--------------------|-------------------------------|---------------------------|
+| 03/2009 to date    | Adobe Systems Incorporated    | Senior Computer Scientist |
+| 05/2007 to 03/2009 | Headstrong India, now Genpact | Lead Consultant           |
+| 01/2006 to 05/2007 | Tavant Technologies           | Software Engineer         |
+| 08/2003 to 12/2005 | RITES                         | Engineer                  |
 
 ### Education
 
