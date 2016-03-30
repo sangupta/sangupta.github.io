@@ -6,19 +6,19 @@ title: Resume
 ## Sandeep Gupta
 
 
-### Employment History
+### Professional Employment
 
-| Term                 | Designation               | Employer                      | Location     |
-|----------------------|---------------------------|-------------------------------|--------------|
-| Mar 2009 to date     | Senior Computer Scientist | Adobe Systems Incorporated    | Noida, India |
-| May 2007 to Mar 2009 | Lead Consultant           | Headstrong India, now Genpact | Noida, India |
-| Jan 2006 to May 2007 | Software Engineer         | Tavant Technologies           | Noida, India |
-| Aug 2003 to Dec 2005 | Engineer                  | RITES                         | Noida, India |
+| Term                 | Employer                      | Designation               |
+|----------------------|-------------------------------|---------------------------|
+| Mar 2009 to date     | Adobe Systems Incorporated    | Senior Computer Scientist |
+| May 2007 to Mar 2009 | Headstrong India, now Genpact | Lead Consultant           |
+| Jan 2006 to May 2007 | Tavant Technologies           | Software Engineer         |
+| Aug 2003 to Dec 2005 | RITES                         | Engineer                  |
 
 ### Education
 
-| Term                 | Course                                  | College                       | Location          |
-|----------------------|-----------------------------------------|-------------------------------|-------------------|
-| Aug 1999 to Jul 2003 | B.E. Civil Engineering (summa cumlaude) | Punjab Engineering College    | Chandigarh, India |
+| Term                 | Course                                  | College                       |
+|----------------------|-----------------------------------------|-------------------------------|
+| Aug 1999 to Jul 2003 | B.E. Civil Engineering (summa cumlaude) | Punjab Engineering College    |
 
 Still in the works :)
