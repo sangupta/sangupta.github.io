@@ -3,7 +3,6 @@ layout: post
 title: Finding degrees of separation in a social graph
 permalink: /tech/degrees-of-separation.md
 tags: java, open-source, problem-solving
-excerpt: Assume two users on a Social network start with zero `0` connections. And add connections at a rate of 100 per minute. Explain how you would design a solution to find out the degrees of separation between two network profiles, given a known function `getConnections(profile.id)` that returns data from over the network.
 ---
 
 # Problem
@@ -17,12 +16,18 @@ a slower more accurate result?
 
 # Solution
 
+<div class="alert alert-info">
+  The always updated article is always available on [Github:sangupta/ps](https://github.com/sangupta/ps/blob/master/solutions/2016/degrees-of-separation-social-graph.md) repo
+</div>
+
+
 I can think of many different ways to compute this. I will put them out below.
 
 `Approach 2` seems the best considering the storage cost and traversal costs.
 `Approach 3` can be near real-time if we can take care of the storage, and add
 optimal number of workers for fan-out.
 
+<!-- break here -->
 
 ## Assumptions
 

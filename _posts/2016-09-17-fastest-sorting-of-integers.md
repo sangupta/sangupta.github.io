@@ -13,6 +13,11 @@ to be sorted. What's the fastest way to do it.
 
 # Solution
 
+<div class="alert alert-info">
+  The always updated article is always available on [Github:sangupta/ps](https://github.com/sangupta/ps/blob/master/solutions/2016/fastest-sorting-integers.md) repo
+</div>
+
+
 Most of the interview candidates that I have talked to about this problem come up
 with the quick answer as `MergeSort` or divide-and-conquer. The cost of sorting
 being `O(N * Log(N))` - which in this case is not the fastest sorting time.
@@ -23,6 +28,8 @@ The fastest time to sort an integer array is `O(N)`. Let me explain how.
 * For every integer `n` in array, mark the boolean at index `n` in array as `true`
 * Once the array iteration is complete, just iterate over the boolean array again
 to print all the indices that have the value set as `true`
+
+<!-- break here -->
 
 ```java
 public void sortBoundedIntegers(int[] array) {
