@@ -17,7 +17,7 @@ a slower more accurate result?
 # Solution
 
 <div class="alert alert-info">
-  The always updated article is always available on [Github:sangupta/ps](https://github.com/sangupta/ps/blob/master/solutions/2016/degrees-of-separation-social-graph.md) repo
+  The always updated article is always available on <a href="https://github.com/sangupta/ps/blob/master/solutions/2016/degrees-of-separation-social-graph.md">Github:sangupta/ps</a> repo
 </div>
 
 

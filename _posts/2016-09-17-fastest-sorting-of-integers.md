@@ -14,7 +14,8 @@ to be sorted. What's the fastest way to do it.
 # Solution
 
 <div class="alert alert-info">
-  The always updated article is always available on [Github:sangupta/ps](https://github.com/sangupta/ps/blob/master/solutions/2016/fastest-sorting-integers.md) repo
+  The always updated article is always available on
+  <a href="https://github.com/sangupta/ps/blob/master/solutions/2016/fastest-sorting-integers.md">Github:sangupta/ps</a> repo
 </div>
 
 

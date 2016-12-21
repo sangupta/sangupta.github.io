@@ -17,6 +17,8 @@ of the library from Maven Central with the following coordinates:
 </dependency>
 ```
 
+<!-- break here -->
+
 Following are the major changes in this release:
 
 * Minimum supported JDK version is now 1.7 than earlier 1.6

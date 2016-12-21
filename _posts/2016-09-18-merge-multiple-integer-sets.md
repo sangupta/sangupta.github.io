@@ -13,7 +13,8 @@ way.
 # Solution
 
 <div class="alert alert-info">
-  The always updated article is always available on [Github:sangupta/ps](https://github.com/sangupta/ps/blob/master/solutions/2016/fastest-duplicates-integer-sets.md) repo
+  The always updated article is always available on
+  <a href="https://github.com/sangupta/ps/blob/master/solutions/2016/fastest-duplicates-integer-sets.md">Github:sangupta/ps</a> repo
 </div>
 
 Suppose we have 3 arrays of integer sets and we need to merge them. The fastest solution would be possible
