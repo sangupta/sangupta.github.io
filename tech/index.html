@@ -18,7 +18,13 @@ title: Keep Walking!
                         </h2>
                     </header>
                     <div class="post-description">
-                        <p>{{ post.content }}</p>
+                      {% if post.excerpt %}
+                        {{ post.excerpt }}
+                        <br>
+                        Read the <a href="{{ post.url }}">full post here.</a>
+                      {% else %}
+                        {{ post.content }}
+                      {% endif %}
                     </div>
                     <div class="clearfix"></div>
                 </section>

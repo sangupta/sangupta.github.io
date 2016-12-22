@@ -9,7 +9,7 @@ title: Home
 			<h1>Recent Posts</h1>
 
 			{% if site.posts %}
-			    {% for post in site.posts offset:0 limit:3 %}
+			    {% for post in site.posts offset:0 limit:5 %}
 			        <section class="post">
 			            <header class="post-header">
 			                <h2 class="post-title">
@@ -19,7 +19,13 @@ title: Home
 			                </h2>
 			            </header>
 			            <div class="post-description">
-			            	{{ post.content }}
+										{% if post.excerpt %}
+											{{ post.excerpt }}
+											<br>
+											Read the <a href="{{ post.url }}">full post here.</a>
+										{% else %}
+			            		{{ post.content }}
+										{% endif %}
 			            </div>
 			            <div class="clearfix"></div>
 			        </section>
@@ -29,4 +35,8 @@ title: Home
 			{% endif %}
 		</div>
 	</div>
+</div>
+
+<div class="alert alert-info">
+	The entire blog is <a href="/text/index.html">available here</a>.
 </div>

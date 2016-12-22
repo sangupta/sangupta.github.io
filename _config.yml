@@ -36,8 +36,8 @@ domain: sangupta.com
 safe: true
 
 # pagination options
-paginate: 10
-paginate_path: "tech/page:num/"
+paginate: 20
+paginate_path: "tech/page:num"
 
 # plugins approved to be used
 gems:
