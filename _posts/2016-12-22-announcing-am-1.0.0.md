@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Releasing jerry-core 3.0.0
+title: Announcing AM library 1.0.0
 permalink: /tech/announcing-am-1.0.0.md
 tags: java, open-source
 ---
