@@ -47,6 +47,10 @@ code {
     overflow-y: auto;
     background-color: #f5f5f5;
     border-right: 1px solid #ddd;
+    min-width: 230px;
+  }
+  .main {
+    margin-left: 230px !important;
   }
 }
 .nav-sidebar {

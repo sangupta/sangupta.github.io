@@ -39,7 +39,7 @@
     {% if page.permalink %}
     	<meta property="og:url" content="{{ page.permalink }}" />
     {% else %}
-    	<meta property="og:url" content="http://sangupta.com{{ page.url }}" />
+    	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     {% endif %}
 
     <meta name="twitter:card" content="summary">
@@ -55,7 +55,7 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/sangupta.css"/>
 
     <!-- load google fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -92,7 +92,7 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="/assets/js/sangupta.js" type="text/javascript"></script>
     <script src='https://apis.google.com/js/plusone.js' type='text/javascript'></script>
-    <script src='http://static.ak.fbcdn.net/connect.php/js/FB.Share' type='text/javascript'></script>
+    <script src='https://static.ak.fbcdn.net/connect.php/js/FB.Share' type='text/javascript'></script>
 
     <!-- Check for page specific javascripts -->
     {% if page.js_onload %}
