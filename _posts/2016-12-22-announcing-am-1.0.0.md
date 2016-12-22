@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing AM library 1.0.0
-permalink: /tech/announcing-am-1.0.0.md
+permalink: /tech/announcing-am-1.0.0.html
 tags: java, open-source
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fastest way to merge multiple integer sets
-permalink: /tech/merge-multiple-integer-sets.md
+permalink: /tech/merge-multiple-integer-sets.html
 tags: java, open-source, problem-solving
 ---
 

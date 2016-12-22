@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finding degrees of separation in a social graph
-permalink: /tech/degrees-of-separation.md
+permalink: /tech/degrees-of-separation.html
 tags: java, open-source, problem-solving
 ---
 

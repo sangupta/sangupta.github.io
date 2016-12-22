@@ -3,18 +3,18 @@ layout: default
 title: Poet Inside
 ---
 
-<h2>Poet Inside</h2>
+<h1>Poet Inside</h1>
 
 <div class="archive">
 {% for post in site.posts offset: 0 %}
 	{% if post.category == 'poetry' %}
 		<article class="one-poem">
 		    <header id="post-header">
-		        <h3 class="post-title">
+		        <h2 class="post-title">
 		        	<a href="{{ post.url }}">{{ post.title }}</a>
 		        	<br>
 			        <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small>
-		        </h3>
+		        </h2>
 		    </header>
 
 		    <div id="post-content" class="poem-content post-content">
@@ -29,7 +29,7 @@ title: Poet Inside
 		                {% endif %}
 		            {% endfor %}
 		            {% if category %}
-		                {% capture category_content %} in 
+		                {% capture category_content %} in
 		                	<span class="label" style="background-color:{{ category.color }}">
 		                		<a href="/blog/category/{{ category.slug }}">{{ category.name }}
 		                		</a>

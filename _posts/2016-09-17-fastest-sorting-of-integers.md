@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Fastest sorting of integers
-permalink: /tech/fastest-sorting-of-integers.md
+permalink: /tech/fastest-sorting-of-integers.html
 tags: java, open-source, problem-solving
-excerpt: We are given a huge array of bounded, non-duplicate, positive integers that need to be sorted. What's the fastest way to do it.
 ---
 
 # Problem

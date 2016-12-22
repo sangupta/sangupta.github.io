@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Releasing jerry-core 3.0.0
-permalink: /tech/jerry-core-3-release.md
+permalink: /tech/jerry-core-3-release.html
 tags: java, open-source
 ---
 
