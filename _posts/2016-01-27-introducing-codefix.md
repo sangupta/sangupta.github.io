@@ -13,7 +13,7 @@ files and more...
 
 Some quick and dirty examples on what could be achieved are:
 
-```
+```sh
 # add/update copyright
 $ java -jar codefix.jar addcopy -r -f COPYRIGHT.txt -p *.java c:\code
 

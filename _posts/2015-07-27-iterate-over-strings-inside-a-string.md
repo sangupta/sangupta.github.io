@@ -9,12 +9,12 @@ When reading file contents, or working with REST requests, many a times we want 
 read lines within a single `String` object. `Java` does not offer a simple solution to the same - either you convert the `String`
 object to a `byte[]` and then use `ByteArrayInputStream` or use a `StringReader` and then push this into another line-by-line reader.
 
-For the same, I wrote a simple utility class, <a href="https://github.com/sangupta/jerry-core/blob/master/src/main/java/com/sangupta/jerry/io/StringLineIterator.java">StringLineIterator</a> 
+For the same, I wrote a simple utility class, <a href="https://github.com/sangupta/jerry-core/blob/master/src/main/java/com/sangupta/jerry/io/StringLineIterator.java">StringLineIterator</a>
 (available in <a href="https://github.com/sangupta/jerry-core">jerry-core</a> project) simplifying reading of
 lines to the following code snippet:
 
 ```java
-String contents = '...'; // some contents that contains new-lines, and form-feed characters
+String contents = "..."; // some contents that contains new-lines, and form-feed characters
 
 StringLineIterator iterator = new StringLineIterator(contents);
 while(iterator.hasNext()) {
