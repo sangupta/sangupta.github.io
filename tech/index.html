@@ -3,7 +3,7 @@ layout: default
 title: Keep Walking!
 ---
 
-<h2>Keep Walking!</h2>
+<h1>Keep Walking!</h1>
 
 <div id="post-content">
     {% if paginator.posts %}
@@ -11,11 +11,11 @@ title: Keep Walking!
             {% if post.category != 'poetry' %}
                 <section class="post">
                     <header class="post-header">
-                        <h3 class="post-title">
+                        <h2 class="post-title">
                             <a href="{{ post.url }}">{{ post.title }}</a>
                             <br>
                             <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small>
-                        </h3>
+                        </h2>
                     </header>
                     <div class="post-description">
                         <p>{{ post.content }}</p>
@@ -27,7 +27,7 @@ title: Keep Walking!
     {% else %}
         <p>No posts found.</p>
     {% endif %}
-    
+
     {% if paginator.total_pages > 1 %}
         <div class="text-center">
             <ul class="pagination">

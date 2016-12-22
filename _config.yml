@@ -36,13 +36,13 @@ domain: sangupta.com
 safe: true
 
 # pagination options
-paginate: 20
+paginate: 10
 paginate_path: "tech/page:num/"
 
 # plugins approved to be used
 gems:
+  - github-pages
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-avatar
-  - jekyll-sitemap
