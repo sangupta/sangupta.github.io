@@ -18,9 +18,9 @@ String contents = "..."; // some contents that contains new-lines, and form-feed
 
 StringLineIterator iterator = new StringLineIterator(contents);
 while(iterator.hasNext()) {
-	String line = iterator.next();
+  String line = iterator.next();
 
-	// do something with this extracted line
+  // do something with this extracted line
 }
 ```
 

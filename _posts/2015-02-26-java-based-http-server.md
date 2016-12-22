@@ -9,13 +9,13 @@ excerpt: Introducing a new HTTP server that can be used by Java developers for s
 All web developers need an HTTP server to test their code snippets every other day. If
 one is using `OSX` it is as simple as running the following in shell:
 
-```bash
+```sh
 $ python -m SimpleHTTPServer
 ```
 
 If someone is using `NodeJS` and have `http-server` installed, it becomes easy as:
 
-```bash
+```sh
 $ http-server
 ```
 

@@ -39,7 +39,7 @@ public class TestWebService {
    public String available() {
       return "yes";
    }
-   
+
 }
 ```
 
@@ -54,31 +54,31 @@ import org.eclipse.jetty.servlet.ServletHolder;
 import org.glassfish.jersey.servlet.ServletContainer;
 
 public class JobQueueServer {
-   
-   public static void main(String[] args) {
-      
-      ServletContextHandler context = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);
-      context.setContextPath("/");
- 
-      Server jettyServer = new Server(9999);
-      jettyServer.setHandler(context);
- 
-      ServletHolder jerseyServlet = context.addServlet(ServletContainer.class, "/*");
-      jerseyServlet.setInitOrder(0);
- 
-      // Tells the Jersey Servlet which REST service/class to load.
-      jerseyServlet.setInitParameter("jersey.config.server.provider.packages", "com.sangupta.keepwalking.rest");
- 
-      try {
-         jettyServer.start();
-         jettyServer.join();
-        } catch (Exception e) {
-         e.printStackTrace();
-      } finally {
-            jettyServer.destroy();
-      }
-   }
-   
+
+ public static void main(String[] args) {
+
+    ServletContextHandler context = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);
+    context.setContextPath("/");
+
+    Server jettyServer = new Server(9999);
+    jettyServer.setHandler(context);
+
+    ServletHolder jerseyServlet = context.addServlet(ServletContainer.class, "/*");
+    jerseyServlet.setInitOrder(0);
+
+    // Tells the Jersey Servlet which REST service/class to load.
+    jerseyServlet.setInitParameter("jersey.config.server.provider.packages", "com.sangupta.keepwalking.rest");
+
+    try {
+       jettyServer.start();
+       jettyServer.join();
+      } catch (Exception e) {
+       e.printStackTrace();
+    } finally {
+       jettyServer.destroy();
+    }
+ }
+
 }
 ```
 
