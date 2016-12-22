@@ -28,3 +28,5 @@ desktop.ini
 
 # Project specific
 _site/*
+.jekyll-metadata
+.jekyll-metadata/*

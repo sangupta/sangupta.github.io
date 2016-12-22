@@ -22,7 +22,7 @@ h6 {
   font-weight: 400;
 }
 code {
-  color: #777;  
+  color: #777;
 }
 .pad-top-20 {
   padding-top: 20px;
@@ -98,11 +98,13 @@ main {
 }
 .main h1 {
   line-height: 54px;
-}
-.main h2 {
   font-size: 36px;
   text-align: center;
+}
+.main h2 {
+  font-size: 32px;
   font-weight: 400;
+  border-bottom: 1px solid #eee;
 }
 .post-content p, .page-content p {
   /*padding-top: 30px;*/
@@ -224,7 +226,9 @@ a {
 }
 .post-title {
   margin-bottom: 30px;
-  text-align: center;
+}
+.post-time {
+  font-size: 24px;
 }
 .archive {
   font-size: 16px;

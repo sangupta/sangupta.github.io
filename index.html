@@ -6,17 +6,17 @@ title: Home
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12" style="padding-left: 0;">
-			<h2>Recent Posts</h2>
+			<h1>Recent Posts</h1>
 
 			{% if site.posts %}
 			    {% for post in site.posts offset:0 limit:3 %}
 			        <section class="post">
 			            <header class="post-header">
-			                <h3 class="post-title">
+			                <h2 class="post-title">
 			                	<a href="{{ post.url }}">{{ post.title }}</a>
 			                	<br>
 			                	<small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small>
-			                </h3>
+			                </h2>
 			            </header>
 			            <div class="post-description">
 			            	{{ post.content }}

@@ -16,6 +16,9 @@ serving_publicly: true
 highlighter: rouge
 markdown: kramdown
 
+# exclude following files from build
+exclude: [ "bower.json", "Gemfile", "Gemfile.lock", "README.md", "package.json" ]
+
 # used to indicate where we split up post and excerpt
 excerpt_separator: <!-- break here -->
 
@@ -40,3 +43,6 @@ paginate_path: "tech/page:num/"
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-avatar
+  - jekyll-sitemap
