@@ -7,7 +7,7 @@ author:
   name: Sandeep Gupta
   github: sangupta
   email: sandy.pec@gmail.com
-  url: http://sangupta.com
+  url: https://sangupta.com
 
 # are we publicly serving
 serving_publicly: true
@@ -16,9 +16,6 @@ serving_publicly: true
 highlighter: rouge
 markdown: kramdown
 
-# redcarpet:
-#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-
 # used to indicate where we split up post and excerpt
 excerpt_separator: <!-- break here -->
 
@@ -26,7 +23,7 @@ excerpt_separator: <!-- break here -->
 encoding: utf-8
 
 # used in sitemap to produce absolute urls
-url: http://sangupta.com
+url: https://sangupta.com
 domain: sangupta.com
 
 # where all code is kept
