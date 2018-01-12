@@ -24,20 +24,26 @@ repository.
 
 ```java
 AmTagLibTestHelper.testTagOutput(
-    MyCustomJSPTag.class,                              // the class implementing custom tag
 
-    expectedOutputWrittenToJspWriter,                  // the expected String response
+    // the class implementing custom tag
+    MyCustomJSPTag.class,
 
-    new GenericConsumer<MyCustomJSPTag>() {            // set the values before invocation
+    // the expected String response
+    expectedOutputWrittenToJspWriter,
 
-        public boolean consume(MyCustomJSPTag tag) {   // same as in first param
+    // set the values before invocation
+    new GenericConsumer<MyCustomJSPTag>() {
+
+        // method argument of same type as the first param
+        public boolean consume(MyCustomJSPTag tag) {
             // set the properties of the tag
             tag.setProperty1(prop1);
             tag.setProperty2(prop2);
 
             // and so on...
 
-            // return either true or false - it won't matter in this case
+            // return either true or false
+            // it does not matter in this case
             return true;
         }
     }

@@ -7,9 +7,11 @@ title: About Me
   <img class="mr-3 rounded-circle profile-image" src="/assets/images/profile.jpeg" alt="Sandeep Gupta">
   <div class="media-body">
     <h1 class="mt-0">Sandeep Gupta</h1>
-    <i>A developer by profession, a poet by inclination, a gamer by hobby, and a programmer by choice.</i>
+    <i>developer by profession, poet by inclination, gamer by hobby, programmer by choice!</i>
   </div>
 </div>
+
+<br>
 
 A programmer with over 14+ years of professional experience in developing high-performance, scalable distributed
 web applications, sometimes, mobile and desktop applications. 
@@ -21,6 +23,7 @@ about smaller projects I keep working on is collated [here](https://sangupta.com
 Feel free to explore around, or drop me a comment. <b><i>Happy Hacking!</i></b>
 
 <a id="contact"></a>
+<br>
 
 ## Contact
 
@@ -28,6 +31,8 @@ Drop me a line at <a href="mailto:sandy.pec@gmail.com">sandy.pec@gmail.com</a>, 
 on Twitter at <a href="https://twitter.com/sangupta">@sangupta</a>.
 
 Links to my social presence are in the left/bottom navigation menu.
+
+<br>
 
 ## GPG Key
 
