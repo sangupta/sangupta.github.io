@@ -3,40 +3,16 @@ layout: default
 title: Home
 ---
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12" style="padding-left: 0;">
-			<h1>Recent Posts</h1>
-
-			{% if site.posts %}
-			    {% for post in site.posts offset:0 limit:5 %}
-			        <section class="post">
-			            <header class="post-header">
-			                <h2 class="post-title">
-			                	<a href="{{ post.url }}">{{ post.title }}</a>
-			                	<br>
-			                	<small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small>
-			                </h2>
-			            </header>
-			            <div class="post-description">
-										{% if post.excerpt %}
-											{{ post.excerpt }}
-											<br>
-											Read the <a href="{{ post.url }}">full post here.</a>
-										{% else %}
-			            		{{ post.content }}
-										{% endif %}
-			            </div>
-			            <div class="clearfix"></div>
-			        </section>
-			    {% endfor %}
-			{% else %}
-			    <p>No posts found.</p>
-			{% endif %}
-		</div>
-	</div>
-</div>
-
-<div class="alert alert-info">
-	The entire blog is <a href="/text/index.html">available here</a>.
-</div>
+<section class='post-list'>
+    {% for post in site.posts offset:0 limit:5 %}
+        <article class="post">
+            <h1 class="post-title">
+        		<a href="{{ post.url }}">{{ post.title }}</a>
+            </h1>
+			<h3 class='post-date' datetime="{{ post.date | date_to_xmlschema }}">Posted on {{ post.date | date_to_long_string }}</h3>
+            <div class="post-content">
+        		{{ post.content }}
+            </div>
+        </article>
+    {% endfor %}
+</section>
