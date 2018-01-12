@@ -3,28 +3,37 @@ layout: default
 title: About Me
 ---
 
-### Developer, Gamer, Trance enthusiast, and a Poet!
+<div class="media">
+  <img class="mr-3 rounded-circle profile-image" src="/assets/images/profile.jpeg" alt="Sandeep Gupta">
+  <div class="media-body">
+    <h1 class="mt-0">Sandeep Gupta</h1>
+    <i>A developer by profession, a poet by inclination, a gamer by hobby, and a programmer by choice.</i>
+  </div>
+</div>
 
-Hi, I'm Sandeep Gupta, a developer working for [Adobe Systems](http://adobe.com) based out of Delhi, India. I have spent the last 11+ years professionally building applications that target the desktop, the web, mobile devices and the tablets. I usually work on the server stuff, but am hands-on developing beautiful websites.
+A programmer with over 14+ years of professional experience in developing high-performance, scalable distributed
+web applications, sometimes, mobile and desktop applications. 
 
-Across the site you will find references to what I have done in the past, except my professional assignments. All my code is
-usually open-source, and can be on my [GitHub/sangupta](https://github.com/sangupta).
+I often write **open-source code** available at [GitHub](https://github.com/sangupta). I at-times write
+about programming techniques and solution designs [here](https://github.com/sangupta/ps). Other random stuff
+about smaller projects I keep working on is collated [here](https://sangupta.com/tech/archive.html) on this site.
 
-Feel free to explore, criticize or abuse. just, **Keep Walking!**
+Feel free to explore around, or drop me a comment. <b><i>Happy Hacking!</i></b>
 
 <a id="contact"></a>
 
-#### Contact
+## Contact
 
-You may reach me at <a href="mailto:sandy.pec@gmail.com">sandy.pec@gmail.com</a>, or connect with me
+Drop me a line at <a href="mailto:sandy.pec@gmail.com">sandy.pec@gmail.com</a>, or
 on Twitter at <a href="https://twitter.com/sangupta">@sangupta</a>.
 
-My social presence links can be found in the left navigation menu.
+Links to my social presence are in the left/bottom navigation menu.
 
-#### GPG Key
+## GPG Key
 
 The GPG Key fingerprint is `9127 C67F 5CEE 90F2 EC65 83D1 CE65 932B DD59 F1A9`
 
 The 64-bit fingerprint is `CE65 932B DD59 F1A9`
 
-You can download the raw key from [keybase.io/sangupta/key.asc](https://keybase.io/sangupta/key.asc). More details can be found in this [gist](https://gist.github.com/sangupta/ed57c851411318a15904).
+You can download the raw key from [keybase.io/sangupta/key.asc](https://keybase.io/sangupta/key.asc). More 
+details can be found in [this gist](https://gist.github.com/sangupta/ed57c851411318a15904).
