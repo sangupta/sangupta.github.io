@@ -139,3 +139,6 @@ code {
         margin-top: 177px;
     }
 }
+.smaller-reading-pane {
+    max-width: 780px;
+}
