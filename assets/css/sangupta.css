@@ -139,8 +139,3 @@ code {
         margin-top: 177px;
     }
 }
-@media (min-width: 1440px) {
-    .content-pane {
-        padding-right: 100px;
-    }
-}
