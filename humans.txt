@@ -1,7 +1,6 @@
 /** Who Am I **/
 
   Sandeep Gupta
-  Site: http://sangupta.com
-  Location: Noida, India
+  Site: https://sangupta.com
+  Location: Bay Area, CA, USA
   Github: https://github.com/sangupta
-
