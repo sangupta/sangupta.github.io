@@ -46,6 +46,7 @@ main {
 .content-pane {
     padding-top: 40px;
     padding-bottom: 60px;
+    margin-right: 100px;
 }
 pre {
     background-color: #f9f9f9;
@@ -63,7 +64,7 @@ pre {
     border-bottom: 1px solid;
     margin-bottom: 25px;
     padding-bottom: 25px;
-    color: #e5e5e5;
+    color: rgb(64, 64, 64);
     padding-left: 20px;
 }
 .post-title a {
@@ -80,25 +81,24 @@ pre {
     color: rgb(128, 128, 128);
     font-size: 18px;
 }
-.post-content {
+.content-pane {
     font-size: 17px;
     line-height: 32px;
     color: rgba(0, 0, 0, 0.87);
-    margin-top: 40px;
 }
-.post-content h1 {
+.content-pane h1 {
     font-size: 26px;
     line-height: 40px;
 }
-.post-content h2 {
+.content-pane h2 {
     font-size: 22px;
     line-height: 36px;
 }
-.post-content h3 {
+.content-pane h3 {
     font-size: 18px;
     line-height: 32px;
 }
-.post-content h4 {
+.content-pane h4 {
     font-size: 16px;
     line-height: 26px;
 }
