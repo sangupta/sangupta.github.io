@@ -3,9 +3,13 @@ layout: default
 title: Archive - Keep Walking!
 ---
 
-<h2>Archive - Keep Walking!</h2>
-
 <div class="archive post">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col">
+            <h2>Keep Walking!</h2>
+        </div>
+    </div>	
 {% for post in site.posts offset: 0 %}
 	{% if post.category != 'poetry' %}
 		<div class="row">
