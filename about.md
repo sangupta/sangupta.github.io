@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: smaller-page
 title: About Me
 ---
 
