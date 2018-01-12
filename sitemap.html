@@ -1,0 +1,21 @@
+---
+layout: default
+title: Archive - Keep Walking!
+---
+
+<h1>Sitemap</h1>
+
+<div class="archive post">
+{% for post in site.posts offset: 0 %}
+    <div class="row">
+        <div class='col-md-2 text-muted text-right date-col'>   
+            {{ post.date | date_to_string }}
+        </div>
+        <div class='col'>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span class='badge badge-primary'>{{ post.category }}</span>
+        </div>
+    </div>
+
+{% endfor %}
+</div>
