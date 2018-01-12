@@ -3,42 +3,40 @@ title: Open Source
 layout: page
 ---
 
-Influence of Open Source
-------------------------
+# Programming and Inclination to Open Source
 
-Its been long I have been coding, since 1989 to be precise, with no formal computer science education. Everything
-that I have learned can be attributed to all the source code published in public domain over all these years. My
-first rememberance of the same is through `FTP` servers and `Bulletin Boards` that you accessed over the Internet
-and downloaded each individual file, and later on `ZIP` files to read and study. Aided by books such as:
+I started programming as a child in 1989, with no formal computer science education. Internet had
+not yet arrived for public in India and thus most of the programming knowledge came in from various books. 
+Luckily being in [Roorkee](https://en.wikipedia.org/wiki/Roorkee), a small-town with the great British-era
+[Thomson College of Engineering](https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Roorkee), had 
+access to their library with books plenty. FTP based internet came into reach and the beginning to download
+the ZIP files spread across various `FTP` servers and `Bulletin Boards`.
 
-* Inside the IBM PC by Peter Norton
-* Inside the IBM PC: Access to Advanced Features & Programming Techniques by Peter Norton
-* The Peter Norton Programmer's Guide to the IBM PC
-* Advanced MS-DOS Programming by Ray Duncan
-* and many more...
+Some of the books I have memories of going over again and again include:
 
-that was my first hand experience of how professional software could be written. As a kid, it was **so magical**.
+* [Inside the IBM PC by Peter Norton](https://books.google.com/books?id=z4Y_AQAAIAAJ)
+* [Inside the IBM PC: Access to Advanced Features & Programming Techniques by Peter Norton](https://books.google.com/books?id=Ysl0AAAACAAJ)
+* [Advanced MS-DOS Programming by Ray Duncan](https://books.google.com/books?id=DQ_FQgAACAAJ)
 
-After I began coding, I made many of small utilities and tools to aid my own work. Even in college
-I completed by `Surveying project` involving creation of a `topology sheet` and `Design of a School Building` by
-writing custom `Java` code - it saved hell lot of time iterating over and over again, and making sure that we 
-won the best project medal (as a team) at the end of the course as well.
+Using Norton Commander and Norton Editor was my first hand experience of how professional software 
+could be written. As a kid, it was <i>so so magical</i>.
 
-Entering into the world of professional development, I wanted to contribute back to the place where I learned from:
-the world of `open source`. Thus, began my journey with the <a href="//sangupta.com/projects/jerry">Jerry</a> project
-in 2007 end, with the first cut commited in early 2008 in to `SourceForge`. The development was always slow, with
-being connected the biggest hurdle and setting up different machines another one. Getting approvals from the `SF` team
-for each new project or idea was again a pain - and keeping everything in a single repo a nightmare.
+My journey with programming involved writing tools and utilities to aid my studies and engineering. Graduating
+in Civil Engineering, summa-cum-laude, we had no regular or elective courses to programming, but the fascination
+had just deepened. Before my studies completed, I was able to automate [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD)
+for generating **surveying topology sheets** or glue Java code to run multiple iterations for **building
+frame design**. It saved a lot of time and also helped fetch the best project medals at the end of the course.
 
-When `GitHub` launched and I joined as a member in mid-June, things really took off. It was super easy to create
-multiple repositories, work offline and then sync when connected. Most of my spare time came during off-work hours,
-mostly of weekends, vacations or otherwise when connectivity was limited.
+Early professional years were all about learning how to build production grade software and techniques used to
+debug+fix bugs coming from the field. During these years one thing that echoed often was the redundant boiler
+plate code we were churning out. Scratching the own itch led to my very first open-source project 
+<a href="/projects/jerry">Jerry</a>, hosted on [SourceForge](https://sourceforge.net/projects/jerry/) to 
+[Google Code](https://code.google.com/archive/p/jerry/) and finally found its own shade in [Github](https://github.com/sangupta/jerry).
 
-Over the course of last 3 years, I am glad to have worked on more than 50 different ideas, all under open source,
-with some reaching the maturity to be called as <a href="/projects/index.html">projects</a> and some still nascent 
-infants to be called as <a href="/projects/index.html#expermients">experiments</a>.
+[Github](https://github.com) influenced my contributions to open-source, accelarating it up. And over the last few
+years, the number of [some-what usable ideas](/projects/index.html) and the [ones in infancy](/projects/index.html#experiments) 
+have grown to 100+, all safely in-shade in my [Github repository](https://github.com/sangupta).
 
-I am sure many of the ideas from expriments will move to being **projects** with time. Till then, you can browse
-them over in their respective places, and **you are most most welcome to join in and lend a helping hand**.
+Feel free to connect for any ideas, or if you would like to join-in to lend a helping hand.
 
-Keep Walking and Keep Coding!
+Keep Walking!
