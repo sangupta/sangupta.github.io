@@ -46,7 +46,6 @@ main {
 .content-pane {
     padding-top: 40px;
     padding-bottom: 60px;
-    margin-right: 100px;
 }
 pre {
     background-color: #f9f9f9;
@@ -130,9 +129,6 @@ code {
     main {
         margin-top: 137px;
     }
-    .content-pane {
-        margin-right: 0;
-    }
     .profile-image {
         width: 64px;
         height: 64px;
@@ -141,5 +137,10 @@ code {
 @media (max-width: 768px) {
     main {
         margin-top: 177px;
+    }
+}
+@media (min-width: 1440px) {
+    .content-pane {
+        padding-right: 100px;
     }
 }
