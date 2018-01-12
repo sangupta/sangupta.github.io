@@ -5,20 +5,9 @@ title: Resume
 
 ## Sandeep Gupta
 
+* Working as **Senior Computer Scientist/Architect** at [Adobe Systems](https://adobe.com) in the 
+[SFO Bay Area](https://en.wikipedia.org/wiki/San_Francisco_Bay_Area).
+* Over 14+ years of professional software development experience
+* Bachelors in Civil Engineering, [summa-cum-laude](https://en.wiktionary.org/wiki/summa_cum_laude)
 
-### Professional Employment
-
-| Term               | Employer                      | Designation               |
-|--------------------|-------------------------------|---------------------------|
-| 03/2009 to date    | Adobe Systems Incorporated    | Senior Computer Scientist |
-| 05/2007 to 03/2009 | Headstrong India, now Genpact | Lead Consultant           |
-| 01/2006 to 05/2007 | Tavant Technologies           | Software Engineer         |
-| 08/2003 to 12/2005 | RITES                         | Engineer                  |
-
-### Education
-
-| Term                 | Course                                  | College                       |
-|----------------------|-----------------------------------------|-------------------------------|
-| Aug 1999 to Jul 2003 | B.E. Civil Engineering (summa cumlaude) | Punjab Engineering College    |
-
-Still in the works :)
+For more details refer to my [LinkedIn profile](https://www.linkedin.com/in/sandypec/).
