@@ -61,7 +61,7 @@ pre {
     font-weight: 300;
 }
 .post {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #e5e5e5;
     margin-bottom: 25px;
     padding-bottom: 25px;
     color: rgb(64, 64, 64);
@@ -105,4 +105,21 @@ pre {
 code {
     font-weight: bold;
     color: rgba(0,0,0,0.9);
+}
+.archive {
+    line-height: 40px;
+}
+.date-col {
+    font-size: 15px;
+}
+.poems pre {
+    background-color: white;
+    margin-left: 0;
+    border: none;
+    font-family: Roboto;
+}
+.poems code {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 32px;
 }

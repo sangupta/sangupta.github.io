@@ -1,19 +1,21 @@
 ---
 layout: default
-title: Archive - Poet Inside
+title: Archive - Poet Inside!
 ---
 
-<h2>Archive - Poet Inside</h2>
+<h2>Archive - Poet Inside!</h2>
 
-<div class="archive">
+<div class="archive post">
 {% for post in site.posts offset: 0 %}
-	{% if post.category == 'poetry' %}
-		<div class="row">
-			<span class="text-muted monoDate">   
-				{{ post.date | date_to_string }} :
-			</span> 
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</div>
-	{% endif %}
+    {% if post.category == 'poetry' %}
+        <div class="row">
+            <div class='col-md-2 text-muted text-right date-col'>   
+                {{ post.date | date_to_string }}
+            </div> 
+            <div class='col'>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+        </div>
+    {% endif %}
 {% endfor %}
 </div>
