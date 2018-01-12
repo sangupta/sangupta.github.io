@@ -57,7 +57,7 @@
     <!-- load google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
-    
+
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -69,14 +69,18 @@
 
     <main class="container-fluid">
         <div class="row">
-            <div class="col-sm-3 col-md-2 sidebar text-center">
+            <div class="col-sm-3 col-md-2 sidebar text-center d-none d-md-block">
                 {% include sidebar.html %}
             </div>
-            <div class="col content-pane">
+            <div class="col col-sm-12 col-md-10 content-pane">
                 {{ content }}
             </div>
         </div>
     </main>
+
+    <div class='footer social-footer d-md-none'>
+        
+    </div>
 
     <footer class="footer">
       <div class="text-center text-muted">
