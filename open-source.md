@@ -1,6 +1,6 @@
 ---
 title: Open Source
-layout: page
+layout: smaller-page
 ---
 
 # Programming and Inclination to Open Source
