@@ -22,7 +22,7 @@ is no way to filter the posts. The software required to generate locally (ruby, 
 itself takes time to install. And then you run into version issues. It took me 30+ minutes today
 get Jekyll running again. I believe we developers should do better here.
 
-As I go over the latest documentation (version 4.2.2), I can't find an easy way: 
+As I go over the latest [documentation][19] ([version 4.2.2][18]), I can't find an easy way: 
 
 * to customize functionality using Javascript
 * no way to optimize/thumbnail images directly
@@ -55,3 +55,5 @@ Time to find a worthy replacement for [Jekyll][4].
 [15]: https://svelte.dev
 [16]: https://developer.mozilla.org/en-US/docs/Web/Web_Components
 [17]: https://velocity.apache.org
+[18]: https://github.com/jekyll/jekyll/releases/tag/v4.2.2
+[19]: https://jekyllrb.com/docs/
