@@ -5,7 +5,7 @@ permalink: /tech/experiments-with-hugo.html
 tags: just-like-that
 ---
 
-In continuation of my last post, [revisiting this blog], I spent time over weekend
+In continuation of my last post, [revisiting this blog][22], I spent time over weekend
 experiment and convert my site to [Hugo][5]. And I was amazed at the very first
 run. `Hugo` is not just fast, it is super fast. While [Jekyll][4] takes
 up 3-4 seconds to start, Hugo was done in less than a second. To top it all, it
@@ -58,3 +58,4 @@ in the configuration.
 [19]: https://gohugo.io/content-management/diagrams/#mermaid-diagrams
 [20]: https://gohugo.io/templates/shortcode-templates/
 [21]: https://gohugo.io/functions/
+[22]: https://sangupta.com/tech/revisiting-the-blog.html
