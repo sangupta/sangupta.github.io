@@ -69,7 +69,8 @@ typescript.release();
 nodeJS.release();
 ```
 
-You can find all the code together in this gist.
+You can find all the code together in [this Github repository](repo) including conversion
+to strongly typed Java objects.
 
 [tslang]: https://www.typescriptlang.org/
 [eclipse-v8]: https://github.com/eclipsesource/J2V8
@@ -77,3 +78,4 @@ You can find all the code together in this gist.
 [styleguidist]: https://react-styleguidist.js.org/
 [storybook]: https://storybook.js.org/
 [ast]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
+[repo]: https://github.com/sangupta/tsparser-j2v8
