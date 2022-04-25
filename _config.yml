@@ -14,6 +14,7 @@ serving_publicly: true
 
 # code syntax highlighter to use
 highlighter: rouge
+  input: GFM
 markdown: kramdown
 
 # exclude following files from build
