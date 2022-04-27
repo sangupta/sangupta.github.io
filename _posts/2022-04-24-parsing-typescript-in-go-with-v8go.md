@@ -115,6 +115,8 @@ an exercise for the reader.
 fmt.Println(fnValue.IsObject()) // returns true
 ```
 
+Complete code is available in [this gist](https://gist.github.com/sangupta/070edef1bc1aec675d47eb3b44ad1b24).
+
 In my next post we will see how we can achieve the same using [QuickJS][quickjs] and its wrapper
 for Go, [QuickJS-Go][quickjs-go].
 

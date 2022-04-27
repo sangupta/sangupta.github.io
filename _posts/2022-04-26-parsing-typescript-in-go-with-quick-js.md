@@ -137,6 +137,8 @@ if result.IsObject() {
 }
 ```
 
+Complete code is available in [this gist](https://gist.github.com/sangupta/f08af23ce6816f7fad6ac88a267a1a6f)
+
 This concludes the series on different ways to parse Typescript code in [Java using J2V8][post1], 
 [Go with v8go][post2] and [Go with QuickJS][post3].
 
