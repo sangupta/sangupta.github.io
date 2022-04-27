@@ -14,8 +14,13 @@ serving_publicly: true
 
 # code syntax highlighter to use
 highlighter: rouge
-  input: GFM
 markdown: kramdown
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 
 # exclude following files from build
 exclude: [ "bower.json", "Gemfile", "Gemfile.lock", "README.md", "package.json" ]
@@ -41,7 +46,7 @@ paginate: 20
 paginate_path: "tech/page:num"
 
 # plugins approved to be used
-gems:
+plugins:
   - github-pages
   - jekyll-sitemap
   - jekyll-redirect-from
