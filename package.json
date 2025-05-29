@@ -17,7 +17,8 @@
     "scripts": {
         "dev": "node develop.js dev",
         "clean": "node develop.js clean",
-        "build": "node develop.js build"
+        "build": "node develop.js build",
+        "deploy": "node develop.js deploy"
     },
     "devDependencies": {
         "parcel": "^2.15.2",
