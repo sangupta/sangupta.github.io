@@ -1,0 +1,27 @@
+{
+    "name": "@sangupta/sangupta.com",
+    "version": "1.0.0",
+    "private": true,
+    "author": {
+        "name": "Sandeep Gupta",
+        "email": "sandy.pec@gmail.com",
+        "url": "https://sangupta.com"
+    },
+    "browserslist": [
+        "last 1 Chrome version"
+    ],
+    "workspaces": [
+        "skylight",
+        "webify"
+    ],
+    "scripts": {
+        "dev": "node develop.js dev",
+        "clean": "node develop.js clean",
+        "build": "node develop.js build"
+    },
+    "devDependencies": {
+        "parcel": "^2.15.2",
+        "typescript": "^5.8.3",
+        "fs-extra": "^11.3.0"
+    }
+}

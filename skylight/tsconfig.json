@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "jsx": "react-jsx",
+        "jsxImportSource": "preact",
+        "target": "ESNext",
+        "strict": true,
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -33,3 +33,6 @@ _site/*
 Gemfile.lock
 dist/
 node_modules
+deploy/
+yarn.lock
+.parcel-cache/

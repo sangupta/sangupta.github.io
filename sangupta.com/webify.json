@@ -1,6 +1,6 @@
 {
     "title": "sangupta",
-    "baseUrl": "https://sangupta.pages.dev",
+    "baseUrl": "http://localhost:1309",
     "name": "Sandeep Gupta",
     "icon": "/assets/images/letter-s.jpg",
     "iconAlt": "S",
@@ -14,6 +14,8 @@
         "url": "https://sangupta.com"
     },
     "build": {
+        "encodeOutput": false,
+        "processMarkdown": true,
         "include": [
             "*"
         ],
