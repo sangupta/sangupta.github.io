@@ -125,58 +125,78 @@ async function deploy() {
   }
 }
 
+/**
+ * Function to deploy the site.
+ * This function builds the site, builds the skylight package,
+ * and creates the deployment folder.
+ */
+async function deploySite() {
+  console.log('Running deployment workflow...');
+  buildSite();
+  buildSkylight();
+  createDeploymentFolder();
+  console.log('Deployment completed successfully.');
+}
+
+/**
+ * Function to develop the site.
+ * This function builds the site, starts the skylight in watch mode,
+ * and copies the site to the skylight dist folder.
+ * 
+ * It will also watch for changes in the site folder
+ * and rebuild the site and copy it to the skylight dist folder
+ * whenever changes are detected.
+ */
+async function developSite() {
+  buildSite();
+  startSkylight();
+  copySiteToSkylight();
+}
+
+/**
+ * Function to clean the site and skylight dist folders.
+ * This function removes the dist folders from both site and skylight,
+ * as well as the deployment folder.
+ */
+async function cleanSite() {
+  console.log('Cleaning site and skylight dist folders...');
+
+  // Clean the site folder
+  fs.removeSync(path.join(sitePath, 'dist'));
+
+  // Clean the skylight dist folder
+  fs.removeSync(path.join(skylightPath, 'dist'));
+
+  // Clean the deployment folder
+  fs.removeSync(deploymentPath);
+
+  console.log('Cleaned successfully.');
+}
+
 // Main function to orchestrate the development workflow
-async function develop() {
-  try {
-    // Initial build sequence
-    buildSite();
-    startSkylight();
-    copySiteToSkylight();
+async function doMain() {
+  // read command line arguments
+  const args = process.argv.slice(2);
 
-    //   copySiteToSkylight();
+  const argument = (args[0] || 'deploy').toLowerCase();
 
-    //   // Start skylight in watch mode
-    //   const skylightProcess = startSkylight();
-
-    //   // Watch for changes in webify
-    //   const webifyWatcher = chokidar.watch(
-    //     ['src/**/*', 'package.json'],
-    //     { cwd: webifyPath, ignoreInitial: true }
-    //   );
-
-    //   webifyWatcher.on('all', (event, filePath) => {
-    //     console.log(`Webify change detected: ${filePath}`);
-    //     buildWebify();
-    //     buildSite();
-    //     copySiteToSkylight();
-    //   });
-
-    //   // Watch for changes in site folder
-    //   const siteWatcher = chokidar.watch(
-    //     ['**/*', '!dist/**/*'],
-    //     { cwd: sitePath, ignoreInitial: true }
-    //   );
-
-    //   siteWatcher.on('all', (event, filePath) => {
-    //     console.log(`Site change detected: ${filePath}`);
-    //     buildSite();
-    //     copySiteToSkylight();
-    //   });
-
-    //   console.log('Watching for changes...');
-
-    //   // Handle script termination
-    //   process.on('SIGINT', () => {
-    //     console.log('Shutting down development server...');
-    //     skylightProcess.kill();
-    //     process.exit(0);
-    //   });
-
-  } catch (error) {
-    console.error('Error in development workflow:', error);
-    process.exit(1);
+  if (argument === 'deploy') {
+    await deploySite();
+    return;
   }
+
+  if (argument === 'dev') {
+    await developSite();
+    return;
+  }
+
+  if (argument === 'clean') {
+    await cleanSite();
+    return;
+  }
+
+  console.error('Invalid argument. Use "deploy" or "dev" or "clean".');
 }
 
 // Run the development workflow
-develop();
+doMain();
