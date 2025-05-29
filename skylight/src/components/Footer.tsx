@@ -50,7 +50,10 @@ export default class Footer extends Component<PropsWithSite> {
         const { copyright } = site;
 
         return <footer>
-            {this.prefix(copyright?.message)} Copyright &copy; {this.renderYear(copyright)}{this.renderName()}.
+            {this.prefix(copyright?.message)}
+            <span class='copyright-year'>
+                &copy; {this.renderYear(copyright)}
+            </span>
         </footer>
     }
 

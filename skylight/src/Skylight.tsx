@@ -18,7 +18,6 @@ export default class Skylight extends Component<PropsWithSite> {
                 </aside>
                 <main>
                     <Router site={site} />
-                    <Footer site={site} />
                 </main>
             </div>
         </>

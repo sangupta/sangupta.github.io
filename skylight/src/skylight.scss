@@ -28,16 +28,36 @@ header {
     height: $headerHeight;
     min-height: $headerHeight;
     max-height: $headerHeight;
-    border-bottom: 1px solid $borderColor;
+    line-height: $headerHeight;
 
     display: flex;
     flex-direction: row;
     align-items: center;
 
     .brand {
-        width: $sidebarWidth + 1;
-        min-width: $sidebarWidth + 1;
-        max-width: $sidebarWidth + 1;
+        width: $sidebarWidth;
+        min-width: $sidebarWidth;
+        max-width: $sidebarWidth;
+        border-right: 1px solid $borderColor;
+    }
+
+    .header-links {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0 20px;
+        background-color: white;
+
+        align-items: center;
+        justify-content: space-between;
+
+        .left,
+        .right {
+            a {
+                padding: 0 6px;
+                text-decoration: none;
+            }
+        }
     }
 }
 
@@ -70,12 +90,14 @@ aside.sidebar {
     min-width: $sidebarWidth;
     max-width: $sidebarWidth;
     border-right: 1px solid $borderColor;
+    justify-content: space-between;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    padding: 12px;
+    padding: 0 12px;
+    padding-bottom: $headerHeight;
 
     .sidebar-link {
         text-align: center;
@@ -107,8 +129,8 @@ aside.sidebar {
 }
 
 a.social-link {
-    width: 48px;
-    height: 48px;
+    width: 36px;
+    height: 36px;
     background: rgb(65, 132, 243);
     border-radius: 50%;
     display: inline-flex;
@@ -117,6 +139,7 @@ a.social-link {
 
     img.svg-icon {
         width: 24px;
+        height: 24px;
         filter: invert(1);
     }
 }
@@ -141,34 +164,21 @@ main {
 
 footer {
     height: $headerHeight;
-    border-top: 1px solid $borderColor;
     text-align: center;
-    line-height: $headerHeight;
     font-size: 14px;
-    margin: 0 -20px;
-    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
 
     .heart {
         color: red;
     }
-}
 
-.header-links {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0 20px;
-
-    align-items: center;
-    justify-content: space-between;
-
-    .left,
-    .right {
-        a {
-            padding: 0 6px;
-            text-decoration: none;
-        }
+    .prefix {
+        padding-bottom: 8px;
+        font-style: italic;
     }
+
 }
 
 .spacer {
