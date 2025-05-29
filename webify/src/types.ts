@@ -7,13 +7,7 @@ export interface ConfigFile {
     title: string;
     baseUrl: string;
     name: string;
-    icon: string;
     build?: BuildOptions;
-    author?: Author;
-    socials?: Array<SocialLink>;
-    sections?: SiteSection[];
-
-    theme?: any;
 }
 
 export type SectionType = 'blog' | 'link';
@@ -44,12 +38,7 @@ export interface Site {
     title: string;
     baseUrl: string;
     name: string;
-    icon: string;
-    author?: Author;
-    sections?: Array<SiteSection>;
-    socials?: Array<SocialLink>;
     pages: Array<PageMetadata>;
-    theme?: any;
 }
 
 export interface SocialLink {

@@ -48,14 +48,7 @@ export async function generateBlog(configFile: string): Promise<void> {
 
     // create the uber site metadata site.json file
     const site: Site = {
-        title: config.title,
-        baseUrl: config.baseUrl,
-        name: config.name,
-        icon: config.icon,
-        author: config.author,
-        sections: config.sections,
-        socials: config.socials,
-        theme: config.theme,
+        ...config,
         pages: []
     };
 

@@ -1,11 +1,34 @@
+export interface Brand {
+    icon?: string;
+    iconAlt?: string;
+}
+
+export interface LabelAndPath {
+    label: string;
+    path: string;
+}
+
+export interface SkylightSection {
+    label: string;
+    path: string;
+    subTitle?: string;
+    links?: Array<LabelAndPath>;
+}
+
+export interface SkylightConfig {
+    pages?: Array<LabelAndPath>;
+    links?: Array<LabelAndPath>;
+    sections?: Array<SkylightSection>;
+    socials?: SocialLink[];
+}
+
 export interface Site {
     title: string;
     baseUrl?: string;
     name?: string;
-    icon?: string;
-    iconAlt?: string;
+    brand?: Brand;
+    skylight: SkylightConfig;
     sidebar: SiteSidebar;
-    socials?: SocialLink[];
     header?: SiteHeader;
     author?: Author;
     pages?: SitePage[];
@@ -65,11 +88,16 @@ export interface SiteSidebar {
     links?: SiteLink[];
 }
 
-export interface SiteLink {
-    type?: string;
+export interface Link {
     label: string;
-    path: string;
-    description?: string;
+    href: string;
+}
+
+export interface SiteLink {
+    label: string;
+    subTitle?: string;
+    href: string;
+    links?: Array<Link>;
 }
 
 export interface PropsWithSite {
@@ -77,8 +105,9 @@ export interface PropsWithSite {
 }
 
 export interface SocialLink {
-    type: string;
-    link: string;
+    icon: string;
+    path: string;
+    label: string;
 }
 
 export interface SiteHeader {

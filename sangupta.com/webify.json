@@ -1,9 +1,11 @@
 {
     "title": "sangupta",
-    "baseUrl": "http://localhost:1309",
+    "baseUrl": "https://sangupta.com",
     "name": "Sandeep Gupta",
-    "icon": "/assets/images/letter-s.jpg",
-    "iconAlt": "S",
+    "brand": {
+        "iconAlt": "sangupta",
+        "icon": "/assets/images/letter-s.jpg"
+    },
     "copyright": {
         "start": 2006,
         "message": "Made with <span class='heart'>&hearts;</span> on a cloudy super moon night."
@@ -30,74 +32,98 @@
             "*/.DS_Store"
         ]
     },
-    "sections": [
-        {
-            "id": "keep-walking",
-            "title": "Keep Walking",
-            "description": "from the brain",
-            "archive": true,
-            "feed": true,
-            "type": "blog",
-            "icon": ""
-        },
-        {
-            "id": "poet-inside",
-            "title": "Poet Inside",
-            "description": "from the heart",
-            "archive": true,
-            "feed": true,
-            "type": "blog"
-        },
-        {
-            "id": "coding-challenges",
-            "title": "Coding Challenges",
-            "description": "from the keyboard",
-            "archive": false,
-            "feed": false,
-            "type": "blog"
-        },
-        {
-            "id": "open-source",
-            "title": "Open Source",
-            "description": "for the community",
-            "archive": false,
-            "feed": false,
-            "type": "link"
-        },
-        {
-            "id": "projects"
-        }
-    ],
-    "socials": [
-        {
-            "type": "twitter",
-            "link": "https://twitter.com/sangupta"
-        },
-        {
-            "type": "github",
-            "link": "https://github.com/sangupta"
-        },
-        {
-            "type": "linkedin",
-            "link": "http://in.linkedin.com/in/sandypec"
-        },
-        {
-            "type": "ycombinator",
-            "link": "https://news.ycombinator.com/user?id=sangupta"
-        },
-        {
-            "type": "instagram",
-            "link": "https://instagram.com/sandypec"
-        }
-    ],
-    "links": [
-        {
-            "label": "Résumé",
-            "path": "/resume"
-        },
-        {
-            "label": "About",
-            "path": "/about"
-        }
-    ]
+    "skylight": {
+        "pages": [
+            {
+                "path": "/blogs",
+                "label": "Blogs"
+            },
+            {
+                "path": "/projects",
+                "label": "Projects"
+            },
+            {
+                "path": "/experiments",
+                "label": "Experiments"
+            }
+        ],
+        "links": [
+            {
+                "path": "/resume",
+                "label": "Résumé"
+            },
+            {
+                "label": "About",
+                "path": "/about"
+            }
+        ],
+        "sections": [
+            {
+                "label": "Keep Walking",
+                "subTitle": "for the brain",
+                "path": "/keep-walking",
+                "links": [
+                    {
+                        "label": "Archive",
+                        "path": "/archive"
+                    },
+                    {
+                        "label": "RSS",
+                        "path": "/rss"
+                    }
+                ]
+            },
+            {
+                "label": "Poet Inside",
+                "subTitle": "from the heart",
+                "path": "/poet-inside",
+                "links": [
+                    {
+                        "label": "Archive",
+                        "path": "/archive"
+                    },
+                    {
+                        "label": "RSS",
+                        "path": "/rss"
+                    }
+                ]
+            },
+            {
+                "label": "Coding Challenges",
+                "path": "/coding-challenges"
+            },
+            {
+                "label": "Open Source",
+                "path": "/open-source",
+                "subTitle": "for the community"
+            }
+        ],
+        "socials": [
+            {
+                "icon": "/assets/svg/twitter.svg",
+                "path": "https://x.com/sangupta",
+                "label": "X (Twitter)"
+            },
+            {
+                "icon": "/assets/svg/github.svg",
+                "path": "https://github.com/sangupta",
+                "label": "GitHub"
+            },
+            {
+                "icon": "/assets/svg/linkedin.svg",
+                "path": "http://in.linkedin.com/in/sandypec",
+                "label": "LinkedIn"
+            },
+            {
+                "icon": "/assets/svg/ycombinator.svg",
+                "path": "https://news.ycombinator.com/user?id=sangupta",
+                "label": "Hacker News"
+            },
+            {
+                "icon": "/assets/svg/instagram.svg",
+                "path": "https://instagram.com/sandypec",
+                "label": "Instagram"
+            }
+        ]
+    }
 }

@@ -1,38 +1,25 @@
 import { Component } from 'preact';
-import { PropsWithSite, SiteLink, SiteSection, SocialLink } from './types';
-import SidebarLink from './components/SidebarLink';
-import SvgIcon from './components/SvgIcon';
-import Footer from './components/Footer';
+import { PropsWithSite, SiteLink, SkylightSection, SocialLink } from './types';
+import SidebarSection from './components/SidebarSection';
+
 
 export default class Sidebar extends Component<PropsWithSite> {
 
-    renderBlogs(sections?: SiteSection[]) {
+    renderBlogs(sections?: SkylightSection[]) {
         if (!sections || sections.length === 0) {
             return null;
         }
 
         return sections?.map(section => {
-            const links: SiteLink[] = [];
-            if (section.archive) {
-                links.push({ label: 'Archive', path: section.id + '/archive' });
-            }
-            if (section.feed) {
-                links.push({ label: 'RSS', path: section.id + '/rss' });
-            }
-            
-            return <SidebarLink label={section.title} path={section.id} description={section.description} links={links} />
+            return <SidebarSection section={section} />
         });
     }
 
     renderSocialLinks(socials?: SocialLink[]) {
-        if (!socials) {
-            return null;
-        }
-
         return <div class='sidebar-socials'>
-            {socials.map(social => {
-                return <a class='social-link' href={social.link} target='_blank'>
-                    <SvgIcon type={social.type} />
+            {socials?.map((social: SocialLink) => {
+                return <a class='social-link' href={social.path} target='_blank'>
+                    <img width='24' height='24' class='svg-icon' src={social.icon} alt={social.label} />
                 </a>
             })}
         </div>
@@ -43,8 +30,8 @@ export default class Sidebar extends Component<PropsWithSite> {
         const blogs = site.sections || [];
 
         return <>
-            {this.renderBlogs(blogs)}
-            {this.renderSocialLinks(site.socials)}
+            {this.renderBlogs(site.skylight.sections)}
+            {this.renderSocialLinks(site.skylight?.socials)}
         </>
     }
 

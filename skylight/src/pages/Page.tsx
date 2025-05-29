@@ -39,7 +39,7 @@ export default class Page extends Component<PageProps, PageState> {
             return;
         }
 
-        const url = resolveUrl(site.baseUrl, contentPath);
+        const url = resolveUrl('/', contentPath);
         try {
             const response = await fetch(url);
             const json = await response.json();
